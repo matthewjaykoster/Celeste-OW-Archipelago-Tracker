@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Farewell Hint",
+        "access_rules":["{}"],
+        "children": [
+            {
+                "name": "Farewell Hint",
+                "visibility_rules": ["farewell"],
+                "sections": 
+                [
+                    {
+                        "name": "Level Complete Hint",
+                        "chest_unopened_img": "images/items/items/complete.png",
+                        "chest_opened_img": "images/items/items/complete2.png",
+                        "visibility_rules": ["farewell_complete"]
+                    }
+                ],
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 1129,
+                        "y": 163
+                    }
+                ]
+            }             
+        ]
+    }
+]

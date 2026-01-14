@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Farewell",
+        "visibility_rules": ["farewell"],
+        "children": [
+            {
+                "name": "Farewell",
+                "access_rules": ["$FAREWELL"],
+                "sections": 
+                [
+                    {
+                        "name": "Level Complete",
+                        "chest_unopened_img": "images/items/items/complete.png",
+                        "chest_opened_img": "images/items/items/complete2.png"
+                    }
+                ],
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 1129,
+                        "y": 173
+                    }
+                ]
+            }             
+        ]
+    }
+]

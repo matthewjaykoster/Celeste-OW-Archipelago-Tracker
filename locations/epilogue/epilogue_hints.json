@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Epilogue Hint",
+        "access_rules":["{}"],
+        "children": [
+            {
+                "name": "Epilogue Hint",
+                "sections": 
+                [
+                    {
+                        "name": "Level Complete Hint",
+                        "chest_unopened_img": "images/items/items/complete.png",
+                        "chest_opened_img": "images/items/items/complete2.png",
+                        "visibility_rules": ["epilogue_complete"]
+                    }
+                ],
+                "map_locations": 
+                [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 954,
+                        "y": 163
+                    }
+                ]
+            }            
+        ]
+    }
+]

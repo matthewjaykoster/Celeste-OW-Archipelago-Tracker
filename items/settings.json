@@ -9,7 +9,7 @@
         "initial_quantity": 0,
         "overlay_background": "#000000",
         "overlay_font_size": 12,
-        "codes": "berrytotal"
+        "codes": "berries_obtained_total"
     },
     {
         "name": "Crystal Heart Total",
@@ -21,7 +21,7 @@
         "initial_quantity": 0,
         "overlay_background": "#000000",
         "overlay_font_size": 12,
-        "codes": "hearttotal"
+        "codes": "hearts_obtained_total"
     },
     {
         "name": "Cassette Total",
@@ -33,19 +33,7 @@
         "initial_quantity": 0,
         "overlay_background": "#000000",
         "overlay_font_size": 12,
-        "codes": "cassettestotal"
-    },
-    {
-        "name": "Level Completion Total",
-        "type": "consumable",
-        "img": "images/items/items/complete.png",
-        "max_quantity": 24,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#000000",
-        "overlay_font_size": 12,
-        "codes": "comptotal"
+        "codes": "cassettes_obtained_total"
     },
     {
         "name": "Strawberries Required",
@@ -57,7 +45,7 @@
         "initial_quantity": 0,
         "overlay_background": "#000000",
         "overlay_font_size": 12,
-        "codes": "berriesrequired"
+        "codes": "berries_required"
     },
     {
         "name": "Hearts Required",
@@ -69,7 +57,7 @@
         "initial_quantity": 0,
         "overlay_background": "#000000",
         "overlay_font_size": 12,
-        "codes": "heartsrequired"
+        "codes": "hearts_required"
     },
     {
         "name": "Cassettes Required",
@@ -81,25 +69,13 @@
         "initial_quantity": 0,
         "overlay_background": "#000000",
         "overlay_font_size": 12,
-        "codes": "cassettesrequired"
-    },
-    {
-        "name": "Level Completions Required",
-        "type": "consumable",
-        "img": "images/items/items/complete.png",
-        "max_quantity": 27,
-        "increment": 1,
-        "decrement": 1,
-        "initial_quantity": 0,
-        "overlay_background": "#000000",
-        "overlay_font_size": 0,
-        "codes": "comprequired"
+        "codes": "cassettes_required"
     },
     {
         "name": "Goal",
         "codes": "goal",
         "type": "progressive",
-        "allow_disabled":false,
+        "allow_disabled": false,
         "initial_stage_idx": 0,
         "stages": [
             {
@@ -137,7 +113,6 @@
                 "codes": "core_c",
                 "inherit_codes": false
             }
-            
         ]
     },
     {
@@ -145,7 +120,7 @@
         "codes": "gates",
         "type": "progressive",
         "loop": false,
-        "allow_disabled":false,
+        "allow_disabled": false,
         "stages": [
             {
                 "img": "images/items/items/complete.png",
@@ -157,7 +132,6 @@
                 "codes": "gates_disabled",
                 "inherit_codes": false
             }
-            
         ]
     },
     {
@@ -165,7 +139,7 @@
         "codes": "gateshidden",
         "type": "progressive",
         "loop": false,
-        "allow_disabled":false,
+        "allow_disabled": false,
         "stages": [
             {
                 "codes": "gates_disabled_hidden",
@@ -175,29 +149,28 @@
                 "codes": "gates_vanilla_hidden",
                 "inherit_codes": false
             }
-            
         ]
     },
-	{
+    {
         "name": "Current Level",
         "type": "progressive",
         "img": "",
         "disabled_img": "",
         "codes": "cur_level_id"
-	},
-	{
+    },
+    {
         "name": "Layout Spacer 90x64",
         "type": "static",
         "img": "images/items/labels/spacer_90_64.png",
         "disabled_img": "",
         "codes": "layout_spacer"
-	},
-	{
-	  "name": "Auto-Tab",
-	  "type": "progressive",
-	  "loop": true,
-	  "img": "images/items/items/autotab.png",
-	  "disabled_img": "images/items/items/autotab_off.png",
-	  "codes": "tab_switch"
-	}
+    },
+    {
+        "name": "Auto-Tab",
+        "type": "progressive",
+        "loop": true,
+        "img": "images/items/items/autotab.png",
+        "disabled_img": "images/items/items/autotab_off.png",
+        "codes": "tab_switch"
+    }
 ]

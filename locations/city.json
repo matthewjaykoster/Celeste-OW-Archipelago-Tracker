@@ -1,144 +1,104 @@
 [
     {
-        "name": "City",
+        "name": "Forsaken City A",
         "chest_unopened_img": "images/items/items/berry.png",
         "chest_opened_img": "images/items/items/berry2.png",
+        "sections": [
+            {
+                "name": "Room 2 Strawberry"
+            },
+            {
+                "name": "Room 3 Strawberry"
+            },
+            {
+                "name": "Room 3b Strawberry"
+            },
+            {
+                "name": "Room 5 Strawberry"
+            },
+            {
+                "name": "Room 5z Strawberry"
+            },
+            {
+                "name": "Room 5a Strawberry"
+            },
+            {
+                "name": "Room 6 Strawberry"
+            },
+            {
+                "name": "Room 7zb Strawberry"
+            },
+            {
+                "name": "Room s1 Strawberry"
+            },
+            {
+                "name": "Room 7z Strawberry"
+            },
+            {
+                "name": "Room 8zb Strawberry"
+            },
+            {
+                "name": "Room 7a Strawberry"
+            },
+            {
+                "name": "Room 9z Strawberry"
+            },
+            {
+                "name": "Room 8b Strawberry"
+            },
+            {
+                "name": "Room 9 Strawberry"
+            },
+            {
+                "name": "Room 9b Strawberry"
+            },
+            {
+                "name": "Room 9c Strawberry"
+            },
+            {
+                "name": "Room 10zb Strawberry"
+            },
+            {
+                "name": "Room 11 Strawberry"
+            },
+            {
+                "name": "Room 12z Strawberry"
+            },
+            {
+                "name": "Crystal Heart",
+                "chest_unopened_img": "images/items/items/blue_heart.png",
+                "chest_opened_img": "images/items/items/blue_heart2.png"
+            },
+            {
+                "name": "Cassette",
+                "chest_unopened_img": "images/items/items/cassette.png",
+                "chest_opened_img": "images/items/items/cassette2.png"
+            },
+            {
+                "name": "Level Clear",
+                "chest_unopened_img": "images/items/items/complete.png",
+                "chest_opened_img": "images/items/items/complete2.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "celeste_chapter_select",
+                "x": 232,
+                "y": 173
+            }
+        ],
         "children": [
             {
-                "name": "City A-Side - Start",
-                "sections": 
-                [
-                    {
-                        "name": "Strawberry 1"
-                    },
-                    {
-                        "name": "Strawberry 2"
-                    },
-                    {
-                        "name": "Strawberry 3"
-                    },
-                    {
-                        "name": "Strawberry 4"
-                    },
-                    {
-                        "name": "Strawberry 5"
-                    },
-                    {
-                        "name": "Strawberry 6"
-                    }
-                ],
-                "map_locations": 
-                [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 215,
-                        "y": 173
-                    }
-                ]
-            },
-            {
-                "name": "City A-Side - Crossing",
-                "sections": 
-                [
-                    {
-                        "name": "Strawberry 7"
-                    },
-                    {
-                        "name": "Strawberry 8"
-                    },
-                    {
-                        "name": "Strawberry 9"
-                    },
-                    {
-                        "name": "Strawberry 10"
-                    },
-                    {
-                        "name": "Strawberry 11"
-                    },
-                    {
-                        "name": "Strawberry 12"
-                    },
-                    {
-                        "name": "Strawberry 13"
-                    },
-                    {
-                        "name": "Strawberry 14"
-                    },
-                    {
-                        "name": "Strawberry 15"
-                    },
-                    {
-                        "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/items/blue_heart.png",
-                        "chest_opened_img": "images/items/items/blue_heart2.png"
-                    }
-                ],
-                "map_locations": 
-                [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 249,
-                        "y": 173
-                    }
-                ]
-            },
-            {
-                "name": "City A-Side - Chasm",
-                "sections": 
-                [
-                    {
-                        "name": "Strawberry 16"
-                    },
-                    {
-                        "name": "Strawberry 17"
-                    },
-                    {
-                        "name": "Strawberry 18"
-                    },
-                    {
-                        "name": "Strawberry 19"
-                    },
-                    {
-                        "name": "Strawberry 20"
-                    },
-                    {
-                        "name": "Cassette",
-                        "chest_unopened_img": "images/items/items/cassette.png",
-                        "chest_opened_img": "images/items/items/cassette2.png"
-                    },
-                    {
-                        "name": "Level Complete",
-                        "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
-                    }
-                ],
-                "map_locations": 
-                [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 232,
-                        "y": 206
-                    }
-                ]
-            },
-            {
                 "name": "City B-Side",
-                "access_rules": ["cassette1"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Crystal Heart",
                         "chest_unopened_img": "images/items/items/blue_heart.png",
                         "chest_opened_img": "images/items/items/blue_heart2.png"
-                    },
-                    {
-                        "name": "Level Complete",
-                        "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 232,
@@ -148,44 +108,35 @@
             },
             {
                 "name": "City C-Side",
-                "access_rules": ["$C1"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Crystal Heart",
                         "chest_unopened_img": "images/items/items/yellow_heart.png",
                         "chest_opened_img": "images/items/items/yellow_heart2.png"
-                    },
-                    {
-                        "name": "Level Complete",
-                        "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 232,
                         "y": 319
                     }
                 ]
-            }          
+            }
         ]
     },
     {
-        "name": "City-Start​",
+        "name": "City-Start",
         "children": [
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 1​",
-                        "ref": "City/City A-Side - Start/Strawberry 1"
+                        "name": "Room 2 Strawberry",
+                        "ref": "Forsaken City A/Room 2 Strawberry"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_start",
                         "x": 335,
@@ -194,15 +145,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 2​",   
-                        "ref": "City/City A-Side - Start/Strawberry 2"
+                        "name": "Room 3 Strawberry",
+                        "ref": "Forsaken City A/Room 3 Strawberry"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_start",
                         "x": 784,
@@ -211,15 +160,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 3​",   
-                        "ref": "City/City A-Side - Start/Strawberry 3"
+                        "name": "Room 3b Strawberry",
+                        "ref": "Forsaken City A/Room 3b Strawberry"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_start",
                         "x": 992,
@@ -228,15 +175,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 4​",   
-                        "ref": "City/City A-Side - Start/Strawberry 4"
+                        "name": "Room 5z Strawberry",
+                        "ref": "Forsaken City A/Room 5 Strawberry"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_start",
                         "x": 848,
@@ -245,15 +190,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 5​",   
-                        "ref": "City/City A-Side - Start/Strawberry 5"
+                        "name": "Room 5 Strawberry",
+                        "ref": "Forsaken City A/Room 5z Strawberry"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_start",
                         "x": 1056,
@@ -262,37 +205,33 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 6​",   
-                        "ref": "City/City A-Side - Start/Strawberry 6"
+                        "name": "Room 5a Strawberry",
+                        "ref": "Forsaken City A/Room 5a Strawberry"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_start",
                         "x": 1584,
                         "y": 248
                     }
                 ]
-            }           
+            }
         ]
     },
     {
-        "name": "City-Crossing​",
+        "name": "City-Crossing",
         "children": [
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 7​",
+                        "name": "Strawberry 7",
                         "ref": "City/City A-Side - Crossing/Strawberry 7"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_crossing",
                         "x": 40,
@@ -301,15 +240,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 8​",
+                        "name": "Strawberry 8",
                         "ref": "City/City A-Side - Crossing/Strawberry 8"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_crossing",
                         "x": 919,
@@ -318,15 +255,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 9​",
+                        "name": "Strawberry 9",
                         "ref": "City/City A-Side - Crossing/Strawberry 9"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_crossing",
                         "x": 535,
@@ -335,15 +270,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 10​",
+                        "name": "Strawberry 10",
                         "ref": "City/City A-Side - Crossing/Strawberry 10"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_crossing",
                         "x": 1416,
@@ -352,15 +285,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 11​",
+                        "name": "Strawberry 11",
                         "ref": "City/City A-Side - Crossing/Strawberry 11"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_crossing",
                         "x": 1896,
@@ -369,15 +300,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 12​",
+                        "name": "Strawberry 12",
                         "ref": "City/City A-Side - Crossing/Strawberry 12"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_crossing",
                         "x": 2535,
@@ -386,15 +315,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 13​",
+                        "name": "Strawberry 13",
                         "ref": "City/City A-Side - Crossing/Strawberry 13"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_crossing",
                         "x": 2144,
@@ -403,15 +330,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 14​",
+                        "name": "Strawberry 14",
                         "ref": "City/City A-Side - Crossing/Strawberry 14"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_crossing",
                         "x": 2552,
@@ -420,15 +345,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 15​",
+                        "name": "Strawberry 15",
                         "ref": "City/City A-Side - Crossing/Strawberry 15"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_crossing",
                         "x": 2831,
@@ -437,37 +360,33 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Crystal Heart​",
+                        "name": "Crystal Heart",
                         "ref": "City/City A-Side - Crossing/Crystal Heart"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_crossing",
                         "x": 511,
                         "y": 570
                     }
                 ]
-            }          
+            }
         ]
     },
     {
-        "name": "City-Chasm​",
+        "name": "City-Chasm",
         "children": [
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 16​",
+                        "name": "Strawberry 16",
                         "ref": "City/City A-Side - Chasm/Strawberry 16"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_chasm",
                         "x": 23,
@@ -476,15 +395,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 17​",
+                        "name": "Strawberry 17",
                         "ref": "City/City A-Side - Chasm/Strawberry 17"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_chasm",
                         "x": 655,
@@ -493,15 +410,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 18​",
+                        "name": "Strawberry 18",
                         "ref": "City/City A-Side - Chasm/Strawberry 18"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_chasm",
                         "x": 896,
@@ -510,15 +425,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 19​",
+                        "name": "Strawberry 19",
                         "ref": "City/City A-Side - Chasm/Strawberry 19"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_chasm",
                         "x": 1119,
@@ -527,15 +440,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 20​",
+                        "name": "Strawberry 20",
                         "ref": "City/City A-Side - Chasm/Strawberry 20"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_chasm",
                         "x": 192,
@@ -544,15 +455,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Cassette​",
+                        "name": "Cassette",
                         "ref": "City/City A-Side - Chasm/Cassette"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_chasm",
                         "x": 304,
@@ -561,22 +470,20 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Level Complete​",
+                        "name": "Level Complete",
                         "ref": "City/City A-Side - Chasm/Level Complete"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "city_chasm",
                         "x": 1041,
                         "y": 105
                     }
                 ]
-            }         
+            }
         ]
     }
 ]

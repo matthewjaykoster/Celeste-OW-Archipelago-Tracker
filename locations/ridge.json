@@ -6,9 +6,8 @@
         "children": [
             {
                 "name": "Ridge A-Side - Start",
-                "access_rules": ["$A4"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Strawberry 1"
                     },
@@ -39,8 +38,7 @@
                         "chest_opened_img": "images/items/items/cassette2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 479,
@@ -50,9 +48,8 @@
             },
             {
                 "name": "Ridge A-Side - Shrine",
-                "access_rules": ["$A4"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Strawberry 9"
                     },
@@ -86,8 +83,7 @@
                         "chest_opened_img": "images/items/items/blue_heart2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 513,
@@ -97,9 +93,8 @@
             },
             {
                 "name": "Ridge A-Side - Old Trail",
-                "access_rules": ["$A4"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Strawberry 18"
                     },
@@ -120,10 +115,9 @@
                     },
                     {
                         "name": "Strawberry 24"
-                    } 
+                    }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 479,
@@ -133,9 +127,8 @@
             },
             {
                 "name": "Ridge A-Side - Cliff Face",
-                "access_rules": ["$A4"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Strawberry 25"
                     },
@@ -155,10 +148,9 @@
                         "name": "Level Complete",
                         "chest_unopened_img": "images/items/items/complete.png",
                         "chest_opened_img": "images/items/items/complete2.png"
-                    } 
+                    }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 513,
@@ -168,9 +160,8 @@
             },
             {
                 "name": "Ridge B-Side",
-                "access_rules": ["cassette4"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Crystal Heart",
                         "chest_unopened_img": "images/items/items/red_heart.png",
@@ -182,8 +173,7 @@
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 496,
@@ -193,9 +183,8 @@
             },
             {
                 "name": "Ridge C-Side",
-                "access_rules": ["$C4"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Crystal Heart",
                         "chest_unopened_img": "images/items/items/yellow_heart.png",
@@ -207,30 +196,27 @@
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 496,
                         "y": 319
                     }
                 ]
-            }             
+            }
         ]
     },
     {
         "name": "Ridge-Start",
         "children": [
             {
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Strawberry 1",
                         "ref": "Ridge/Ridge A-Side - Start/Strawberry 1"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_start",
                         "x": 1096,
@@ -239,15 +225,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Strawberry 2",
                         "ref": "Ridge/Ridge A-Side - Start/Strawberry 2"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_start",
                         "x": 2071,
@@ -256,15 +240,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Strawberry 3",
                         "ref": "Ridge/Ridge A-Side - Start/Strawberry 3"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_start",
                         "x": 2591,
@@ -273,15 +255,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Strawberry 4",
                         "ref": "Ridge/Ridge A-Side - Start/Strawberry 4"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_start",
                         "x": 3287,
@@ -290,15 +270,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Strawberry 5",
                         "ref": "Ridge/Ridge A-Side - Start/Strawberry 5"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_start",
                         "x": 3863,
@@ -307,15 +285,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Strawberry 6",
                         "ref": "Ridge/Ridge A-Side - Start/Strawberry 6"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_start",
                         "x": 4255,
@@ -324,15 +300,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Strawberry 7",
                         "ref": "Ridge/Ridge A-Side - Start/Strawberry 7"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_start",
                         "x": 4247,
@@ -341,15 +315,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Strawberry 8",
                         "ref": "Ridge/Ridge A-Side - Start/Strawberry 8"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_start",
                         "x": 4624,
@@ -358,37 +330,33 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
                         "name": "Cassette",
                         "ref": "Ridge/Ridge A-Side - Start/Cassette"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_start",
                         "x": 3319,
                         "y": 264
                     }
                 ]
-            }          
+            }
         ]
     },
     {
         "name": "Ridge-Shrine",
         "children": [
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 9",
                         "ref": "Ridge/Ridge A-Side - Shrine/Strawberry 9"
                     }
                 ],
-                "map_locations":
-                [
+                "map_locations": [
                     {
                         "map": "ridge_shrine",
                         "x": 1383,
@@ -397,15 +365,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 10",
                         "ref": "Ridge/Ridge A-Side - Shrine/Strawberry 10"
                     }
                 ],
-                "map_locations":
-                [
+                "map_locations": [
                     {
                         "map": "ridge_shrine",
                         "x": 1455,
@@ -414,15 +380,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 11",
                         "ref": "Ridge/Ridge A-Side - Shrine/Strawberry 11"
                     }
                 ],
-                "map_locations":
-                [
+                "map_locations": [
                     {
                         "map": "ridge_shrine",
                         "x": 1376,
@@ -431,15 +395,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 12",
                         "ref": "Ridge/Ridge A-Side - Shrine/Strawberry 12"
                     }
                 ],
-                "map_locations":
-                [
+                "map_locations": [
                     {
                         "map": "ridge_shrine",
                         "x": 559,
@@ -448,15 +410,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 13",
                         "ref": "Ridge/Ridge A-Side - Shrine/Strawberry 13"
                     }
                 ],
-                "map_locations":
-                [
+                "map_locations": [
                     {
                         "map": "ridge_shrine",
                         "x": 327,
@@ -465,15 +425,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 14",
                         "ref": "Ridge/Ridge A-Side - Shrine/Strawberry 14"
                     }
                 ],
-                "map_locations":
-                [
+                "map_locations": [
                     {
                         "map": "ridge_shrine",
                         "x": 512,
@@ -482,15 +440,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 15",
                         "ref": "Ridge/Ridge A-Side - Shrine/Strawberry 15"
                     }
                 ],
-                "map_locations":
-                [
+                "map_locations": [
                     {
                         "map": "ridge_shrine",
                         "x": 1319,
@@ -499,15 +455,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 16",
                         "ref": "Ridge/Ridge A-Side - Shrine/Strawberry 16"
                     }
                 ],
-                "map_locations":
-                [
+                "map_locations": [
                     {
                         "map": "ridge_shrine",
                         "x": 1808,
@@ -516,15 +470,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 17",
                         "ref": "Ridge/Ridge A-Side - Shrine/Strawberry 17"
                     }
                 ],
-                "map_locations":
-                [
+                "map_locations": [
                     {
                         "map": "ridge_shrine",
                         "x": 1904,
@@ -533,37 +485,33 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Crystal Heart",
                         "ref": "Ridge/Ridge A-Side - Shrine/Crystal Heart"
                     }
                 ],
-                "map_locations":
-                [
+                "map_locations": [
                     {
                         "map": "ridge_shrine",
                         "x": 1575,
                         "y": 430
                     }
                 ]
-            }          
+            }
         ]
     },
     {
         "name": "Ridge-Old Trail",
         "children": [
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 18",
                         "ref": "Ridge/Ridge A-Side - Old Trail/Strawberry 18"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_old_trail",
                         "x": 160,
@@ -572,15 +520,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 19",
                         "ref": "Ridge/Ridge A-Side - Old Trail/Strawberry 19"
                     }
                 ],
-            "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_old_trail",
                         "x": 697,
@@ -589,15 +535,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 20",
                         "ref": "Ridge/Ridge A-Side - Old Trail/Strawberry 20"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_old_trail",
                         "x": 2520,
@@ -606,15 +550,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 21",
                         "ref": "Ridge/Ridge A-Side - Old Trail/Strawberry 21"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_old_trail",
                         "x": 2072,
@@ -623,15 +565,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 22",
                         "ref": "Ridge/Ridge A-Side - Old Trail/Strawberry 22"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_old_trail",
                         "x": 2592,
@@ -640,15 +580,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 23",
                         "ref": "Ridge/Ridge A-Side - Old Trail/Strawberry 23"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_old_trail",
                         "x": 3856,
@@ -657,15 +595,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 24",
                         "ref": "Ridge/Ridge A-Side - Old Trail/Strawberry 24"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_old_trail",
                         "x": 4192,
@@ -678,16 +614,14 @@
     {
         "name": "Ridge-Cliff Face",
         "children": [
-          {
-                "sections":
-                [
+            {
+                "sections": [
                     {
                         "name": "Strawberry 25",
                         "ref": "Ridge/Ridge A-Side - Cliff Face/Strawberry 25"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_cliff_face",
                         "x": 480,
@@ -696,15 +630,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 26",
                         "ref": "Ridge/Ridge A-Side - Cliff Face/Strawberry 26"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_cliff_face",
                         "x": 1151,
@@ -713,15 +645,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 27",
                         "ref": "Ridge/Ridge A-Side - Cliff Face/Strawberry 27"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_cliff_face",
                         "x": 2575,
@@ -730,15 +660,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 28",
                         "ref": "Ridge/Ridge A-Side - Cliff Face/Strawberry 28"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_cliff_face",
                         "x": 3847,
@@ -747,15 +675,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Strawberry 29",
                         "ref": "Ridge/Ridge A-Side - Cliff Face/Strawberry 29"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_cliff_face",
                         "x": 5735,
@@ -764,15 +690,13 @@
                 ]
             },
             {
-                "sections":
-                [
+                "sections": [
                     {
                         "name": "Level Complete",
                         "ref": "Ridge/Ridge A-Side - Cliff Face/Level Complete"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "ridge_cliff_face",
                         "x": 6173,
@@ -781,5 +705,5 @@
                 ]
             }
         ]
-    }            
+    }
 ]

@@ -6,9 +6,10 @@
     "children": [
       {
         "name": "Summit A-Side - Start",
-        "access_rules": ["$SUMMIT"],
-        "sections": 
-        [
+        "access_rules": [
+          "$SUMMIT"
+        ],
+        "sections": [
           {
             "name": "Strawberry 1"
           },
@@ -22,8 +23,7 @@
             "name": "Strawberry 4"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 851,
@@ -33,9 +33,10 @@
       },
       {
         "name": "Summit A-Side - 500 M",
-        "access_rules": ["$SUMMIT"],
-        "sections": 
-        [
+        "access_rules": [
+          "$SUMMIT"
+        ],
+        "sections": [
           {
             "name": "Strawberry 5"
           },
@@ -55,8 +56,7 @@
             "name": "Strawberry 10"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 885,
@@ -66,9 +66,10 @@
       },
       {
         "name": "Summit A-Side - 1000 M",
-        "access_rules": ["$SUMMIT"],
-        "sections": 
-        [
+        "access_rules": [
+          "$SUMMIT"
+        ],
+        "sections": [
           {
             "name": "Strawberry 11"
           },
@@ -88,8 +89,7 @@
             "name": "Strawberry 16"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 851,
@@ -99,9 +99,10 @@
       },
       {
         "name": "Summit A-Side - 1500 M",
-        "access_rules": ["$SUMMIT"],
-        "sections": 
-        [
+        "access_rules": [
+          "$SUMMIT"
+        ],
+        "sections": [
           {
             "name": "Strawberry 17"
           },
@@ -132,8 +133,7 @@
             "chest_opened_img": "images/items/items/cassette2.png"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 885,
@@ -143,9 +143,10 @@
       },
       {
         "name": "Summit A-Side - 2000 M",
-        "access_rules": ["$SUMMIT"],
-        "sections": 
-        [
+        "access_rules": [
+          "$SUMMIT"
+        ],
+        "sections": [
           {
             "name": "Strawberry 25"
           },
@@ -171,8 +172,7 @@
             "name": "Strawberry 32"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 851,
@@ -182,9 +182,10 @@
       },
       {
         "name": "Summit A-Side - 2500 M",
-        "access_rules": ["$SUMMIT"],
-        "sections": 
-        [
+        "access_rules": [
+          "$SUMMIT"
+        ],
+        "sections": [
           {
             "name": "Strawberry 33"
           },
@@ -210,8 +211,7 @@
             "name": "Strawberry 40"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 885,
@@ -221,9 +221,10 @@
       },
       {
         "name": "Summit A-Side - 3000 M",
-        "access_rules": ["$SUMMIT"],
-        "sections": 
-        [
+        "access_rules": [
+          "$SUMMIT"
+        ],
+        "sections": [
           {
             "name": "Strawberry 41"
           },
@@ -256,8 +257,7 @@
             "chest_opened_img": "images/items/items/complete2.png"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 868,
@@ -267,10 +267,13 @@
       },
       {
         "name": "Summit B-Side",
-        "visibility_rules": ["$SUMMITBVIS"],
-        "access_rules": ["$SUMMITB"],
-        "sections": 
-        [
+        "visibility_rules": [
+          "$SUMMITB_IS_VISIBLE"
+        ],
+        "access_rules": [
+          "$SUMMITB"
+        ],
+        "sections": [
           {
             "name": "Crystal Heart",
             "chest_unopened_img": "images/items/items/red_heart.png",
@@ -282,8 +285,7 @@
             "chest_opened_img": "images/items/items/complete2.png"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 868,
@@ -293,10 +295,13 @@
       },
       {
         "name": "Summit C-Side",
-        "visibility_rules": ["$SUMMITCVIS"],
-        "access_rules": ["$SUMMITC"],
-        "sections": 
-        [
+        "visibility_rules": [
+          "$SUMMITC_IS_VISIBLE"
+        ],
+        "access_rules": [
+          "$SUMMITC"
+        ],
+        "sections": [
           {
             "name": "Crystal Heart",
             "chest_unopened_img": "images/items/items/yellow_heart.png",
@@ -308,15 +313,14 @@
             "chest_opened_img": "images/items/items/complete2.png"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 868,
             "y": 319
           }
         ]
-      }             
+      }
     ]
   },
   {
@@ -325,7 +329,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 1​",
+            "name": "Strawberry 1",
             "ref": "Summit/Summit A-Side - Start/Strawberry 1"
           }
         ],
@@ -340,7 +344,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 2​",
+            "name": "Strawberry 2",
             "ref": "Summit/Summit A-Side - Start/Strawberry 2"
           }
         ],
@@ -355,7 +359,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 3​",
+            "name": "Strawberry 3",
             "ref": "Summit/Summit A-Side - Start/Strawberry 3"
           }
         ],
@@ -370,7 +374,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 4​",
+            "name": "Strawberry 4",
             "ref": "Summit/Summit A-Side - Start/Strawberry 4"
           }
         ],
@@ -385,12 +389,12 @@
     ]
   },
   {
-    "name": "Summit-500 M​",
+    "name": "Summit-500 M",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 5​",
+            "name": "Strawberry 5",
             "ref": "Summit/Summit A-Side - 500 M/Strawberry 5"
           }
         ],
@@ -405,7 +409,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 6​",
+            "name": "Strawberry 6",
             "ref": "Summit/Summit A-Side - 500 M/Strawberry 6"
           }
         ],
@@ -420,7 +424,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 7​",
+            "name": "Strawberry 7",
             "ref": "Summit/Summit A-Side - 500 M/Strawberry 7"
           }
         ],
@@ -435,7 +439,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 8​",
+            "name": "Strawberry 8",
             "ref": "Summit/Summit A-Side - 500 M/Strawberry 8"
           }
         ],
@@ -450,7 +454,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 9​",
+            "name": "Strawberry 9",
             "ref": "Summit/Summit A-Side - 500 M/Strawberry 9"
           }
         ],
@@ -465,7 +469,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 10​",
+            "name": "Strawberry 10",
             "ref": "Summit/Summit A-Side - 500 M/Strawberry 10"
           }
         ],
@@ -480,12 +484,12 @@
     ]
   },
   {
-    "name": "Summit-1000 M​",
+    "name": "Summit-1000 M",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 11​",
+            "name": "Strawberry 11",
             "ref": "Summit/Summit A-Side - 1000 M/Strawberry 11"
           }
         ],
@@ -500,7 +504,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 12​",
+            "name": "Strawberry 12",
             "ref": "Summit/Summit A-Side - 1000 M/Strawberry 12"
           }
         ],
@@ -515,7 +519,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 13​",
+            "name": "Strawberry 13",
             "ref": "Summit/Summit A-Side - 1000 M/Strawberry 13"
           }
         ],
@@ -530,7 +534,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 14​",
+            "name": "Strawberry 14",
             "ref": "Summit/Summit A-Side - 1000 M/Strawberry 14"
           }
         ],
@@ -545,7 +549,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 15​",
+            "name": "Strawberry 15",
             "ref": "Summit/Summit A-Side - 1000 M/Strawberry 15"
           }
         ],
@@ -560,7 +564,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 16​",
+            "name": "Strawberry 16",
             "ref": "Summit/Summit A-Side - 1000 M/Strawberry 16"
           }
         ],
@@ -575,12 +579,12 @@
     ]
   },
   {
-    "name": "Summit-1500 M​",
+    "name": "Summit-1500 M",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 17​",
+            "name": "Strawberry 17",
             "ref": "Summit/Summit A-Side - 1500 M/Strawberry 17"
           }
         ],
@@ -595,7 +599,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 18​",
+            "name": "Strawberry 18",
             "ref": "Summit/Summit A-Side - 1500 M/Strawberry 18"
           }
         ],
@@ -610,7 +614,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 19​",
+            "name": "Strawberry 19",
             "ref": "Summit/Summit A-Side - 1500 M/Strawberry 19"
           }
         ],
@@ -625,7 +629,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 20​",
+            "name": "Strawberry 20",
             "ref": "Summit/Summit A-Side - 1500 M/Strawberry 20"
           }
         ],
@@ -640,7 +644,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 21​",
+            "name": "Strawberry 21",
             "ref": "Summit/Summit A-Side - 1500 M/Strawberry 21"
           }
         ],
@@ -655,7 +659,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 22​",
+            "name": "Strawberry 22",
             "ref": "Summit/Summit A-Side - 1500 M/Strawberry 22"
           }
         ],
@@ -670,7 +674,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 23​",
+            "name": "Strawberry 23",
             "ref": "Summit/Summit A-Side - 1500 M/Strawberry 23"
           }
         ],
@@ -685,7 +689,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 24​",
+            "name": "Strawberry 24",
             "ref": "Summit/Summit A-Side - 1500 M/Strawberry 24"
           }
         ],
@@ -700,7 +704,7 @@
       {
         "sections": [
           {
-            "name": "Cassette​",
+            "name": "Cassette",
             "ref": "Summit/Summit A-Side - 1500 M/Cassette"
           }
         ],
@@ -715,12 +719,12 @@
     ]
   },
   {
-    "name": "Summit-2000 M​",
+    "name": "Summit-2000 M",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 25​",
+            "name": "Strawberry 25",
             "ref": "Summit/Summit A-Side - 2000 M/Strawberry 25"
           }
         ],
@@ -735,7 +739,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 26​",
+            "name": "Strawberry 26",
             "ref": "Summit/Summit A-Side - 2000 M/Strawberry 26"
           }
         ],
@@ -750,7 +754,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 27​",
+            "name": "Strawberry 27",
             "ref": "Summit/Summit A-Side - 2000 M/Strawberry 27"
           }
         ],
@@ -765,7 +769,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 28​",
+            "name": "Strawberry 28",
             "ref": "Summit/Summit A-Side - 2000 M/Strawberry 28"
           }
         ],
@@ -780,7 +784,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 29​",
+            "name": "Strawberry 29",
             "ref": "Summit/Summit A-Side - 2000 M/Strawberry 29"
           }
         ],
@@ -795,7 +799,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 30​",
+            "name": "Strawberry 30",
             "ref": "Summit/Summit A-Side - 2000 M/Strawberry 30"
           }
         ],
@@ -810,7 +814,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 31​",
+            "name": "Strawberry 31",
             "ref": "Summit/Summit A-Side - 2000 M/Strawberry 31"
           }
         ],
@@ -825,7 +829,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 32​",
+            "name": "Strawberry 32",
             "ref": "Summit/Summit A-Side - 2000 M/Strawberry 32"
           }
         ],
@@ -840,12 +844,12 @@
     ]
   },
   {
-    "name": "Summit-2500 M​",
+    "name": "Summit-2500 M",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 33​",
+            "name": "Strawberry 33",
             "ref": "Summit/Summit A-Side - 2500 M/Strawberry 33"
           }
         ],
@@ -860,7 +864,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 34​",
+            "name": "Strawberry 34",
             "ref": "Summit/Summit A-Side - 2500 M/Strawberry 34"
           }
         ],
@@ -875,7 +879,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 35​",
+            "name": "Strawberry 35",
             "ref": "Summit/Summit A-Side - 2500 M/Strawberry 35"
           }
         ],
@@ -890,7 +894,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 36​",
+            "name": "Strawberry 36",
             "ref": "Summit/Summit A-Side - 2500 M/Strawberry 36"
           }
         ],
@@ -905,7 +909,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 37​",
+            "name": "Strawberry 37",
             "ref": "Summit/Summit A-Side - 2500 M/Strawberry 37"
           }
         ],
@@ -920,7 +924,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 38​",
+            "name": "Strawberry 38",
             "ref": "Summit/Summit A-Side - 2500 M/Strawberry 38"
           }
         ],
@@ -935,7 +939,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 39​",
+            "name": "Strawberry 39",
             "ref": "Summit/Summit A-Side - 2500 M/Strawberry 39"
           }
         ],
@@ -950,7 +954,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 40​",
+            "name": "Strawberry 40",
             "ref": "Summit/Summit A-Side - 2500 M/Strawberry 40"
           }
         ],
@@ -965,12 +969,12 @@
     ]
   },
   {
-    "name": "Summit-3000 M​",
+    "name": "Summit-3000 M",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 41​",
+            "name": "Strawberry 41",
             "ref": "Summit/Summit A-Side - 3000 M/Strawberry 41"
           }
         ],
@@ -985,7 +989,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 42​",
+            "name": "Strawberry 42",
             "ref": "Summit/Summit A-Side - 3000 M/Strawberry 42"
           }
         ],
@@ -1000,7 +1004,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 43​",
+            "name": "Strawberry 43",
             "ref": "Summit/Summit A-Side - 3000 M/Strawberry 43"
           }
         ],
@@ -1015,7 +1019,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 44​",
+            "name": "Strawberry 44",
             "ref": "Summit/Summit A-Side - 3000 M/Strawberry 44"
           }
         ],
@@ -1030,7 +1034,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 45​",
+            "name": "Strawberry 45",
             "ref": "Summit/Summit A-Side - 3000 M/Strawberry 45"
           }
         ],
@@ -1045,7 +1049,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 46​",
+            "name": "Strawberry 46",
             "ref": "Summit/Summit A-Side - 3000 M/Strawberry 46"
           }
         ],
@@ -1060,7 +1064,7 @@
       {
         "sections": [
           {
-            "name": "Strawberry 47​",
+            "name": "Strawberry 47",
             "ref": "Summit/Summit A-Side - 3000 M/Strawberry 47"
           }
         ],
@@ -1075,7 +1079,7 @@
       {
         "sections": [
           {
-            "name": "Crystal Heart​",
+            "name": "Crystal Heart",
             "ref": "Summit/Summit A-Side - 3000 M/Crystal Heart"
           }
         ],
@@ -1090,7 +1094,7 @@
       {
         "sections": [
           {
-            "name": "Level Complete​",
+            "name": "Level Complete",
             "ref": "Summit/Summit A-Side - 3000 M/Level Complete"
           }
         ],
@@ -1103,5 +1107,5 @@
         ]
       }
     ]
-  }                              
+  }
 ]

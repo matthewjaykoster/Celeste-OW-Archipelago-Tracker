@@ -1,4 +1,5 @@
 ENABLE_DEBUG_LOG = true
+ENABLE_DEBUG_LOG_VERBOSE = true
 
 ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/items.lua")
@@ -7,6 +8,4 @@ ScriptHost:LoadScript("scripts/layouts.lua")
 ScriptHost:LoadScript("scripts/logic.lua")
 ScriptHost:LoadScript("scripts/autotracking.lua")
 
-if not IS_ITEMS_ONLY then
-    Tracker:AddMaps("maps/maps.json")
-end
+Tracker:AddMaps("maps/maps.json")

@@ -6,9 +6,8 @@
     "children": [
       {
         "name": "Mirror Temple A-Side - Start",
-        "access_rules": ["$A5"],
-        "sections": 
-        [
+        "access_rules": [],
+        "sections": [
           {
             "name": "Strawberry 1"
           },
@@ -46,8 +45,7 @@
             "name": "Strawberry 12"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 617,
@@ -57,9 +55,8 @@
       },
       {
         "name": "Mirror Temple A-Side - Depths",
-        "access_rules": ["$A5"],
-        "sections": 
-        [
+        "access_rules": [],
+        "sections": [
           {
             "name": "Strawberry 13"
           },
@@ -104,8 +101,7 @@
             "chest_opened_img": "images/items/items/cassette2.png"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 651,
@@ -115,15 +111,13 @@
       },
       {
         "name": "Mirror Temple A-Side - Unravelling",
-        "access_rules": ["$A5"],
-        "sections": 
-        [
+        "access_rules": [],
+        "sections": [
           {
             "name": "Strawberry 24"
-          } 
+          }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 617,
@@ -133,9 +127,8 @@
       },
       {
         "name": "Mirror Temple A-Side - Search",
-        "access_rules": ["$A5"],
-        "sections": 
-        [
+        "access_rules": [],
+        "sections": [
           {
             "name": "Strawberry 25"
           },
@@ -161,10 +154,9 @@
             "name": "Level Complete",
             "chest_unopened_img": "images/items/items/complete.png",
             "chest_opened_img": "images/items/items/complete2.png"
-          } 
+          }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 651,
@@ -174,9 +166,8 @@
       },
       {
         "name": "Mirror Temple B-Side",
-        "access_rules": ["cassette5"],
-        "sections": 
-        [
+        "access_rules": [],
+        "sections": [
           {
             "name": "Crystal Heart",
             "chest_unopened_img": "images/items/items/red_heart.png",
@@ -188,8 +179,7 @@
             "chest_opened_img": "images/items/items/complete2.png"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 634,
@@ -199,9 +189,8 @@
       },
       {
         "name": "Mirror Temple C-Side",
-        "access_rules": ["$C5"],
-        "sections": 
-        [
+        "access_rules": [],
+        "sections": [
           {
             "name": "Crystal Heart",
             "chest_unopened_img": "images/items/items/yellow_heart.png",
@@ -213,30 +202,27 @@
             "chest_opened_img": "images/items/items/complete2.png"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 634,
             "y": 319
           }
         ]
-      }             
+      }
     ]
   },
   {
     "name": "Mirror Temple-Start",
     "children": [
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 1​",
+            "name": "Strawberry 1",
             "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 1"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_start",
             "x": 166,
@@ -245,15 +231,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 2​",
+            "name": "Strawberry 2",
             "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 2"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_start",
             "x": 2294,
@@ -262,15 +246,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 3​",
+            "name": "Strawberry 3",
             "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 3"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_start",
             "x": 2110,
@@ -279,15 +261,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 4​",
+            "name": "Strawberry 4",
             "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 4"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_start",
             "x": 1870,
@@ -296,15 +276,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 5​",
+            "name": "Strawberry 5",
             "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 5"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_start",
             "x": 2310,
@@ -313,15 +291,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 6​",
+            "name": "Strawberry 6",
             "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 6"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_start",
             "x": 2766,
@@ -330,15 +306,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 7​",
+            "name": "Strawberry 7",
             "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 7"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_start",
             "x": 2310,
@@ -347,15 +321,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 8​",
+            "name": "Strawberry 8",
             "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 8"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_start",
             "x": 1798,
@@ -364,15 +336,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 9​",
+            "name": "Strawberry 9",
             "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 9"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_start",
             "x": 2756,
@@ -381,15 +351,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 10​",
+            "name": "Strawberry 10",
             "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 10"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_start",
             "x": 2678,
@@ -398,15 +366,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 11​",
+            "name": "Strawberry 11",
             "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 11"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_start",
             "x": 1447,
@@ -415,15 +381,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 12​",
+            "name": "Strawberry 12",
             "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 12"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_start",
             "x": 3198,
@@ -437,15 +401,13 @@
     "name": "Mirror Temple-Depths",
     "children": [
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 13​",
+            "name": "Strawberry 13",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 13"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 279,
@@ -454,15 +416,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 14​",
+            "name": "Strawberry 14",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 14"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 1055,
@@ -471,15 +431,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 15​",
+            "name": "Strawberry 15",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 15"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 336,
@@ -488,15 +446,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 16​",
+            "name": "Strawberry 16",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 16"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 1071,
@@ -505,15 +461,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 17​",
+            "name": "Strawberry 17",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 17"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 807,
@@ -522,15 +476,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 18​",
+            "name": "Strawberry 18",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 18"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 1384,
@@ -539,15 +491,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 19​",
+            "name": "Strawberry 19",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 19"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 2191,
@@ -556,15 +506,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 20​",
+            "name": "Strawberry 20",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 20"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 1423,
@@ -573,15 +521,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 21​",
+            "name": "Strawberry 21",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 21"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 2063,
@@ -590,15 +536,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 22​",
+            "name": "Strawberry 22",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 22"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 2695,
@@ -607,15 +551,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 23​",
+            "name": "Strawberry 23",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 23"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 2816,
@@ -624,15 +566,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Crystal Heart​",
+            "name": "Crystal Heart",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Crystal Heart"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 5447,
@@ -641,15 +581,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Cassette​",
+            "name": "Cassette",
             "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Cassette"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_depths",
             "x": 3120,
@@ -660,18 +598,16 @@
     ]
   },
   {
-    "name": "Mirror Temple-Unravelling​",
+    "name": "Mirror Temple-Unravelling",
     "children": [
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 24​",
+            "name": "Strawberry 24",
             "ref": "Mirror Temple/Mirror Temple A-Side - Unravelling/Strawberry 24"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_unravelling",
             "x": 1983,
@@ -682,18 +618,16 @@
     ]
   },
   {
-    "name": "Mirror Temple-Search​",
+    "name": "Mirror Temple-Search",
     "children": [
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 25​",
+            "name": "Strawberry 25",
             "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 25"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_search",
             "x": 711,
@@ -702,15 +636,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 26​",
+            "name": "Strawberry 26",
             "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 26"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_search",
             "x": 687,
@@ -719,15 +651,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 27​",
+            "name": "Strawberry 27",
             "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 27"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_search",
             "x": 2008,
@@ -736,15 +666,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 28​",
+            "name": "Strawberry 28",
             "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 28"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_search",
             "x": 2015,
@@ -753,15 +681,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 29​",
+            "name": "Strawberry 29",
             "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 29"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_search",
             "x": 1671,
@@ -770,15 +696,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 30​",
+            "name": "Strawberry 30",
             "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 30"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_search",
             "x": 183,
@@ -787,15 +711,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Strawberry 31​",
+            "name": "Strawberry 31",
             "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 31"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_search_2",
             "x": 2136,
@@ -804,15 +726,13 @@
         ]
       },
       {
-        "sections": 
-        [
+        "sections": [
           {
-            "name": "Level Complete​",
+            "name": "Level Complete",
             "ref": "Mirror Temple/Mirror Temple A-Side - Search/Level Complete"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "mirror_temple_search_2",
             "x": 6140,
@@ -821,5 +741,5 @@
         ]
       }
     ]
-  }                        
+  }
 ]

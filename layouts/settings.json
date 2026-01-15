@@ -19,25 +19,40 @@
                         "item_v_alignment": "center",
                         "rows": [
                             [
-                                "", "goallevel", "goal", ""
-                            ],                        
-                            [
-                                "berryttl", "berrytotal", "berriesrequired", "berryreq"
+                                "",
+                                "goal_level_label",
+                                "goal",
+                                ""
                             ],
                             [
-                                "heartttl", "hearttotal", "heartsrequired", "heartreq"
+                                "berry_total_label",
+                                "berries_obtained_total",
+                                "berries_required",
+                                "berry_req_label"
                             ],
                             [
-                                "cassettettl", "cassettestotal", "cassettesrequired", "cassettesreq"
+                                "heart_total_label",
+                                "hearts_obtained_total",
+                                "hearts_required",
+                                "heart_req_label"
                             ],
                             [
-                                "compttl", "comptotal", "comprequired", "compreq"
+                                "cassette_total_label",
+                                "cassettes_obtained_total",
+                                "cassettes_required",
+                                "cassettes_req_label"
                             ],
                             [
                                 ""
                             ],
                             [
-                                "", "heart_gates_label", "gates", ""
+                                ""
+                            ],
+                            [
+                                "",
+                                "heart_gates_label",
+                                "gates",
+                                ""
                             ]
                         ]
                     }

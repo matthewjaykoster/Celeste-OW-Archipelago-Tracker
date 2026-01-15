@@ -6,9 +6,8 @@
         "children": [
             {
                 "name": "Old Site A-Side - Start",
-                "access_rules": ["$A2"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Strawberry 1"
                     },
@@ -47,8 +46,7 @@
                         "chest_opened_img": "images/items/items/cassette2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 302,
@@ -58,9 +56,8 @@
             },
             {
                 "name": "Old Site A-Side - Intervention",
-                "access_rules": ["$A2"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Strawberry 10"
                     },
@@ -86,8 +83,7 @@
                         "name": "Strawberry 17"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 336,
@@ -97,9 +93,8 @@
             },
             {
                 "name": "Old Site A-Side - Awake",
-                "access_rules": ["$A2"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Strawberry 18"
                     },
@@ -109,8 +104,7 @@
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 319,
@@ -120,9 +114,8 @@
             },
             {
                 "name": "Old Site B-Side",
-                "access_rules": ["cassette2"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Crystal Heart",
                         "chest_unopened_img": "images/items/items/red_heart.png",
@@ -134,8 +127,7 @@
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 319,
@@ -145,9 +137,8 @@
             },
             {
                 "name": "Old Site C-Side",
-                "access_rules": ["$C2"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Crystal Heart",
                         "chest_unopened_img": "images/items/items/yellow_heart.png",
@@ -159,30 +150,27 @@
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 319,
                         "y": 319
                     }
                 ]
-            }             
+            }
         ]
     },
     {
-        "name": "​Old Site-Start​",
+        "name": "Old Site-Start",
         "children": [
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 1​",
+                        "name": "Strawberry 1",
                         "ref": "Old Site/Old Site A-Side - Start/Strawberry 1"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_start",
                         "x": 1704,
@@ -191,15 +179,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 2​",
+                        "name": "Strawberry 2",
                         "ref": "Old Site/Old Site A-Side - Start/Strawberry 2"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_start",
                         "x": 1359,
@@ -208,15 +194,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 3​",
+                        "name": "Strawberry 3",
                         "ref": "Old Site/Old Site A-Side - Start/Strawberry 3"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_start",
                         "x": 480,
@@ -225,15 +209,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 4​",
+                        "name": "Strawberry 4",
                         "ref": "Old Site/Old Site A-Side - Start/Strawberry 4"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_start",
                         "x": 472,
@@ -242,15 +224,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 5​",
+                        "name": "Strawberry 5",
                         "ref": "Old Site/Old Site A-Side - Start/Strawberry 5"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_start",
                         "x": 831,
@@ -259,15 +239,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 6​",
+                        "name": "Strawberry 6",
                         "ref": "Old Site/Old Site A-Side - Start/Strawberry 6"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_start",
                         "x": 1264,
@@ -276,15 +254,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 7​",
+                        "name": "Strawberry 7",
                         "ref": "Old Site/Old Site A-Side - Start/Strawberry 7"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_start",
                         "x": 1615,
@@ -293,15 +269,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 8​",
+                        "name": "Strawberry 8",
                         "ref": "Old Site/Old Site A-Side - Start/Strawberry 8"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_start",
                         "x": 1148,
@@ -310,15 +284,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 9​",
+                        "name": "Strawberry 9",
                         "ref": "Old Site/Old Site A-Side - Start/Strawberry 9"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_start",
                         "x": 975,
@@ -327,15 +299,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Crystal Heart​",
+                        "name": "Crystal Heart",
                         "ref": "Old Site/Old Site A-Side - Start/Crystal Heart"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_start",
                         "x": 224,
@@ -344,37 +314,33 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Cassette​",
+                        "name": "Cassette",
                         "ref": "Old Site/Old Site A-Side - Start/Cassette"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_start",
                         "x": 863,
                         "y": 1576
                     }
                 ]
-            }          
+            }
         ]
     },
     {
-        "name": "​Old Site-Intervention",
+        "name": "Old Site-Intervention",
         "children": [
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 10​",
+                        "name": "Strawberry 10",
                         "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 10"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_intervention",
                         "x": 358,
@@ -383,15 +349,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 11​",
+                        "name": "Strawberry 11",
                         "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 11"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_intervention",
                         "x": 87,
@@ -400,15 +364,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 12​",
+                        "name": "Strawberry 12",
                         "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 12"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_intervention",
                         "x": 119,
@@ -417,15 +379,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 13​",
+                        "name": "Strawberry 13",
                         "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 13"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_intervention",
                         "x": 478,
@@ -434,15 +394,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 14​",
+                        "name": "Strawberry 14",
                         "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 14"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_intervention",
                         "x": 750,
@@ -451,15 +409,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 15​",
+                        "name": "Strawberry 15",
                         "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 15"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_intervention",
                         "x": 918,
@@ -468,15 +424,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 16​",
+                        "name": "Strawberry 16",
                         "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 16"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_intervention",
                         "x": 1870,
@@ -485,37 +439,33 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 17​",
+                        "name": "Strawberry 17",
                         "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 17"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_intervention",
                         "x": 2207,
                         "y": 2087
                     }
                 ]
-            }          
+            }
         ]
     },
     {
-        "name": "​Old Site-Awake",
+        "name": "Old Site-Awake",
         "children": [
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 18​",
+                        "name": "Strawberry 18",
                         "ref": "Old Site/Old Site A-Side - Awake/Strawberry 18"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_awake",
                         "x": 2136,
@@ -524,22 +474,20 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Level Complete​",
+                        "name": "Level Complete",
                         "ref": "Old Site/Old Site A-Side - Awake/Level Complete"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "old_site_awake",
                         "x": 3018,
                         "y": 830
                     }
                 ]
-            }          
+            }
         ]
     }
 ]

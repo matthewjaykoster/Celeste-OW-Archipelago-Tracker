@@ -4,9 +4,8 @@
     "children": [
       {
         "name": "Reflection A-Side",
-        "access_rules": ["$A6"],
-        "sections": 
-        [
+        "access_rules": [],
+        "sections": [
           {
             "name": "Crystal Heart",
             "chest_unopened_img": "images/items/items/blue_heart.png",
@@ -23,8 +22,7 @@
             "chest_opened_img": "images/items/items/complete2.png"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 779,
@@ -34,9 +32,8 @@
       },
       {
         "name": "Reflection B-Side",
-        "access_rules": ["cassette6"],
-        "sections": 
-        [
+        "access_rules": [],
+        "sections": [
           {
             "name": "Crystal Heart",
             "chest_unopened_img": "images/items/items/red_heart.png",
@@ -48,8 +45,7 @@
             "chest_opened_img": "images/items/items/complete2.png"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 779,
@@ -59,9 +55,8 @@
       },
       {
         "name": "Reflection C-Side",
-        "access_rules": ["$C6"],
-        "sections": 
-        [
+        "access_rules": [],
+        "sections": [
           {
             "name": "Crystal Heart",
             "chest_unopened_img": "images/items/items/yellow_heart.png",
@@ -73,24 +68,23 @@
             "chest_opened_img": "images/items/items/complete2.png"
           }
         ],
-        "map_locations": 
-        [
+        "map_locations": [
           {
             "map": "celeste_chapter_select",
             "x": 779,
             "y": 319
           }
         ]
-      }             
+      }
     ]
   },
   {
-    "name": "Reflection-Hollows​",
+    "name": "Reflection-Hollows",
     "children": [
       {
         "sections": [
           {
-            "name": "Crystal Heart​",
+            "name": "Crystal Heart",
             "ref": "Reflection/Reflection A-Side/Crystal Heart"
           }
         ],
@@ -105,7 +99,7 @@
       {
         "sections": [
           {
-            "name": "Cassette​",
+            "name": "Cassette",
             "ref": "Reflection/Reflection A-Side/Cassette"
           }
         ],
@@ -120,7 +114,7 @@
       {
         "sections": [
           {
-            "name": "Level Complete​",
+            "name": "Level Complete",
             "ref": "Reflection/Reflection A-Side/Level Complete"
           }
         ],
@@ -133,5 +127,5 @@
         ]
       }
     ]
-  }      
+  }
 ]

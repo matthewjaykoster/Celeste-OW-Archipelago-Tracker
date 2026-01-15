@@ -1,11 +1,11 @@
 [
     {
-        "name": "Farewell",
-        "visibility_rules": ["farewell"],
+        "name": "Epilogue",
+        "visibility_rules": ["$SUMMITB_IS_VISIBLE"],
         "children": [
             {
-                "name": "Farewell",
-                "access_rules": ["$FAREWELL"],
+                "name": "Epilogue",
+                "access_rules":  ["$EPILOGUE"],
                 "sections": 
                 [
                     {
@@ -18,11 +18,11 @@
                 [
                     {
                         "map": "celeste_chapter_select",
-                        "x": 1129,
+                        "x": 954,
                         "y": 173
                     }
                 ]
-            }             
+            }            
         ]
     }
 ]

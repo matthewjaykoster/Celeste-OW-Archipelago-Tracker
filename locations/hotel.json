@@ -6,9 +6,8 @@
         "children": [
             {
                 "name": "Hotel A-Side - Start",
-                "access_rules": ["$A3"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Strawberry 1"
                     },
@@ -43,8 +42,7 @@
                         "name": "Strawberry 11"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 390,
@@ -54,9 +52,8 @@
             },
             {
                 "name": "Hotel A-Side - Huge Mess",
-                "access_rules":  ["$A3"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Strawberry 12"
                     },
@@ -84,8 +81,7 @@
                         "chest_opened_img": "images/items/items/blue_heart2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 424,
@@ -95,9 +91,8 @@
             },
             {
                 "name": "Hotel A-Side - Elevator Shaft",
-                "access_rules": ["$A3"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Strawberry 19"
                     },
@@ -116,8 +111,7 @@
                         "chest_opened_img": "images/items/items/cassette2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 390,
@@ -127,9 +121,8 @@
             },
             {
                 "name": "Hotel A-Side - Presidential Suite",
-                "access_rules": ["$A3"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Strawberry 23"
                     },
@@ -145,8 +138,7 @@
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 424,
@@ -156,9 +148,8 @@
             },
             {
                 "name": "Hotel B-Side",
-                "access_rules": ["cassette3"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Crystal Heart",
                         "chest_unopened_img": "images/items/items/red_heart.png",
@@ -170,8 +161,7 @@
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 407,
@@ -181,9 +171,8 @@
             },
             {
                 "name": "Hotel C-Side",
-                "access_rules": ["$C3"],
-                "sections": 
-                [
+                "access_rules": [],
+                "sections": [
                     {
                         "name": "Crystal Heart",
                         "chest_unopened_img": "images/items/items/yellow_heart.png",
@@ -195,30 +184,27 @@
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 407,
                         "y": 319
                     }
                 ]
-            }             
+            }
         ]
     },
     {
-        "name": "Hotel-Start​",
+        "name": "Hotel-Start",
         "children": [
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 1​",
+                        "name": "Strawberry 1",
                         "ref": "Hotel/Hotel A-Side - Start/Strawberry 1"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_start",
                         "x": 1088,
@@ -227,15 +213,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 2​",
+                        "name": "Strawberry 2",
                         "ref": "Hotel/Hotel A-Side - Start/Strawberry 2"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_start",
                         "x": 807,
@@ -244,15 +228,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 3​",
+                        "name": "Strawberry 3",
                         "ref": "Hotel/Hotel A-Side - Start/Strawberry 3"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_start",
                         "x": 2271,
@@ -261,15 +243,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 4​",
+                        "name": "Strawberry 4",
                         "ref": "Hotel/Hotel A-Side - Start/Strawberry 4"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_start",
                         "x": 1983,
@@ -278,15 +258,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 5​",
+                        "name": "Strawberry 5",
                         "ref": "Hotel/Hotel A-Side - Start/Strawberry 5"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_start",
                         "x": 1455,
@@ -295,15 +273,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 6​",
+                        "name": "Strawberry 6",
                         "ref": "Hotel/Hotel A-Side - Start/Strawberry 6"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_start",
                         "x": 3471,
@@ -312,15 +288,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 7​",
+                        "name": "Strawberry 7",
                         "ref": "Hotel/Hotel A-Side - Start/Strawberry 7"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_start",
                         "x": 4087,
@@ -329,15 +303,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 8​",
+                        "name": "Strawberry 8",
                         "ref": "Hotel/Hotel A-Side - Start/Strawberry 8"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_start",
                         "x": 3936,
@@ -346,15 +318,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 9​",
+                        "name": "Strawberry 9",
                         "ref": "Hotel/Hotel A-Side - Start/Strawberry 9"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_start",
                         "x": 3672,
@@ -363,15 +333,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 10​",
+                        "name": "Strawberry 10",
                         "ref": "Hotel/Hotel A-Side - Start/Strawberry 10"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_start",
                         "x": 4039,
@@ -380,37 +348,33 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 11​",
+                        "name": "Strawberry 11",
                         "ref": "Hotel/Hotel A-Side - Start/Strawberry 11"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_start",
                         "x": 4407,
                         "y": 215
                     }
                 ]
-            }          
+            }
         ]
     },
     {
         "name": "Hotel-Huge Mess",
         "children": [
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 12​",
+                        "name": "Strawberry 12",
                         "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 12"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_huge_mess",
                         "x": 1439,
@@ -419,15 +383,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 13​",
+                        "name": "Strawberry 13",
                         "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 13"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_huge_mess",
                         "x": 1247,
@@ -436,15 +398,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 14​",
+                        "name": "Strawberry 14",
                         "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 14"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_huge_mess",
                         "x": 1895,
@@ -453,15 +413,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 15​",
+                        "name": "Strawberry 15",
                         "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 15"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_huge_mess",
                         "x": 1735,
@@ -470,15 +428,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 16​",
+                        "name": "Strawberry 16",
                         "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 16"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_huge_mess",
                         "x": 1551,
@@ -487,15 +443,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 17​",
+                        "name": "Strawberry 17",
                         "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 17"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_huge_mess",
                         "x": 751,
@@ -504,15 +458,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 18​",
+                        "name": "Strawberry 18",
                         "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 18"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_huge_mess",
                         "x": 160,
@@ -521,37 +473,33 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Crystal Heart​",
+                        "name": "Crystal Heart",
                         "ref": "Hotel/Hotel A-Side - Huge Mess/Crystal Heart"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_huge_mess",
                         "x": 1120,
                         "y": 317
                     }
                 ]
-            }          
+            }
         ]
     },
     {
         "name": "Hotel-Elevator Shaft",
         "children": [
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 19​",
+                        "name": "Strawberry 19",
                         "ref": "Hotel/Hotel A-Side - Elevator Shaft/Strawberry 19"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_elevator_shaft",
                         "x": 1895,
@@ -560,15 +508,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 20​",
+                        "name": "Strawberry 20",
                         "ref": "Hotel/Hotel A-Side - Elevator Shaft/Strawberry 20"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_elevator_shaft",
                         "x": 1247,
@@ -577,15 +523,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 21​",
+                        "name": "Strawberry 21",
                         "ref": "Hotel/Hotel A-Side - Elevator Shaft/Strawberry 21"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_elevator_shaft",
                         "x": 831,
@@ -594,15 +538,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 22​",
+                        "name": "Strawberry 22",
                         "ref": "Hotel/Hotel A-Side - Elevator Shaft/Strawberry 22"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_elevator_shaft",
                         "x": 695,
@@ -611,37 +553,33 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Cassette​",
+                        "name": "Cassette",
                         "ref": "Hotel/Hotel A-Side - Elevator Shaft/Cassette"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_elevator_shaft",
                         "x": 23,
                         "y": 262
                     }
                 ]
-            }          
+            }
         ]
     },
     {
         "name": "Hotel-Presidential Suite",
         "children": [
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 23​",
+                        "name": "Strawberry 23",
                         "ref": "Hotel/Hotel A-Side - Presidential Suite/Strawberry 23"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_presidential_suite",
                         "x": 2272,
@@ -650,15 +588,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 24​",
+                        "name": "Strawberry 24",
                         "ref": "Hotel/Hotel A-Side - Presidential Suite/Strawberry 24"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_presidential_suite",
                         "x": 4831,
@@ -667,15 +603,13 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Strawberry 25​",
+                        "name": "Strawberry 25",
                         "ref": "Hotel/Hotel A-Side - Presidential Suite/Strawberry 25"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_presidential_suite",
                         "x": 5471,
@@ -684,22 +618,20 @@
                 ]
             },
             {
-                "sections": 
-                [
+                "sections": [
                     {
-                        "name": "Level Complete​",
+                        "name": "Level Complete",
                         "ref": "Hotel/Hotel A-Side - Presidential Suite/Level Complete"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "hotel_presidential_suite",
                         "x": 6502,
                         "y": 53
                     }
                 ]
-            }          
+            }
         ]
     }
 ]

@@ -1,7 +1,6 @@
 ScriptHost:LoadScript("scripts/autotracking/item_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/location_mapping.lua")
 ScriptHost:LoadScript("scripts/autotracking/tab_mapping.lua")
-ScriptHost:LoadScript("scripts/autotracking/hints_mapping.lua")
 
 CUR_INDEX = -1
 SLOT_DATA = nil
@@ -10,14 +9,21 @@ GLOBAL_ITEMS = {}
 
 function onClear(slot_data)
 
+    log_debug("onClear: called with slot data: ")
+    log_debug(dump_table(slot_data))
+    -- Slot data reference can be found at: https://github.com/PoryGoneDev/Celeste-Archipelago-Open-World/blob/main/Source/ArchipelagoManager.cs
+
     SLOT_DATA = slot_data
     CUR_INDEX = -1
+
     -- reset locations
-    for _, location_array in pairs(LOCATION_MAPPING) do
-        for _, location in pairs(location_array) do
+    for _, location_map in pairs(LOCATION_MAPPING) do
+        for _, location in pairs(location_map) do
             if location then
                 local obj = Tracker:FindObjectForCode(location)
                 if obj then
+                    log_debug_verbose(string.format('Resetting location %s', location))
+                    log_debug_verbose(tostring(obj))
                     if location:sub(1, 1) == "@" then
                         obj.AvailableChestCount = obj.ChestCount
                     else
@@ -27,59 +33,59 @@ function onClear(slot_data)
             end
         end
     end
+
+    log_debug("onClear: Locations reset successfully.")
+
     -- reset items
-    for _, v in pairs(ITEM_MAPPING) do
-        for _, innertable in pairs(v) do
-            if innertable[1] and innertable[2] then
-                local obj = Tracker:FindObjectForCode(innertable[1])
+    for _, item_map in pairs(ITEM_MAPPING) do
+        for _, item in pairs(item_map) do
+            if item[1] and item[2] then
+                local obj = Tracker:FindObjectForCode(item[1])
                 if obj then
-                    if innertable[2] == "toggle" then
+                    if item[2] == "toggle" then
                         obj.Active = false
-                    elseif innertable[2] == "progressive" then
+                    elseif item[2] == "progressive" then
                         obj.CurrentStage = 0
                         obj.Active = false
-                    elseif innertable[2] == "consumable" then
+                    elseif item[2] == "consumable" then
                         obj.AcquiredCount = 0
                     else
-                        log_debug_archipelago(string.format("onClear: unknown item type %s for code %s", innertable[2], innertable[1]))
+                        log_debug_archipelago(string.format("onClear: unknown item type %s for code %s", item[2],
+                            item[1]))
                     end
-                elseif
-                    log_debug_archipelago(string.format("onClear: could not find object for code %s", innertable[1]))
+                else
+                    log_debug_archipelago(string.format("onClear: could not find object for code %s", item[1]))
                 end
             end
         end
     end
-    log_debug(dump_table(SLOT_DATA))
+
+    log_debug("onClear: Items reset successfully.")
 
     PLAYER_ID = Archipelago.PlayerNumber or -1
-	TEAM_NUMBER = Archipelago.TeamNumber or 0
+    TEAM_NUMBER = Archipelago.TeamNumber or 0
 
+    log_debug("onClear: Player ID and Team Number reset successfully.")
+
+    -- TODO add in other slot options tracking (sanities, etc)
     if slot_data["strawberries_required"] ~= nil then
-        Tracker:FindObjectForCode("berriesrequired").AcquiredCount = tonumber(slot_data["strawberries_required"])
-    end
-    if slot_data["hearts_required"] ~= nil then
-        Tracker:FindObjectForCode("heartsrequired").AcquiredCount = tonumber(slot_data["hearts_required"])
-    end
-    if slot_data["cassettes_required"] ~= nil then
-        Tracker:FindObjectForCode("cassettesrequired").AcquiredCount = tonumber(slot_data["cassettes_required"])
-    end
-    if slot_data["levels_required"] ~= nil then
-        Tracker:FindObjectForCode("comprequired").AcquiredCount = tonumber(slot_data["levels_required"])
+        Tracker:FindObjectForCode("berries_required").AcquiredCount = tonumber(slot_data["strawberries_required"])
     end
     if slot_data["goal_level"] then
-        Tracker:FindObjectForCode("goal").CurrentStage = tonumber(slot_data["goal_level"])
-    end
-    if slot_data["disable_heart_gates"] then
-        Tracker:FindObjectForCode("gateshidden").CurrentStage = tonumber(slot_data["disable_heart_gates"])
+        Tracker:FindObjectForCode("goal").CurrentStage = slot_data["goal_level"]
     end
 
+    log_debug("onClear: Goal tracking properties reset successfully.")
+
     if Archipelago.PlayerNumber > -1 then
-    
-        HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
+        HINTS_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
+
+        log_debug(string.format("onClear: Setting hint notifications using Hint ID - %s.", HINTS_ID))
         log_debug(string.format("hints table dump: %s", dump_table(HINTS_ID)))
-    
+
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
+        log_debug("onClear: Set hint notifications successfully.")
     end
 end
 
@@ -92,58 +98,65 @@ function onItem(index, item_id, item_name, player_number)
     end
     local is_local = player_number == Archipelago.PlayerNumber
 
+    log_debug(string.format("onItem called for local player: index %s, item_id %s, item_name %s", index, item_id,
+        item_name))
+
     CUR_INDEX = index;
-    local v = ITEM_MAPPING[item_id]
-    for _, innertable in pairs(v) do
-        if not innertable then
+    local item_map = ITEM_MAPPING[item_id]
+    for _, item in pairs(item_map) do
+        if not item then
             log_debug_archipelago(string.format("onItem: could not find item mapping for id %s", item_id))
             return
         end
-        if not innertable[1] then
+        if not item[1] then
+            log_debug_archipelago(string.format("onItem: item entry found with missing first table entry for id %s",
+                item_id))
             return
         end
-        local obj = Tracker:FindObjectForCode(innertable[1])
+        local obj = Tracker:FindObjectForCode(item[1])
         if obj then
-            if innertable[2] == "toggle" then
+            if item[2] == "toggle" then
                 obj.Active = true
-            elseif innertable[2] == "progressive" then
+            elseif item[2] == "progressive" then
                 if obj.Active then
                     obj.CurrentStage = obj.CurrentStage + 1
                 else
                     obj.Active = true
                 end
-            elseif innertable[2] == "consumable" then
+            elseif item[2] == "consumable" then
                 obj.AcquiredCount = obj.AcquiredCount + obj.Increment
             else
-                log_debug_archipelago(string.format("onItem: unknown item type %s for code %s", innertable[2], innertable[1]))
+                log_debug_archipelago(string.format("onItem: unknown item type %s for code %s", item[2], item[1]))
             end
         else
-            log_debug_archipelago(string.format("onItem: could not find object for code %s", innertable[1]))
+            log_debug_archipelago(string.format("onItem: could not find object for code %s", item[1]))
         end
         if is_local then
-            if LOCAL_ITEMS[innertable[1]] then
-                LOCAL_ITEMS[innertable[1]] = LOCAL_ITEMS[innertable[1]] + 1
+            if LOCAL_ITEMS[item[1]] then
+                LOCAL_ITEMS[item[1]] = LOCAL_ITEMS[item[1]] + 1
             else
-                LOCAL_ITEMS[innertable[1]] = 1
+                LOCAL_ITEMS[item[1]] = 1
             end
         else
-            if GLOBAL_ITEMS[innertable[1]] then
-                GLOBAL_ITEMS[innertable[1]] = GLOBAL_ITEMS[innertable[1]] + 1
+            if GLOBAL_ITEMS[item[1]] then
+                GLOBAL_ITEMS[item[1]] = GLOBAL_ITEMS[item[1]] + 1
             else
-                GLOBAL_ITEMS[innertable[1]] = 1
+                GLOBAL_ITEMS[item[1]] = 1
             end
         end
     end
 end
 
 function onLocation(location_id, location_name)
-    local location_array = LOCATION_MAPPING[location_id]
-    if not location_array or not location_array[1] then
+    log_debug(string.format("onLocation called: location_id %s, location_name %s", location_id, location_name))
+
+    local location_mapping = LOCATION_MAPPING[location_id]
+    if not location_mapping or not location_mapping[1] then
         log_debug(string.format("onLocation: could not find location mapping for id %s", location_id))
         return
     end
 
-    for _, location in pairs(location_array) do
+    for _, location in pairs(location_mapping) do
         local obj = Tracker:FindObjectForCode(location)
         if obj then
             if location:sub(1, 1) == "@" then
@@ -158,14 +171,16 @@ function onLocation(location_id, location_name)
 end
 
 function onNotify(key, value, old_value)
+    log_debug(string.format("onNotify called: key %s, value %s, old_value %s", key, value, old_value))
 
     if value ~= old_value and key == HINTS_ID then
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
                 if not hint.found then
                     updateHints(hint.location)
-                else if hint.found then
-                    updateHintsClear(hint.location)
+                else
+                    if hint.found then
+                        updateHintsClear(hint.location)
                     end
                 end
             end
@@ -174,13 +189,15 @@ function onNotify(key, value, old_value)
 end
 
 function onNotifyLaunch(key, value)
+    log_debug(string.format("onNotifyLaunch called: key %s, value %s", key, value))
+
     if key == HINTS_ID then
         for _, hint in ipairs(value) do
             if hint.finding_player == Archipelago.PlayerNumber then
                 if not hint.found then
                     updateHints(hint.location)
                 elseif hint.found then
-                    updateHintsClear(hint.location)     
+                    updateHintsClear(hint.location)
                 end
             end
         end
@@ -188,56 +205,31 @@ function onNotifyLaunch(key, value)
 end
 
 function updateHints(locationID)
-    local item_codes = HINTS_MAPPING[locationID]
-
-    for _, item_code in ipairs(item_codes) do
-        local obj = Tracker:FindObjectForCode(item_code)
-        if obj then
-            obj.Active = true
-        else
-            log_debug(string.format("No object found for code: %s", item_code))
-        end
-    end
+    log_debug_archipelago(string.format("called updateHints: %s", locationID))
 end
- 
-function updateHintsClear(locationID)
-    local item_codes = HINTS_MAPPING[locationID]
 
-    for _, item_code in ipairs(item_codes) do
-        local obj = Tracker:FindObjectForCode(item_code)
-        if obj then
-            obj.Active = false
-        else
-            log_debug(string.format("No object found for code: %s", item_code))
-        end
-    end
+function updateHintsClear(locationID)
+    log_debug_archipelago(string.format("called updateHintsClear: %s", locationID))
 end
 
 function onScout(location_id, location_name, item_id, item_name, item_player)
-    log_debug_archipelago(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name, item_player))
+    log_debug_archipelago(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id,
+        item_name, item_player))
 end
 
 function onBounce(json)
     log_debug_archipelago(string.format("called onBounce: %s", dump_table(json)))
 end
 
-function parseCelestePlayState(value)
-    local is_overworld, level, side, room = string.format(value:match("^(%d);(%d+);(%d+);(.+)$"))
-    is_overworld = tonumber(is_overworld)
-    level = tonumber(level)
-    side = tonumber(side)
-    return is_overworld, level, side, room
-end
+function updateTabs(raw_celeste_play_state)
+    if raw_celeste_play_state ~= nil then
 
-function updateTabs(value)
-    if value ~= nil then
+        log_debug(string.format("updateTabs called with raw celeste play state: %s", raw_celeste_play_state))
 
-        log_debug(string.format("Raw celeste play state: %s", value))
+        local is_overworld, level, side, room = _parseRawCelestePlayState(raw_celeste_play_state)
 
-        local is_overworld, level, side, room = parseCelestePlayState(value)
-
-        log_debug(string.format("Parsed celeste play state - IsOverworld: %d, Level: %d, Side: %d, Room: %s", is_overworld, level, side, room))
-
+        log_debug(string.format("Parsed celeste play state - IsOverworld: %d, Level: %d, Side: %d, Room: %s",
+            is_overworld, level, side, room))
 
         local tabswitch = Tracker:FindObjectForCode("tab_switch")
         Tracker:FindObjectForCode("cur_level_id").CurrentStage = level
@@ -265,6 +257,16 @@ function updateTabs(value)
             end
         end
     end
+end
+
+--- Parse a raw celeste play state string into usable variables.
+---@param raw_celeste_play_state string
+function _parseRawCelestePlayState(raw_celeste_play_state)
+    local is_overworld, level, side, room = string.format(raw_celeste_play_state:match("^(%d);(%d+);(%d+);(.+)$"))
+    is_overworld = tonumber(is_overworld)
+    level = tonumber(level)
+    side = tonumber(side)
+    return is_overworld, level, side, room
 end
 
 Archipelago:AddClearHandler("clear handler", onClear)

@@ -40,16 +40,16 @@ function onClear(slot_data)
                         obj.Active = false
                     elseif innertable[2] == "consumable" then
                         obj.AcquiredCount = 0
-                    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                        print(string.format("onClear: unknown item type %s for code %s", innertable[2], innertable[1]))
+                    else
+                        log_debug_archipelago(string.format("onClear: unknown item type %s for code %s", innertable[2], innertable[1]))
                     end
-                elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                    print(string.format("onClear: could not find object for code %s", innertable[1]))
+                elseif
+                    log_debug_archipelago(string.format("onClear: could not find object for code %s", innertable[1]))
                 end
             end
         end
     end
-    print(dump_table(SLOT_DATA))
+    log_debug(dump_table(SLOT_DATA))
 
     PLAYER_ID = Archipelago.PlayerNumber or -1
 	TEAM_NUMBER = Archipelago.TeamNumber or 0
@@ -76,7 +76,7 @@ function onClear(slot_data)
     if Archipelago.PlayerNumber > -1 then
     
         HINTS_ID = "_read_hints_"..TEAM_NUMBER.."_"..PLAYER_ID
-        print(string.format("hints table dump: %s", dump_table(HINTS_ID)))
+        log_debug(string.format("hints table dump: %s", dump_table(HINTS_ID)))
     
         Archipelago:SetNotify({HINTS_ID})
         Archipelago:Get({HINTS_ID})
@@ -96,9 +96,7 @@ function onItem(index, item_id, item_name, player_number)
     local v = ITEM_MAPPING[item_id]
     for _, innertable in pairs(v) do
         if not innertable then
-            if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onItem: could not find item mapping for id %s", item_id))
-            end
+            log_debug_archipelago(string.format("onItem: could not find item mapping for id %s", item_id))
             return
         end
         if not innertable[1] then
@@ -116,11 +114,11 @@ function onItem(index, item_id, item_name, player_number)
                 end
             elseif innertable[2] == "consumable" then
                 obj.AcquiredCount = obj.AcquiredCount + obj.Increment
-            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onItem: unknown item type %s for code %s", innertable[2], innertable[1]))
+            else
+                log_debug_archipelago(string.format("onItem: unknown item type %s for code %s", innertable[2], innertable[1]))
             end
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onItem: could not find object for code %s", innertable[1]))
+        else
+            log_debug_archipelago(string.format("onItem: could not find object for code %s", innertable[1]))
         end
         if is_local then
             if LOCAL_ITEMS[innertable[1]] then
@@ -141,7 +139,7 @@ end
 function onLocation(location_id, location_name)
     local location_array = LOCATION_MAPPING[location_id]
     if not location_array or not location_array[1] then
-        print(string.format("onLocation: could not find location mapping for id %s", location_id))
+        log_debug(string.format("onLocation: could not find location mapping for id %s", location_id))
         return
     end
 
@@ -154,7 +152,7 @@ function onLocation(location_id, location_name)
                 obj.Active = true
             end
         else
-            print(string.format("onLocation: could not find object for code %s", location))
+            log_debug(string.format("onLocation: could not find object for code %s", location))
         end
     end
 end
@@ -182,8 +180,7 @@ function onNotifyLaunch(key, value)
                 if not hint.found then
                     updateHints(hint.location)
                 elseif hint.found then
-                    updateHintsClear(hint.location)
-                    
+                    updateHintsClear(hint.location)     
                 end
             end
         end
@@ -198,7 +195,7 @@ function updateHints(locationID)
         if obj then
             obj.Active = true
         else
-            print(string.format("No object found for code: %s", item_code))
+            log_debug(string.format("No object found for code: %s", item_code))
         end
     end
 end
@@ -211,22 +208,17 @@ function updateHintsClear(locationID)
         if obj then
             obj.Active = false
         else
-            print(string.format("No object found for code: %s", item_code))
+            log_debug(string.format("No object found for code: %s", item_code))
         end
     end
 end
 
 function onScout(location_id, location_name, item_id, item_name, item_player)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name,
-            item_player))
-    end
+    log_debug_archipelago(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id, item_name, item_player))
 end
 
 function onBounce(json)
-    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-        print(string.format("called onBounce: %s", dump_table(json)))
-    end
+    log_debug_archipelago(string.format("called onBounce: %s", dump_table(json)))
 end
 
 function parseCelestePlayState(value)
@@ -239,11 +231,13 @@ end
 
 function updateTabs(value)
     if value ~= nil then
-        print("celeste_play_state isn't nil!!")
-        print(string.format("Raw celeste_play_state: %s", value))
+
+        log_debug(string.format("Raw celeste play state: %s", value))
+
         local is_overworld, level, side, room = parseCelestePlayState(value)
 
-        print(string.format("Parsed CelestePlayState - IsOverworld: %d, Level: %d, Side: %d, Room: %s", is_overworld, level, side, room))
+        log_debug(string.format("Parsed celeste play state - IsOverworld: %d, Level: %d, Side: %d, Room: %s", is_overworld, level, side, room))
+
 
         local tabswitch = Tracker:FindObjectForCode("tab_switch")
         Tracker:FindObjectForCode("cur_level_id").CurrentStage = level
@@ -258,15 +252,15 @@ function updateTabs(value)
                     end
                     if #roomTabs > 0 then
                         for _, tab in ipairs(roomTabs) do
-                            print(string.format("Updating ID %s to Tab %s", key, tab))
+                            log_debug(string.format("Updating ID %s to Tab %s", key, tab))
                             Tracker:UiHint("ActivateTab", tab)
                         end
                         lastRoomID = celeste_play_state
                     else
-                        print(string.format("Failed to find tabs for ID %s", key))
+                        log_debug(string.format("Failed to find tabs for ID %s", key))
                     end
                 else
-                    print(string.format("Failed to find Tab ID %s", key))
+                    log_debug(string.format("Failed to find Tab ID %s", key))
                 end
             end
         end

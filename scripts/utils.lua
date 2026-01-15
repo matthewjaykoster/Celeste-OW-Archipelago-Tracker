@@ -1,3 +1,17 @@
+-- Writes a message to console if debug logging is enabled.
+function log_debug(message)
+    if ENABLE_DEBUG_LOG then
+        print(message)
+    end
+end
+
+-- Writes a message to console if archipelago debug logging is enabled.
+function log_debug_archipelago(message)
+    if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+        print(message)
+    end
+end
+
 -- from https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console
 -- dumps a table in a readable string
 function dump_table(o, depth)
@@ -23,9 +37,7 @@ end
 function has_more_then_n_consumable(n)
     local count = Tracker:ProviderCountForCode('consumable')
     local val = (count > tonumber(n))
-    if ENABLE_DEBUG_LOG then
-        print(string.format("called has_more_then_n_consumable: count: %s, n: %s, val: %s", count, n, val))
-    end
+    log_debug(string.format("called has_more_then_n_consumable: count: %s, n: %s, val: %s", count, n, val))
     if val then
         return 1
     end
@@ -84,10 +96,10 @@ end
 
 function GATESWITCH()
     if Tracker:FindObjectForCode("gateshidden").CurrentStage == 1 then 
-        print("hi")
+        log_debug("Switching gates to to hidden.")
         Tracker:FindObjectForCode("gates").CurrentStage = 0
     elseif Tracker:FindObjectForCode("gateshidden").CurrentStage == 0 then 
-        print("bye")
+        log_debug("Switching gates to to visible.")
         Tracker:FindObjectForCode("gates").CurrentStage = 1
     end
 end

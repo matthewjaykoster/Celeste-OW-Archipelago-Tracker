@@ -186,11 +186,11 @@
         "codes": "cur_level_id"
 	},
 	{
-        "name": "Test",
-        "type": "toggle",
-        "img": "images/items/items/complete.png",
+        "name": "Layout Spacer 90x64",
+        "type": "static",
+        "img": "images/items/labels/spacer_90_64.png",
         "disabled_img": "",
-        "codes": "test"
+        "codes": "layout_spacer"
 	},
 	{
 	  "name": "Auto-Tab",

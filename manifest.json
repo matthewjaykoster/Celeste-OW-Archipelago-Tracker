@@ -1,15 +1,18 @@
 ﻿{
-    "name": "Celeste PopTracker",
+    "name": "Celeste Open World Archipelago",
     "game_name": "Celeste",
-    "package_version": "3.0.0",
-    "package_uid": "celeste",
+    "package_version": "0.0.9",
+    "package_uid": "celeste_ow_ap",
     "platform": "steam",
-    "author": "Seto10987",
+    "author": "matthewjaykoster",
     "variants": {
-        "standard": {
+        "Map Tracker": {
             "display_name": "Map Tracker",
-            "flags": ["ap"]
+            "flags": [
+                "ap"
+            ]
         }
     },
-	"versions_url": "https://raw.githubusercontent.com/seto10987/Celeste-AP-Tracker/versions/versions.json"
+    "versions_url": "TODO",
+    "min_poptracker_version": "0.33.0"
 }

@@ -1,7 +1,6 @@
 CURRENT_ROOM = nil
 CURRENT_ROOM_ADDRESS = "0;1;0;2"
 
-
 TAB_MAPPING = {
     ["0;1;0;2"] = "Chapter Select/Chapter Select",
     ["0;1;0;3"] = "Chapter Select/Chapter Select",

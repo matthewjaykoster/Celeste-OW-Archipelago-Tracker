@@ -3,95 +3,71 @@
         "name": "Forsaken City A",
         "chest_unopened_img": "images/items/items/berry.png",
         "chest_opened_img": "images/items/items/berry2.png",
-        "sections": [
-            {
-                "name": "Room 2 Strawberry"
-            },
-            {
-                "name": "Room 3 Strawberry"
-            },
-            {
-                "name": "Room 3b Strawberry"
-            },
-            {
-                "name": "Room 5 Strawberry"
-            },
-            {
-                "name": "Room 5z Strawberry"
-            },
-            {
-                "name": "Room 5a Strawberry"
-            },
-            {
-                "name": "Room 6 Strawberry"
-            },
-            {
-                "name": "Room 7zb Strawberry"
-            },
-            {
-                "name": "Room s1 Strawberry"
-            },
-            {
-                "name": "Room 7z Strawberry"
-            },
-            {
-                "name": "Room 8zb Strawberry"
-            },
-            {
-                "name": "Room 7a Strawberry"
-            },
-            {
-                "name": "Room 9z Strawberry"
-            },
-            {
-                "name": "Room 8b Strawberry"
-            },
-            {
-                "name": "Room 9 Strawberry"
-            },
-            {
-                "name": "Room 9b Strawberry"
-            },
-            {
-                "name": "Room 9c Strawberry"
-            },
-            {
-                "name": "Room 10zb Strawberry"
-            },
-            {
-                "name": "Room 11 Strawberry"
-            },
-            {
-                "name": "Room 12z Strawberry"
-            },
-            {
-                "name": "Crystal Heart",
-                "chest_unopened_img": "images/items/items/blue_heart.png",
-                "chest_opened_img": "images/items/items/blue_heart2.png"
-            },
-            {
-                "name": "Cassette",
-                "chest_unopened_img": "images/items/items/cassette.png",
-                "chest_opened_img": "images/items/items/cassette2.png"
-            },
-            {
-                "name": "Level Clear",
-                "chest_unopened_img": "images/items/items/complete.png",
-                "chest_opened_img": "images/items/items/complete2.png"
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "celeste_chapter_select",
-                "x": 232,
-                "y": 173
-            }
-        ],
         "children": [
             {
-                "name": "City B-Side",
-                "access_rules": [],
+                "name": "Start",
+                "chest_unopened_img": "images/items/items/berry.png",
+                "chest_opened_img": "images/items/items/berry2.png",
                 "sections": [
+                    {
+                        "name": "Room 2 Strawberry"
+                    },
+                    {
+                        "name": "Room 3 Strawberry"
+                    },
+                    {
+                        "name": "Room 3b Strawberry"
+                    },
+                    {
+                        "name": "Room 5 Strawberry"
+                    },
+                    {
+                        "name": "Room 5z Strawberry"
+                    },
+                    {
+                        "name": "Room 5a Strawberry"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 215,
+                        "y": 173
+                    }
+                ]
+            },
+            {
+                "name": "Crossing",
+                "chest_unopened_img": "images/items/items/berry.png",
+                "chest_opened_img": "images/items/items/berry2.png",
+                "sections": [
+                    {
+                        "name": "Room 6 Strawberry"
+                    },
+                    {
+                        "name": "Room 7zb Strawberry"
+                    },
+                    {
+                        "name": "Room s1 Strawberry"
+                    },
+                    {
+                        "name": "Room 7z Strawberry"
+                    },
+                    {
+                        "name": "Room 8zb Strawberry"
+                    },
+                    {
+                        "name": "Room 7a Strawberry"
+                    },
+                    {
+                        "name": "Room 9z Strawberry"
+                    },
+                    {
+                        "name": "Room 8b Strawberry"
+                    },
+                    {
+                        "name": "Room 9 Strawberry"
+                    },
                     {
                         "name": "Crystal Heart",
                         "chest_unopened_img": "images/items/items/blue_heart.png",
@@ -101,39 +77,62 @@
                 "map_locations": [
                     {
                         "map": "celeste_chapter_select",
-                        "x": 232,
-                        "y": 279
+                        "x": 249,
+                        "y": 173
                     }
                 ]
             },
             {
-                "name": "City C-Side",
-                "access_rules": [],
+                "name": "Chasm",
+                "chest_unopened_img": "images/items/items/berry.png",
+                "chest_opened_img": "images/items/items/berry2.png",
                 "sections": [
                     {
-                        "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/items/yellow_heart.png",
-                        "chest_opened_img": "images/items/items/yellow_heart2.png"
+                        "name": "Room 9b Strawberry"
+                    },
+                    {
+                        "name": "Room 9c Strawberry"
+                    },
+                    {
+                        "name": "Room 10zb Strawberry"
+                    },
+                    {
+                        "name": "Room 11 Strawberry"
+                    },
+                    {
+                        "name": "Room 12z Strawberry"
+                    },
+                    {
+                        "name": "Cassette",
+                        "chest_unopened_img": "images/items/items/cassette.png",
+                        "chest_opened_img": "images/items/items/cassette2.png"
+                    },
+                    {
+                        "name": "Level Clear",
+                        "chest_unopened_img": "images/items/items/complete.png",
+                        "chest_opened_img": "images/items/items/complete2.png"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 232,
-                        "y": 319
+                        "y": 206
                     }
                 ]
             }
         ]
     },
     {
-        "name": "City-Start",
+        "name": "Forsaken City A Start Map",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
         "children": [
             {
                 "sections": [
                     {
                         "name": "Room 2 Strawberry",
-                        "ref": "Forsaken City A/Room 2 Strawberry"
+                        "ref": "Forsaken City A/Start/Room 2 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -148,7 +147,7 @@
                 "sections": [
                     {
                         "name": "Room 3 Strawberry",
-                        "ref": "Forsaken City A/Room 3 Strawberry"
+                        "ref": "Forsaken City A/Start/Room 3 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -163,7 +162,7 @@
                 "sections": [
                     {
                         "name": "Room 3b Strawberry",
-                        "ref": "Forsaken City A/Room 3b Strawberry"
+                        "ref": "Forsaken City A/Start/Room 3b Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -178,7 +177,7 @@
                 "sections": [
                     {
                         "name": "Room 5z Strawberry",
-                        "ref": "Forsaken City A/Room 5 Strawberry"
+                        "ref": "Forsaken City A/Start/Room 5z Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -193,7 +192,7 @@
                 "sections": [
                     {
                         "name": "Room 5 Strawberry",
-                        "ref": "Forsaken City A/Room 5z Strawberry"
+                        "ref": "Forsaken City A/Start/Room 5 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -208,7 +207,7 @@
                 "sections": [
                     {
                         "name": "Room 5a Strawberry",
-                        "ref": "Forsaken City A/Room 5a Strawberry"
+                        "ref": "Forsaken City A/Start/Room 5a Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -222,28 +221,15 @@
         ]
     },
     {
-        "name": "City-Crossing",
+        "name": "Forsaken City A Crossing Map",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
         "children": [
             {
                 "sections": [
                     {
-                        "name": "Strawberry 7",
-                        "ref": "City/City A-Side - Crossing/Strawberry 7"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "city_crossing",
-                        "x": 40,
-                        "y": 735
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Strawberry 8",
-                        "ref": "City/City A-Side - Crossing/Strawberry 8"
+                        "name": "Room 6 Strawberry",
+                        "ref": "Forsaken City A/Crossing/Room 6 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -257,8 +243,23 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 9",
-                        "ref": "City/City A-Side - Crossing/Strawberry 9"
+                        "name": "Room 7zb Strawberry",
+                        "ref": "Forsaken City A/Crossing/Room 7zb Strawberry"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "city_crossing",
+                        "x": 40,
+                        "y": 735
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Room s1 Strawberry",
+                        "ref": "Forsaken City A/Crossing/Room s1 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -272,8 +273,23 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 10",
-                        "ref": "City/City A-Side - Crossing/Strawberry 10"
+                        "name": "Crystal Heart",
+                        "ref": "Forsaken City A/Crossing/Crystal Heart"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "city_crossing",
+                        "x": 511,
+                        "y": 570
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Room 7z Strawberry",
+                        "ref": "Forsaken City A/Crossing/Room 7z Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -287,8 +303,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 11",
-                        "ref": "City/City A-Side - Crossing/Strawberry 11"
+                        "name": "Room 8zb Strawberry",
+                        "ref": "Forsaken City A/Crossing/Room 8zb Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -302,8 +318,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 12",
-                        "ref": "City/City A-Side - Crossing/Strawberry 12"
+                        "name": "Room 7a Strawberry",
+                        "ref": "Forsaken City A/Crossing/Room 7a Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -317,8 +333,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 13",
-                        "ref": "City/City A-Side - Crossing/Strawberry 13"
+                        "name": "Room 9z Strawberry",
+                        "ref": "Forsaken City A/Crossing/Room 9z Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -332,8 +348,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 14",
-                        "ref": "City/City A-Side - Crossing/Strawberry 14"
+                        "name": "Room 8b Strawberry",
+                        "ref": "Forsaken City A/Crossing/Room 8b Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -347,8 +363,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 15",
-                        "ref": "City/City A-Side - Crossing/Strawberry 15"
+                        "name": "Room 9 Strawberry",
+                        "ref": "Forsaken City A/Crossing/Room 9 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -358,32 +374,19 @@
                         "y": 104
                     }
                 ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Crystal Heart",
-                        "ref": "City/City A-Side - Crossing/Crystal Heart"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "city_crossing",
-                        "x": 511,
-                        "y": 570
-                    }
-                ]
             }
         ]
     },
     {
-        "name": "City-Chasm",
+        "name": "Forsaken City A Chasm Map",
+        "chest_unopened_img": "images/items/items/berry.png",
+        "chest_opened_img": "images/items/items/berry2.png",
         "children": [
             {
                 "sections": [
                     {
-                        "name": "Strawberry 16",
-                        "ref": "City/City A-Side - Chasm/Strawberry 16"
+                        "name": "Room 9b Strawberry",
+                        "ref": "Forsaken City A/Chasm/Room 9b Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -397,8 +400,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 17",
-                        "ref": "City/City A-Side - Chasm/Strawberry 17"
+                        "name": "Room 9c Strawberry",
+                        "ref": "Forsaken City A/Chasm/Room 9c Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -412,8 +415,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 18",
-                        "ref": "City/City A-Side - Chasm/Strawberry 18"
+                        "name": "Room 10zb Strawberry",
+                        "ref": "Forsaken City A/Chasm/Room 10zb Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -427,8 +430,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 19",
-                        "ref": "City/City A-Side - Chasm/Strawberry 19"
+                        "name": "Room 11 Strawberry",
+                        "ref": "Forsaken City A/Chasm/Room 11 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -442,8 +445,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 20",
-                        "ref": "City/City A-Side - Chasm/Strawberry 20"
+                        "name": "Room 12z Strawberry",
+                        "ref": "Forsaken City A/Chasm/Room 12z Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -458,7 +461,7 @@
                 "sections": [
                     {
                         "name": "Cassette",
-                        "ref": "City/City A-Side - Chasm/Cassette"
+                        "ref": "Forsaken City A/Chasm/Cassette"
                     }
                 ],
                 "map_locations": [
@@ -472,8 +475,8 @@
             {
                 "sections": [
                     {
-                        "name": "Level Complete",
-                        "ref": "City/City A-Side - Chasm/Level Complete"
+                        "name": "Level Clear",
+                        "ref": "Forsaken City A/Chasm/Level Clear"
                     }
                 ],
                 "map_locations": [
@@ -483,6 +486,45 @@
                         "y": 105
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Forsaken City B",
+        "sections": [
+            {
+                "name": "Crystal Heart",
+                "chest_unopened_img": "images/items/items/blue_heart.png",
+                "chest_opened_img": "images/items/items/blue_heart2.png"
+            },
+            {
+                "name": "Level Clear",
+                "chest_unopened_img": "images/items/items/complete.png",
+                "chest_opened_img": "images/items/items/complete2.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "celeste_chapter_select",
+                "x": 232,
+                "y": 279
+            }
+        ]
+    },
+    {
+        "name": "Forsaken City C",
+        "sections": [
+            {
+                "name": "Level Clear",
+                "chest_unopened_img": "images/items/items/complete.png",
+                "chest_opened_img": "images/items/items/complete2.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "celeste_chapter_select",
+                "x": 232,
+                "y": 319
             }
         ]
     }

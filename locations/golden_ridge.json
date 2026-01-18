@@ -145,7 +145,7 @@
                         "name": "Strawberry 29"
                     },
                     {
-                        "name": "Level Complete",
+                        "name": "Level Clear",
                         "chest_unopened_img": "images/items/items/complete.png",
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
@@ -168,7 +168,7 @@
                         "chest_opened_img": "images/items/items/red_heart2.png"
                     },
                     {
-                        "name": "Level Complete",
+                        "name": "Level Clear",
                         "chest_unopened_img": "images/items/items/complete.png",
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
@@ -191,7 +191,7 @@
                         "chest_opened_img": "images/items/items/yellow_heart2.png"
                     },
                     {
-                        "name": "Level Complete",
+                        "name": "Level Clear",
                         "chest_unopened_img": "images/items/items/complete.png",
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
@@ -692,7 +692,7 @@
             {
                 "sections": [
                     {
-                        "name": "Level Complete",
+                        "name": "Level Clear",
                         "ref": "Ridge/Ridge A-Side - Cliff Face/Level Complete"
                     }
                 ],

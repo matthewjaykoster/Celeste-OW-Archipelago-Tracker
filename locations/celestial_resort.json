@@ -1,45 +1,45 @@
 [
     {
-        "name": "Hotel",
+        "name": "Celestial Resort A",
         "chest_unopened_img": "images/items/items/berry.png",
         "chest_opened_img": "images/items/items/berry2.png",
         "children": [
             {
-                "name": "Hotel A-Side - Start",
+                "name": "Start",
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Strawberry 1"
+                        "name": "Room s2 Strawberry 1"
                     },
                     {
-                        "name": "Strawberry 2"
+                        "name": "Room s2 Strawberry 2"
                     },
                     {
-                        "name": "Strawberry 3"
+                        "name": "Room s3 Strawberry"
                     },
                     {
-                        "name": "Strawberry 4"
+                        "name": "Room 00-a Strawberry"
                     },
                     {
-                        "name": "Strawberry 5"
+                        "name": "Room 00-b Strawberry"
                     },
                     {
-                        "name": "Strawberry 6"
+                        "name": "Room 04-b Strawberry"
                     },
                     {
-                        "name": "Strawberry 7"
+                        "name": "Room 06-a Strawberry"
                     },
                     {
-                        "name": "Strawberry 8"
+                        "name": "Room 07-b Strawberry"
                     },
                     {
-                        "name": "Strawberry 9"
+                        "name": "Room 06-b Strawberry"
                     },
                     {
-                        "name": "Strawberry 10"
+                        "name": "Room 06-c Strawberry"
                     },
                     {
-                        "name": "Strawberry 11"
+                        "name": "Room 05-c Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -51,29 +51,29 @@
                 ]
             },
             {
-                "name": "Hotel A-Side - Huge Mess",
+                "name": "Huge Mess",
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Strawberry 12"
+                        "name": "Room 12-y Strawberry"
                     },
                     {
-                        "name": "Strawberry 13"
+                        "name": "Room 10-y Strawberry"
                     },
                     {
-                        "name": "Strawberry 14"
+                        "name": "Room 12-c Strawberry"
                     },
                     {
-                        "name": "Strawberry 15"
+                        "name": "Room 11-d Strawberry"
                     },
                     {
-                        "name": "Strawberry 16"
+                        "name": "Room 13-b Strawberry"
                     },
                     {
-                        "name": "Strawberry 17"
+                        "name": "Room 13-x Strawberry"
                     },
                     {
-                        "name": "Strawberry 18"
+                        "name": "Room 08-x Strawberry"
                     },
                     {
                         "name": "Crystal Heart",
@@ -90,20 +90,20 @@
                 ]
             },
             {
-                "name": "Hotel A-Side - Elevator Shaft",
+                "name": "Elevator Shaft",
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Strawberry 19"
+                        "name": "Room 06-d Strawberry"
                     },
                     {
-                        "name": "Strawberry 20"
+                        "name": "Room 04-c Strawberry"
                     },
                     {
-                        "name": "Strawberry 21"
+                        "name": "Room 03-b Strawberry 1"
                     },
                     {
-                        "name": "Strawberry 22"
+                        "name": "Room 03-b Strawberry 2"
                     },
                     {
                         "name": "Cassette",
@@ -120,20 +120,20 @@
                 ]
             },
             {
-                "name": "Hotel A-Side - Presidential Suite",
+                "name": "Presidential Suite",
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Strawberry 23"
+                        "name": "Room roof03 Strawberry"
                     },
                     {
-                        "name": "Strawberry 24"
+                        "name": "Room roof06 Strawberry 1"
                     },
                     {
-                        "name": "Strawberry 25"
+                        "name": "Room roof06 Strawberry 2"
                     },
                     {
-                        "name": "Level Complete",
+                        "name": "Level Clear",
                         "chest_unopened_img": "images/items/items/complete.png",
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
@@ -156,7 +156,7 @@
                         "chest_opened_img": "images/items/items/red_heart2.png"
                     },
                     {
-                        "name": "Level Complete",
+                        "name": "Level Clear",
                         "chest_unopened_img": "images/items/items/complete.png",
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
@@ -179,7 +179,7 @@
                         "chest_opened_img": "images/items/items/yellow_heart2.png"
                     },
                     {
-                        "name": "Level Complete",
+                        "name": "Level Clear",
                         "chest_unopened_img": "images/items/items/complete.png",
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
@@ -195,13 +195,13 @@
         ]
     },
     {
-        "name": "Hotel-Start",
+        "name": "Celestial Resort A Start Map",
         "children": [
             {
                 "sections": [
                     {
-                        "name": "Strawberry 1",
-                        "ref": "Hotel/Hotel A-Side - Start/Strawberry 1"
+                        "name": "Room s2 Strawberry 1",
+                        "ref": "Celestial Resort A/Start/Room s2 Strawberry 1"
                     }
                 ],
                 "map_locations": [
@@ -215,8 +215,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 2",
-                        "ref": "Hotel/Hotel A-Side - Start/Strawberry 2"
+                        "name": "Room s2 Strawberry 2",
+                        "ref": "Celestial Resort A/Start/Room s2 Strawberry 2"
                     }
                 ],
                 "map_locations": [
@@ -230,8 +230,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 3",
-                        "ref": "Hotel/Hotel A-Side - Start/Strawberry 3"
+                        "name": "Room s3 Strawberry",
+                        "ref": "Celestial Resort A/Start/Room s3 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -245,8 +245,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 4",
-                        "ref": "Hotel/Hotel A-Side - Start/Strawberry 4"
+                        "name": "Room 00-a Strawberry",
+                        "ref": "Celestial Resort A/Start/Room 00-a Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -260,8 +260,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 5",
-                        "ref": "Hotel/Hotel A-Side - Start/Strawberry 5"
+                        "name": "Room 00-b Strawberry",
+                        "ref": "Celestial Resort A/Start/Room 00-b Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -275,8 +275,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 6",
-                        "ref": "Hotel/Hotel A-Side - Start/Strawberry 6"
+                        "name": "Room 04-b Strawberry",
+                        "ref": "Celestial Resort A/Start/Room 04-b Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -290,8 +290,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 7",
-                        "ref": "Hotel/Hotel A-Side - Start/Strawberry 7"
+                        "name": "Room 06-a Strawberry",
+                        "ref": "Celestial Resort A/Start/Room 06-a Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -305,8 +305,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 8",
-                        "ref": "Hotel/Hotel A-Side - Start/Strawberry 8"
+                        "name": "Room 07-b Strawberry",
+                        "ref": "Celestial Resort A/Start/Room 07-b Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -320,8 +320,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 9",
-                        "ref": "Hotel/Hotel A-Side - Start/Strawberry 9"
+                        "name": "Room 06-b Strawberry",
+                        "ref": "Celestial Resort A/Start/Room 06-b Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -335,8 +335,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 10",
-                        "ref": "Hotel/Hotel A-Side - Start/Strawberry 10"
+                        "name": "Room 06-c Strawberry",
+                        "ref": "Celestial Resort A/Start/Room 06-c Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -350,8 +350,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 11",
-                        "ref": "Hotel/Hotel A-Side - Start/Strawberry 11"
+                        "name": "Room 05-c Strawberry",
+                        "ref": "Celestial Resort A/Start/Room 05-c Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -365,13 +365,13 @@
         ]
     },
     {
-        "name": "Hotel-Huge Mess",
+        "name": "Celestial Resort A Huge Mess Map",
         "children": [
             {
                 "sections": [
                     {
-                        "name": "Strawberry 12",
-                        "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 12"
+                        "name": "Room 12-y Strawberry",
+                        "ref": "Celestial Resort A/Huge Mess/Room 12-y Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -385,8 +385,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 13",
-                        "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 13"
+                        "name": "Room 10-y Strawberry",
+                        "ref": "Celestial Resort A/Huge Mess/Room 10-y Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -400,8 +400,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 14",
-                        "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 14"
+                        "name": "Room 12-c Strawberry",
+                        "ref": "Celestial Resort A/Huge Mess/Room 12-c Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -415,8 +415,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 15",
-                        "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 15"
+                        "name": "Room 11-d Strawberry",
+                        "ref": "Celestial Resort A/Huge Mess/Room 11-d Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -430,8 +430,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 16",
-                        "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 16"
+                        "name": "Room 13-b Strawberry",
+                        "ref": "Celestial Resort A/Huge Mess/Room 13-b Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -445,8 +445,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 17",
-                        "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 17"
+                        "name": "Room 13-x Strawberry",
+                        "ref": "Celestial Resort A/Huge Mess/Room 13-x Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -460,8 +460,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 18",
-                        "ref": "Hotel/Hotel A-Side - Huge Mess/Strawberry 18"
+                        "name": "Room 08-x Strawberry",
+                        "ref": "Celestial Resort A/Huge Mess/Room 08-x Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -476,7 +476,7 @@
                 "sections": [
                     {
                         "name": "Crystal Heart",
-                        "ref": "Hotel/Hotel A-Side - Huge Mess/Crystal Heart"
+                        "ref": "Celestial Resort A/Huge Mess/Crystal Heart"
                     }
                 ],
                 "map_locations": [
@@ -490,13 +490,13 @@
         ]
     },
     {
-        "name": "Hotel-Elevator Shaft",
+        "name": "Celestial Resort A Elevator Shaft Map",
         "children": [
             {
                 "sections": [
                     {
-                        "name": "Strawberry 19",
-                        "ref": "Hotel/Hotel A-Side - Elevator Shaft/Strawberry 19"
+                        "name": "Room 06-d Strawberry",
+                        "ref": "Celestial Resort A/Elevator Shaft/Room 06-d Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -510,8 +510,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 20",
-                        "ref": "Hotel/Hotel A-Side - Elevator Shaft/Strawberry 20"
+                        "name": "Room 04-c Strawberry",
+                        "ref": "Celestial Resort A/Elevator Shaft/Room 04-c Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -525,8 +525,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 21",
-                        "ref": "Hotel/Hotel A-Side - Elevator Shaft/Strawberry 21"
+                        "name": "Room 03-b Strawberry 1",
+                        "ref": "Celestial Resort A/Elevator Shaft/Room 03-b Strawberry 1"
                     }
                 ],
                 "map_locations": [
@@ -540,8 +540,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 22",
-                        "ref": "Hotel/Hotel A-Side - Elevator Shaft/Strawberry 22"
+                        "name": "Room 03-b Strawberry 2",
+                        "ref": "Celestial Resort A/Elevator Shaft/Room 03-b Strawberry 2"
                     }
                 ],
                 "map_locations": [
@@ -556,7 +556,7 @@
                 "sections": [
                     {
                         "name": "Cassette",
-                        "ref": "Hotel/Hotel A-Side - Elevator Shaft/Cassette"
+                        "ref": "Celestial Resort A/Elevator Shaft/Cassette"
                     }
                 ],
                 "map_locations": [
@@ -570,13 +570,13 @@
         ]
     },
     {
-        "name": "Hotel-Presidential Suite",
+        "name": "Celestial Resort A Presidential Suite Map",
         "children": [
             {
                 "sections": [
                     {
-                        "name": "Strawberry 23",
-                        "ref": "Hotel/Hotel A-Side - Presidential Suite/Strawberry 23"
+                        "name": "Room roof03 Strawberry",
+                        "ref": "Celestial Resort A/Presidential Suite/Room roof03 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -590,8 +590,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 24",
-                        "ref": "Hotel/Hotel A-Side - Presidential Suite/Strawberry 24"
+                        "name": "Room roof06 Strawberry 1",
+                        "ref": "Celestial Resort A/Presidential Suite/Room roof06 Strawberry 1"
                     }
                 ],
                 "map_locations": [
@@ -605,8 +605,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 25",
-                        "ref": "Hotel/Hotel A-Side - Presidential Suite/Strawberry 25"
+                        "name": "Room roof06 Strawberry 2",
+                        "ref": "Celestial Resort A/Presidential Suite/Room roof06 Strawberry 2"
                     }
                 ],
                 "map_locations": [
@@ -620,8 +620,8 @@
             {
                 "sections": [
                     {
-                        "name": "Level Complete",
-                        "ref": "Hotel/Hotel A-Side - Presidential Suite/Level Complete"
+                        "name": "Level Clear",
+                        "ref": "Celestial Resort A/Presidential Suite/Level Clear"
                     }
                 ],
                 "map_locations": [

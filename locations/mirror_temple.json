@@ -151,7 +151,7 @@
             "name": "Strawberry 31"
           },
           {
-            "name": "Level Complete",
+            "name": "Level Clear",
             "chest_unopened_img": "images/items/items/complete.png",
             "chest_opened_img": "images/items/items/complete2.png"
           }
@@ -174,7 +174,7 @@
             "chest_opened_img": "images/items/items/red_heart2.png"
           },
           {
-            "name": "Level Complete",
+            "name": "Level Clear",
             "chest_unopened_img": "images/items/items/complete.png",
             "chest_opened_img": "images/items/items/complete2.png"
           }
@@ -197,7 +197,7 @@
             "chest_opened_img": "images/items/items/yellow_heart2.png"
           },
           {
-            "name": "Level Complete",
+            "name": "Level Clear",
             "chest_unopened_img": "images/items/items/complete.png",
             "chest_opened_img": "images/items/items/complete2.png"
           }
@@ -728,7 +728,7 @@
       {
         "sections": [
           {
-            "name": "Level Complete",
+            "name": "Level Clear",
             "ref": "Mirror Temple/Mirror Temple A-Side - Search/Level Complete"
           }
         ],

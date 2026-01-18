@@ -1,28 +1,30 @@
 [
     {
         "name": "Epilogue",
-        "visibility_rules": ["$SUMMITB_IS_VISIBLE"],
+        "visibility_rules": [
+            "$SUMMITB_IS_VISIBLE"
+        ],
         "children": [
             {
                 "name": "Epilogue",
-                "access_rules":  ["$EPILOGUE"],
-                "sections": 
-                [
+                "access_rules": [
+                    "$EPILOGUE"
+                ],
+                "sections": [
                     {
-                        "name": "Level Complete",
+                        "name": "Level Clear",
                         "chest_unopened_img": "images/items/items/complete.png",
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
                 ],
-                "map_locations": 
-                [
+                "map_locations": [
                     {
                         "map": "celeste_chapter_select",
                         "x": 954,
                         "y": 173
                     }
                 ]
-            }            
+            }
         ]
     }
 ]

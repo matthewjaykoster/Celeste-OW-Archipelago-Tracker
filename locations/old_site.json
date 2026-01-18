@@ -99,7 +99,7 @@
                         "name": "Room end_3c Strawberry"
                     },
                     {
-                        "name": "Level Complete",
+                        "name": "Level Clear",
                         "chest_unopened_img": "images/items/items/complete.png",
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
@@ -122,7 +122,7 @@
                         "chest_opened_img": "images/items/items/red_heart2.png"
                     },
                     {
-                        "name": "Level Complete",
+                        "name": "Level Clear",
                         "chest_unopened_img": "images/items/items/complete.png",
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
@@ -145,7 +145,7 @@
                         "chest_opened_img": "images/items/items/yellow_heart2.png"
                     },
                     {
-                        "name": "Level Complete",
+                        "name": "Level Clear",
                         "chest_unopened_img": "images/items/items/complete.png",
                         "chest_opened_img": "images/items/items/complete2.png"
                     }
@@ -476,8 +476,8 @@
             {
                 "sections": [
                     {
-                        "name": "Level Complete",
-                        "ref": "Old Site A/Awake/Level Complete"
+                        "name": "Level Clear",
+                        "ref": "Old Site A/Awake/Level Clear"
                     }
                 ],
                 "map_locations": [

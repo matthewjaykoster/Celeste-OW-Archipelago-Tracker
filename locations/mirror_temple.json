@@ -9,40 +9,40 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Strawberry 1"
+            "name": "Room a-00x Strawberry"
           },
           {
-            "name": "Strawberry 2"
+            "name": "Room a-01 Strawberry 1"
           },
           {
-            "name": "Strawberry 3"
+            "name": "Room a-01 Strawberry 2"
           },
           {
-            "name": "Strawberry 4"
+            "name": "Room a-02 Strawberry"
           },
           {
-            "name": "Strawberry 5"
+            "name": "Room a-03 Strawberry"
           },
           {
-            "name": "Strawberry 6"
+            "name": "Room a-04 Strawberry"
           },
           {
-            "name": "Strawberry 7"
+            "name": "Room a-05 Strawberry"
           },
           {
-            "name": "Strawberry 8"
+            "name": "Room a-06 Strawberry"
           },
           {
-            "name": "Strawberry 9"
+            "name": "Room a-07 Strawberry"
           },
           {
-            "name": "Strawberry 10"
+            "name": "Room a-11 Strawberry"
           },
           {
-            "name": "Strawberry 11"
+            "name": "Room a-15 Strawberry"
           },
           {
-            "name": "Strawberry 12"
+            "name": "Room a-14 Strawberry"
           }
         ],
         "map_locations": [
@@ -58,37 +58,37 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Strawberry 13"
+            "name": "Room b-18 Strawberry"
           },
           {
-            "name": "Strawberry 14"
+            "name": "Room b-01c Strawberry"
           },
           {
-            "name": "Strawberry 15"
+            "name": "Room b-20 Strawberry 1"
           },
           {
-            "name": "Strawberry 16"
+            "name": "Room b-20 Strawberry 2"
           },
           {
-            "name": "Strawberry 17"
+            "name": "Room b-21 Strawberry"
           },
           {
-            "name": "Strawberry 18"
+            "name": "Room b-03 Strawberry"
           },
           {
-            "name": "Strawberry 19"
+            "name": "Room b-05 Strawberry"
           },
           {
-            "name": "Strawberry 20"
+            "name": "Room b-10 Strawberry"
           },
           {
-            "name": "Strawberry 21"
+            "name": "Room b-12 Strawberry"
           },
           {
-            "name": "Strawberry 22"
+            "name": "Room b-17 Strawberry 2"
           },
           {
-            "name": "Strawberry 23"
+            "name": "Room b-17 Strawberry 1"
           },
           {
             "name": "Crystal Heart",
@@ -114,7 +114,7 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Strawberry 24"
+            "name": "Room c-08 Strawberry"
           }
         ],
         "map_locations": [
@@ -130,25 +130,25 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Strawberry 25"
+            "name": "Room d-04 Strawberry 2"
           },
           {
-            "name": "Strawberry 26"
+            "name": "Room d-04 Strawberry 1"
           },
           {
-            "name": "Strawberry 27"
+            "name": "Room d-15 Strawberry 2"
           },
           {
-            "name": "Strawberry 28"
+            "name": "Room d-15 Strawberry 1"
           },
           {
-            "name": "Strawberry 29"
+            "name": "Room d-13 Strawberry"
           },
           {
-            "name": "Strawberry 30"
+            "name": "Room d-19 Strawberry"
           },
           {
-            "name": "Strawberry 31"
+            "name": "Room e-06 Strawberry"
           },
           {
             "name": "Level Clear",
@@ -172,8 +172,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 1",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 1"
+            "name": "Room a-00x Strawberry",
+            "ref": "Mirror Temple A/Start/Room a-00x Strawberry"
           }
         ],
         "map_locations": [
@@ -187,8 +187,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 2",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 2"
+            "name": "Room a-01 Strawberry 1",
+            "ref": "Mirror Temple A/Start/Room a-01 Strawberry 1"
           }
         ],
         "map_locations": [
@@ -202,8 +202,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 3",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 3"
+            "name": "Room a-01 Strawberry 2",
+            "ref": "Mirror Temple A/Start/Room a-01 Strawberry 2"
           }
         ],
         "map_locations": [
@@ -217,8 +217,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 4",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 4"
+            "name": "Room a-02 Strawberry",
+            "ref": "Mirror Temple A/Start/Room a-02 Strawberry"
           }
         ],
         "map_locations": [
@@ -232,8 +232,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 5",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 5"
+            "name": "Room a-03 Strawberry",
+            "ref": "Mirror Temple A/Start/Room a-03 Strawberry"
           }
         ],
         "map_locations": [
@@ -247,8 +247,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 6",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 6"
+            "name": "Room a-04 Strawberry",
+            "ref": "Mirror Temple A/Start/Room a-04 Strawberry"
           }
         ],
         "map_locations": [
@@ -262,8 +262,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 7",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 7"
+            "name": "Room a-05 Strawberry",
+            "ref": "Mirror Temple A/Start/Room a-05 Strawberry"
           }
         ],
         "map_locations": [
@@ -277,8 +277,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 8",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 8"
+            "name": "Room a-06 Strawberry",
+            "ref": "Mirror Temple A/Start/Room a-06 Strawberry"
           }
         ],
         "map_locations": [
@@ -292,8 +292,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 9",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 9"
+            "name": "Room a-07 Strawberry",
+            "ref": "Mirror Temple A/Start/Room a-07 Strawberry"
           }
         ],
         "map_locations": [
@@ -307,8 +307,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 10",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 10"
+            "name": "Room a-11 Strawberry",
+            "ref": "Mirror Temple A/Start/Room a-11 Strawberry"
           }
         ],
         "map_locations": [
@@ -322,8 +322,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 11",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 11"
+            "name": "Room a-15 Strawberry",
+            "ref": "Mirror Temple A/Start/Room a-15 Strawberry"
           }
         ],
         "map_locations": [
@@ -337,8 +337,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 12",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Start/Strawberry 12"
+            "name": "Room a-14 Strawberry",
+            "ref": "Mirror Temple A/Start/Room a-14 Strawberry"
           }
         ],
         "map_locations": [
@@ -357,8 +357,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 13",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 13"
+            "name": "Room b-18 Strawberry",
+            "ref": "Mirror Temple A/Depths/Room b-18 Strawberry"
           }
         ],
         "map_locations": [
@@ -372,8 +372,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 14",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 14"
+            "name": "Room b-01c Strawberry",
+            "ref": "Mirror Temple A/Depths/Room b-01c Strawberry"
           }
         ],
         "map_locations": [
@@ -387,8 +387,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 15",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 15"
+            "name": "Room b-20 Strawberry 1",
+            "ref": "Mirror Temple A/Depths/Room b-20 Strawberry 1"
           }
         ],
         "map_locations": [
@@ -402,8 +402,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 16",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 16"
+            "name": "Room b-20 Strawberry 2",
+            "ref": "Mirror Temple A/Depths/Room b-20 Strawberry 2"
           }
         ],
         "map_locations": [
@@ -417,8 +417,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 17",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 17"
+            "name": "Room b-21 Strawberry",
+            "ref": "Mirror Temple A/Depths/Room b-21 Strawberry"
           }
         ],
         "map_locations": [
@@ -432,8 +432,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 18",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 18"
+            "name": "Room b-03 Strawberry",
+            "ref": "Mirror Temple A/Depths/Room b-03 Strawberry"
           }
         ],
         "map_locations": [
@@ -447,8 +447,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 19",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 19"
+            "name": "Room b-05 Strawberry",
+            "ref": "Mirror Temple A/Depths/Room b-05 Strawberry"
           }
         ],
         "map_locations": [
@@ -462,8 +462,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 20",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 20"
+            "name": "Room b-10 Strawberry",
+            "ref": "Mirror Temple A/Depths/Room b-10 Strawberry"
           }
         ],
         "map_locations": [
@@ -477,8 +477,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 21",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 21"
+            "name": "Room b-12 Strawberry",
+            "ref": "Mirror Temple A/Depths/Room b-12 Strawberry"
           }
         ],
         "map_locations": [
@@ -492,8 +492,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 22",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 22"
+            "name": "Room b-17 Strawberry 2",
+            "ref": "Mirror Temple A/Depths/Room b-17 Strawberry 2"
           }
         ],
         "map_locations": [
@@ -507,8 +507,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 23",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Strawberry 23"
+            "name": "Room b-17 Strawberry 1",
+            "ref": "Mirror Temple A/Depths/Room b-17 Strawberry 1"
           }
         ],
         "map_locations": [
@@ -523,7 +523,7 @@
         "sections": [
           {
             "name": "Crystal Heart",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Crystal Heart"
+            "ref": "Mirror Temple A/Depths/Crystal Heart"
           }
         ],
         "map_locations": [
@@ -538,7 +538,7 @@
         "sections": [
           {
             "name": "Cassette",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Depths/Cassette"
+            "ref": "Mirror Temple A/Depths/Cassette"
           }
         ],
         "map_locations": [
@@ -557,8 +557,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 24",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Unravelling/Strawberry 24"
+            "name": "Room c-08 Strawberry",
+            "ref": "Mirror Temple A/Unravelling/Room c-08 Strawberry"
           }
         ],
         "map_locations": [
@@ -577,8 +577,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 25",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 25"
+            "name": "Room d-04 Strawberry 2",
+            "ref": "Mirror Temple A/Search/Room d-04 Strawberry 2"
           }
         ],
         "map_locations": [
@@ -592,8 +592,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 26",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 26"
+            "name": "Room d-04 Strawberry 1",
+            "ref": "Mirror Temple A/Search/Room d-04 Strawberry 1"
           }
         ],
         "map_locations": [
@@ -607,8 +607,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 27",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 27"
+            "name": "Room d-15 Strawberry 2",
+            "ref": "Mirror Temple A/Search/Room d-15 Strawberry 2"
           }
         ],
         "map_locations": [
@@ -622,8 +622,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 28",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 28"
+            "name": "Room d-15 Strawberry 1",
+            "ref": "Mirror Temple A/Search/Room d-15 Strawberry 1"
           }
         ],
         "map_locations": [
@@ -637,8 +637,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 29",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 29"
+            "name": "Room d-13 Strawberry",
+            "ref": "Mirror Temple A/Search/Room d-13 Strawberry"
           }
         ],
         "map_locations": [
@@ -652,8 +652,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 30",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 30"
+            "name": "Room d-19 Strawberry",
+            "ref": "Mirror Temple A/Search/Room d-19 Strawberry"
           }
         ],
         "map_locations": [
@@ -667,8 +667,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 31",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Search/Strawberry 31"
+            "name": "Room e-06 Strawberry",
+            "ref": "Mirror Temple A/Search/Room e-06 Strawberry"
           }
         ],
         "map_locations": [
@@ -683,7 +683,7 @@
         "sections": [
           {
             "name": "Level Clear",
-            "ref": "Mirror Temple/Mirror Temple A-Side - Search/Level Complete"
+            "ref": "Mirror Temple A/Search/Level Complete"
           }
         ],
         "map_locations": [

@@ -1,11 +1,11 @@
 [
   {
-    "name": "Mirror Temple",
+    "name": "Mirror Temple A",
     "chest_unopened_img": "images/items/items/berry.png",
     "chest_opened_img": "images/items/items/berry2.png",
     "children": [
       {
-        "name": "Mirror Temple A-Side - Start",
+        "name": "Start",
         "access_rules": [],
         "sections": [
           {
@@ -54,7 +54,7 @@
         ]
       },
       {
-        "name": "Mirror Temple A-Side - Depths",
+        "name": "Depths",
         "access_rules": [],
         "sections": [
           {
@@ -110,7 +110,7 @@
         ]
       },
       {
-        "name": "Mirror Temple A-Side - Unravelling",
+        "name": "Unravelling",
         "access_rules": [],
         "sections": [
           {
@@ -126,7 +126,7 @@
         ]
       },
       {
-        "name": "Mirror Temple A-Side - Search",
+        "name": "Search",
         "access_rules": [],
         "sections": [
           {
@@ -163,57 +163,11 @@
             "y": 206
           }
         ]
-      },
-      {
-        "name": "Mirror Temple B-Side",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Crystal Heart",
-            "chest_unopened_img": "images/items/items/red_heart.png",
-            "chest_opened_img": "images/items/items/red_heart2.png"
-          },
-          {
-            "name": "Level Clear",
-            "chest_unopened_img": "images/items/items/complete.png",
-            "chest_opened_img": "images/items/items/complete2.png"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celeste_chapter_select",
-            "x": 634,
-            "y": 279
-          }
-        ]
-      },
-      {
-        "name": "Mirror Temple C-Side",
-        "access_rules": [],
-        "sections": [
-          {
-            "name": "Crystal Heart",
-            "chest_unopened_img": "images/items/items/yellow_heart.png",
-            "chest_opened_img": "images/items/items/yellow_heart2.png"
-          },
-          {
-            "name": "Level Clear",
-            "chest_unopened_img": "images/items/items/complete.png",
-            "chest_opened_img": "images/items/items/complete2.png"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celeste_chapter_select",
-            "x": 634,
-            "y": 319
-          }
-        ]
       }
     ]
   },
   {
-    "name": "Mirror Temple-Start",
+    "name": "Mirror Temple A Start Map",
     "children": [
       {
         "sections": [
@@ -398,7 +352,7 @@
     ]
   },
   {
-    "name": "Mirror Temple-Depths",
+    "name": "Mirror Temple A Depths Map",
     "children": [
       {
         "sections": [
@@ -598,7 +552,7 @@
     ]
   },
   {
-    "name": "Mirror Temple-Unravelling",
+    "name": "Mirror Temple A Unravelling Map",
     "children": [
       {
         "sections": [
@@ -618,7 +572,7 @@
     ]
   },
   {
-    "name": "Mirror Temple-Search",
+    "name": "Mirror Temple A Search Map",
     "children": [
       {
         "sections": [
@@ -739,6 +693,42 @@
             "y": 99
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "Mirror Temple B",
+    "access_rules": [],
+    "sections": [
+      {
+        "name": "Level Clear",
+        "chest_unopened_img": "images/items/items/complete.png",
+        "chest_opened_img": "images/items/items/complete2.png"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "celeste_chapter_select",
+        "x": 634,
+        "y": 279
+      }
+    ]
+  },
+  {
+    "name": "Mirror Temple C",
+    "access_rules": [],
+    "sections": [
+      {
+        "name": "Level Clear",
+        "chest_unopened_img": "images/items/items/complete.png",
+        "chest_opened_img": "images/items/items/complete2.png"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "celeste_chapter_select",
+        "x": 634,
+        "y": 319
       }
     ]
   }

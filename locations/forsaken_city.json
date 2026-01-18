@@ -496,11 +496,6 @@
                 "name": "Start",
                 "sections": [
                     {
-                        "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/items/blue_heart.png",
-                        "chest_opened_img": "images/items/items/blue_heart2.png"
-                    },
-                    {
                         "name": "Level Clear",
                         "chest_unopened_img": "images/items/items/complete.png",
                         "chest_opened_img": "images/items/items/complete2.png"

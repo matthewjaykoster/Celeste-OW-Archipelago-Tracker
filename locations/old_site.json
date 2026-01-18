@@ -111,52 +111,6 @@
                         "y": 206
                     }
                 ]
-            },
-            {
-                "name": "Old Site B-Side",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/items/red_heart.png",
-                        "chest_opened_img": "images/items/items/red_heart2.png"
-                    },
-                    {
-                        "name": "Level Clear",
-                        "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 319,
-                        "y": 279
-                    }
-                ]
-            },
-            {
-                "name": "Old Site C-Side",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/items/yellow_heart.png",
-                        "chest_opened_img": "images/items/items/yellow_heart2.png"
-                    },
-                    {
-                        "name": "Level Clear",
-                        "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 319,
-                        "y": 319
-                    }
-                ]
             }
         ]
     },
@@ -331,7 +285,7 @@
         ]
     },
     {
-        "name": "Old Site-Intervention",
+        "name": "Old Site A Intervention Map",
         "children": [
             {
                 "sections": [
@@ -456,7 +410,7 @@
         ]
     },
     {
-        "name": "Old Site-Awake",
+        "name": "Old Site A Awake Map",
         "children": [
             {
                 "sections": [
@@ -487,6 +441,42 @@
                         "y": 830
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Old Site B",
+        "access_rules": [],
+        "sections": [
+            {
+                "name": "Level Clear",
+                "chest_unopened_img": "images/items/items/complete.png",
+                "chest_opened_img": "images/items/items/complete2.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "celeste_chapter_select",
+                "x": 319,
+                "y": 279
+            }
+        ]
+    },
+    {
+        "name": "Old Site C",
+        "access_rules": [],
+        "sections": [
+            {
+                "name": "Level Clear",
+                "chest_unopened_img": "images/items/items/complete.png",
+                "chest_opened_img": "images/items/items/complete2.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "celeste_chapter_select",
+                "x": 319,
+                "y": 319
             }
         ]
     }

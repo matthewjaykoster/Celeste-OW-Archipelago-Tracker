@@ -145,52 +145,6 @@
                         "y": 206
                     }
                 ]
-            },
-            {
-                "name": "Hotel B-Side",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/items/red_heart.png",
-                        "chest_opened_img": "images/items/items/red_heart2.png"
-                    },
-                    {
-                        "name": "Level Clear",
-                        "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 407,
-                        "y": 279
-                    }
-                ]
-            },
-            {
-                "name": "Hotel C-Side",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/items/yellow_heart.png",
-                        "chest_opened_img": "images/items/items/yellow_heart2.png"
-                    },
-                    {
-                        "name": "Level Clear",
-                        "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 407,
-                        "y": 319
-                    }
-                ]
             }
         ]
     },
@@ -631,6 +585,42 @@
                         "y": 53
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "name": "Celestial Resort B",
+        "access_rules": [],
+        "sections": [
+            {
+                "name": "Level Clear",
+                "chest_unopened_img": "images/items/items/complete.png",
+                "chest_opened_img": "images/items/items/complete2.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "celeste_chapter_select",
+                "x": 407,
+                "y": 279
+            }
+        ]
+    },
+    {
+        "name": "Celestial Resort C",
+        "access_rules": [],
+        "sections": [
+            {
+                "name": "Level Clear",
+                "chest_unopened_img": "images/items/items/complete.png",
+                "chest_opened_img": "images/items/items/complete2.png"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "celeste_chapter_select",
+                "x": 407,
+                "y": 319
             }
         ]
     }

@@ -1,39 +1,39 @@
 [
     {
-        "name": "Old Site",
+        "name": "Old Site A",
         "chest_unopened_img": "images/items/items/berry.png",
         "chest_opened_img": "images/items/items/berry2.png",
         "children": [
             {
-                "name": "Old Site A-Side - Start",
+                "name": "Start",
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Strawberry 1"
+                        "name": "Room 1 Strawberry"
                     },
                     {
-                        "name": "Strawberry 2"
+                        "name": "Room d0 Strawberry"
                     },
                     {
-                        "name": "Strawberry 3"
+                        "name": "Room d3 Strawberry"
                     },
                     {
-                        "name": "Strawberry 4"
+                        "name": "Room d2 Strawberry 1"
                     },
                     {
-                        "name": "Strawberry 5"
+                        "name": "Room d2 Strawberry 2"
                     },
                     {
-                        "name": "Strawberry 6"
+                        "name": "Room d1 Strawberry"
                     },
                     {
-                        "name": "Strawberry 7"
+                        "name": "Room d6 Strawberry"
                     },
                     {
-                        "name": "Strawberry 8"
+                        "name": "Room d4 Strawberry"
                     },
                     {
-                        "name": "Strawberry 9"
+                        "name": "Room d5 Strawberry"
                     },
                     {
                         "name": "Crystal Heart",
@@ -55,32 +55,32 @@
                 ]
             },
             {
-                "name": "Old Site A-Side - Intervention",
+                "name": "Intervention",
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Strawberry 10"
+                        "name": "Room 4 Strawberry"
                     },
                     {
-                        "name": "Strawberry 11"
+                        "name": "Room 5 Strawberry"
                     },
                     {
-                        "name": "Strawberry 12"
+                        "name": "Room 8 Strawberry"
                     },
                     {
-                        "name": "Strawberry 13"
+                        "name": "Room 9 Strawberry"
                     },
                     {
-                        "name": "Strawberry 14"
+                        "name": "Room 9b Strawberry"
                     },
                     {
-                        "name": "Strawberry 15"
+                        "name": "Room 10 Strawberry"
                     },
                     {
-                        "name": "Strawberry 16"
+                        "name": "Room 12c Strawberry"
                     },
                     {
-                        "name": "Strawberry 17"
+                        "name": "Room 12d Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -92,11 +92,11 @@
                 ]
             },
             {
-                "name": "Old Site A-Side - Awake",
+                "name": "Awake",
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Strawberry 18"
+                        "name": "Room end_3c Strawberry"
                     },
                     {
                         "name": "Level Complete",
@@ -161,13 +161,13 @@
         ]
     },
     {
-        "name": "Old Site-Start",
+        "name": "Old Site A Start Map",
         "children": [
             {
                 "sections": [
                     {
-                        "name": "Strawberry 1",
-                        "ref": "Old Site/Old Site A-Side - Start/Strawberry 1"
+                        "name": "Room 1 Strawberry",
+                        "ref": "Old Site A/Old Site A-Side - Start/Room 1 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -181,8 +181,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 2",
-                        "ref": "Old Site/Old Site A-Side - Start/Strawberry 2"
+                        "name": "Room d0 Strawberry",
+                        "ref": "Old Site A/Start/Room d0 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -196,8 +196,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 3",
-                        "ref": "Old Site/Old Site A-Side - Start/Strawberry 3"
+                        "name": "Room d3 Strawberry",
+                        "ref": "Old Site A/Start/Room d3 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -211,8 +211,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 4",
-                        "ref": "Old Site/Old Site A-Side - Start/Strawberry 4"
+                        "name": "Room d2 Strawberry 1",
+                        "ref": "Old Site A/Start/Room d2 Strawberry 1"
                     }
                 ],
                 "map_locations": [
@@ -226,8 +226,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 5",
-                        "ref": "Old Site/Old Site A-Side - Start/Strawberry 5"
+                        "name": "Room d2 Strawberry 2",
+                        "ref": "Old Site A/Start/Room d2 Strawberry 2"
                     }
                 ],
                 "map_locations": [
@@ -241,8 +241,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 6",
-                        "ref": "Old Site/Old Site A-Side - Start/Strawberry 6"
+                        "name": "Room d1 Strawberry",
+                        "ref": "Old Site A/Start/Room d1 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -256,8 +256,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 7",
-                        "ref": "Old Site/Old Site A-Side - Start/Strawberry 7"
+                        "name": "Room d6 Strawberry",
+                        "ref": "Old Site A/Start/Room d6 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -271,8 +271,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 8",
-                        "ref": "Old Site/Old Site A-Side - Start/Strawberry 8"
+                        "name": "Room d4 Strawberry",
+                        "ref": "Old Site A/Start/Room d4 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -286,8 +286,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 9",
-                        "ref": "Old Site/Old Site A-Side - Start/Strawberry 9"
+                        "name": "Room d5 Strawberry",
+                        "ref": "Old Site A/Start/Room d5 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -302,7 +302,7 @@
                 "sections": [
                     {
                         "name": "Crystal Heart",
-                        "ref": "Old Site/Old Site A-Side - Start/Crystal Heart"
+                        "ref": "Old Site A/Start/Crystal Heart"
                     }
                 ],
                 "map_locations": [
@@ -317,7 +317,7 @@
                 "sections": [
                     {
                         "name": "Cassette",
-                        "ref": "Old Site/Old Site A-Side - Start/Cassette"
+                        "ref": "Old Site A/Start/Cassette"
                     }
                 ],
                 "map_locations": [
@@ -336,8 +336,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 10",
-                        "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 10"
+                        "name": "Room 4 Strawberry",
+                        "ref": "Old Site A/Intervention/Room 4 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -351,8 +351,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 11",
-                        "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 11"
+                        "name": "Room 5 Strawberry",
+                        "ref": "Old Site A/Intervention/Room 5 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -366,8 +366,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 12",
-                        "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 12"
+                        "name": "Room 8 Strawberry",
+                        "ref": "Old Site A/Intervention/Room 8 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -381,8 +381,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 13",
-                        "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 13"
+                        "name": "Room 9 Strawberry",
+                        "ref": "Old Site A/Intervention/Room 9 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -396,8 +396,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 14",
-                        "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 14"
+                        "name": "Room 9b Strawberry",
+                        "ref": "Old Site A/Intervention/Room 9b Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -411,8 +411,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 15",
-                        "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 15"
+                        "name": "Room 10 Strawberry",
+                        "ref": "Old Site A/Intervention/Room 10 Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -426,8 +426,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 16",
-                        "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 16"
+                        "name": "Room 12c Strawberry",
+                        "ref": "Old Site A/Intervention/Room 12c Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -441,8 +441,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 17",
-                        "ref": "Old Site/Old Site A-Side - Intervention/Strawberry 17"
+                        "name": "Room 12d Strawberry",
+                        "ref": "Old Site A/Intervention/Room 12d Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -461,8 +461,8 @@
             {
                 "sections": [
                     {
-                        "name": "Strawberry 18",
-                        "ref": "Old Site/Old Site A-Side - Awake/Strawberry 18"
+                        "name": "Room end_3c Strawberry",
+                        "ref": "Old Site A/Awake/Room end_3c Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -477,7 +477,7 @@
                 "sections": [
                     {
                         "name": "Level Complete",
-                        "ref": "Old Site/Old Site A-Side - Awake/Level Complete"
+                        "ref": "Old Site A/Awake/Level Complete"
                     }
                 ],
                 "map_locations": [

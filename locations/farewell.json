@@ -7,11 +7,16 @@
         "visibility_rules": [
             "farewell"
         ],
-        "sections": [
+        "children": [
             {
-                "name": "Level Clear",
-                "chest_unopened_img": "images/items/items/complete.png",
-                "chest_opened_img": "images/items/items/complete2.png"
+                "name": "Reconciliation",
+                "sections": [
+                    {
+                        "name": "Level Clear",
+                        "chest_unopened_img": "images/items/items/complete.png",
+                        "chest_opened_img": "images/items/items/complete2.png"
+                    }
+                ]
             }
         ],
         "map_locations": [

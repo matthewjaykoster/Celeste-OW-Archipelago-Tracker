@@ -1,26 +1,26 @@
 [
   {
-    "name": "Summit",
+    "name": "The Summit A",
     "chest_unopened_img": "images/items/items/berry.png",
     "chest_opened_img": "images/items/items/berry2.png",
     "children": [
       {
-        "name": "Summit A-Side - Start",
+        "name": "Start",
         "access_rules": [
           "$SUMMIT"
         ],
         "sections": [
           {
-            "name": "Strawberry 1"
+            "name": "Room a-02b Strawberry"
           },
           {
-            "name": "Strawberry 2"
+            "name": "Room a-04b Strawberry 1"
           },
           {
-            "name": "Strawberry 3"
+            "name": "Room a-04b Strawberry 2"
           },
           {
-            "name": "Strawberry 4"
+            "name": "Room a-05 Strawberry"
           }
         ],
         "map_locations": [
@@ -32,28 +32,28 @@
         ]
       },
       {
-        "name": "Summit A-Side - 500 M",
+        "name": "500 M",
         "access_rules": [
           "$SUMMIT"
         ],
         "sections": [
           {
-            "name": "Strawberry 5"
+            "name": "Room b-02 Strawberry"
           },
           {
-            "name": "Strawberry 6"
+            "name": "Room b-02b Strawberry"
           },
           {
-            "name": "Strawberry 7"
+            "name": "Room b-02e Strawberry"
           },
           {
-            "name": "Strawberry 8"
+            "name": "Room b-04 Strawberry"
           },
           {
-            "name": "Strawberry 9"
+            "name": "Room b-08 Strawberry"
           },
           {
-            "name": "Strawberry 10"
+            "name": "Room b-09 Strawberry"
           }
         ],
         "map_locations": [
@@ -65,28 +65,28 @@
         ]
       },
       {
-        "name": "Summit A-Side - 1000 M",
+        "name": "1000 M",
         "access_rules": [
           "$SUMMIT"
         ],
         "sections": [
           {
-            "name": "Strawberry 11"
+            "name": "Room c-03b Strawberry"
           },
           {
-            "name": "Strawberry 12"
+            "name": "Room c-05 Strawberry"
           },
           {
-            "name": "Strawberry 13"
+            "name": "Room c-06b Strawberry"
           },
           {
-            "name": "Strawberry 14"
+            "name": "Room c-07b Strawberry"
           },
           {
-            "name": "Strawberry 15"
+            "name": "Room c-08 Strawberry"
           },
           {
-            "name": "Strawberry 16"
+            "name": "Room c-09 Strawberry"
           }
         ],
         "map_locations": [
@@ -98,34 +98,34 @@
         ]
       },
       {
-        "name": "Summit A-Side - 1500 M",
+        "name": "1500 M",
         "access_rules": [
           "$SUMMIT"
         ],
         "sections": [
           {
-            "name": "Strawberry 17"
+            "name": "Room d-00 Strawberry"
           },
           {
-            "name": "Strawberry 18"
+            "name": "Room d-01c Strawberry"
           },
           {
-            "name": "Strawberry 19"
+            "name": "Room d-01d Strawberry"
           },
           {
-            "name": "Strawberry 20"
+            "name": "Room d-03 Strawberry"
           },
           {
-            "name": "Strawberry 21"
+            "name": "Room d-04 Strawberry"
           },
           {
-            "name": "Strawberry 22"
+            "name": "Room d-07 Strawberry"
           },
           {
-            "name": "Strawberry 23"
+            "name": "Room d-08 Strawberry"
           },
           {
-            "name": "Strawberry 24"
+            "name": "Room d-10b Strawberry"
           },
           {
             "name": "Cassette",
@@ -142,34 +142,34 @@
         ]
       },
       {
-        "name": "Summit A-Side - 2000 M",
+        "name": "2000 M",
         "access_rules": [
           "$SUMMIT"
         ],
         "sections": [
           {
-            "name": "Strawberry 25"
+            "name": "Room e-02 Strawberry"
           },
           {
-            "name": "Strawberry 26"
+            "name": "Room e-05 Strawberry"
           },
           {
-            "name": "Strawberry 27"
+            "name": "Room e-07 Strawberry"
           },
           {
-            "name": "Strawberry 28"
+            "name": "Room e-09 Strawberry"
           },
           {
-            "name": "Strawberry 29"
+            "name": "Room e-11 Strawberry"
           },
           {
-            "name": "Strawberry 30"
+            "name": "Room e-12 Strawberry"
           },
           {
-            "name": "Strawberry 31"
+            "name": "Room e-10 Strawberry"
           },
           {
-            "name": "Strawberry 32"
+            "name": "Room e-13 Strawberry"
           }
         ],
         "map_locations": [
@@ -181,34 +181,34 @@
         ]
       },
       {
-        "name": "Summit A-Side - 2500 M",
+        "name": "2500 M",
         "access_rules": [
           "$SUMMIT"
         ],
         "sections": [
           {
-            "name": "Strawberry 33"
+            "name": "Room f-00 Strawberry"
           },
           {
-            "name": "Strawberry 34"
+            "name": "Room f-01 Strawberry"
           },
           {
-            "name": "Strawberry 35"
+            "name": "Room f-07 Strawberry"
           },
           {
-            "name": "Strawberry 36"
+            "name": "Room f-08b Strawberry"
           },
           {
-            "name": "Strawberry 37"
+            "name": "Room f-08c Strawberry"
           },
           {
-            "name": "Strawberry 38"
+            "name": "Room f-11 Strawberry 1"
           },
           {
-            "name": "Strawberry 39"
+            "name": "Room f-11 Strawberry 2"
           },
           {
-            "name": "Strawberry 40"
+            "name": "Room f-11 Strawberry 3"
           }
         ],
         "map_locations": [
@@ -220,31 +220,31 @@
         ]
       },
       {
-        "name": "Summit A-Side - 3000 M",
+        "name": "3000 M",
         "access_rules": [
           "$SUMMIT"
         ],
         "sections": [
           {
-            "name": "Strawberry 41"
+            "name": "Room g-00b Strawberry 1"
           },
           {
-            "name": "Strawberry 42"
+            "name": "Room g-00b Strawberry 2"
           },
           {
-            "name": "Strawberry 43"
+            "name": "Room g-00b Strawberry 3"
           },
           {
-            "name": "Strawberry 44"
+            "name": "Room g-01 Strawberry 1"
           },
           {
-            "name": "Strawberry 45"
+            "name": "Room g-01 Strawberry 2"
           },
           {
-            "name": "Strawberry 46"
+            "name": "Room g-01 Strawberry 3"
           },
           {
-            "name": "Strawberry 47"
+            "name": "Room g-03 Strawberry"
           },
           {
             "name": "Crystal Heart",
@@ -264,73 +264,17 @@
             "y": 239
           }
         ]
-      },
-      {
-        "name": "Summit B-Side",
-        "visibility_rules": [
-          "$SUMMITB_IS_VISIBLE"
-        ],
-        "access_rules": [
-          "$SUMMITB"
-        ],
-        "sections": [
-          {
-            "name": "Crystal Heart",
-            "chest_unopened_img": "images/items/items/red_heart.png",
-            "chest_opened_img": "images/items/items/red_heart2.png"
-          },
-          {
-            "name": "Level Clear",
-            "chest_unopened_img": "images/items/items/complete.png",
-            "chest_opened_img": "images/items/items/complete2.png"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celeste_chapter_select",
-            "x": 868,
-            "y": 279
-          }
-        ]
-      },
-      {
-        "name": "Summit C-Side",
-        "visibility_rules": [
-          "$SUMMITC_IS_VISIBLE"
-        ],
-        "access_rules": [
-          "$SUMMITC"
-        ],
-        "sections": [
-          {
-            "name": "Crystal Heart",
-            "chest_unopened_img": "images/items/items/yellow_heart.png",
-            "chest_opened_img": "images/items/items/yellow_heart2.png"
-          },
-          {
-            "name": "Level Clear",
-            "chest_unopened_img": "images/items/items/complete.png",
-            "chest_opened_img": "images/items/items/complete2.png"
-          }
-        ],
-        "map_locations": [
-          {
-            "map": "celeste_chapter_select",
-            "x": 868,
-            "y": 319
-          }
-        ]
       }
     ]
   },
   {
-    "name": "Summit-Start",
+    "name": "The Summit A Start Map",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 1",
-            "ref": "Summit/Summit A-Side - Start/Strawberry 1"
+            "name": "Room a-02b Strawberry",
+            "ref": "The Summit A/Start/Room a-02b Strawberry"
           }
         ],
         "map_locations": [
@@ -344,8 +288,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 2",
-            "ref": "Summit/Summit A-Side - Start/Strawberry 2"
+            "name": "Room a-04b Strawberry 1",
+            "ref": "The Summit A/Start/Room a-04b Strawberry 1"
           }
         ],
         "map_locations": [
@@ -359,8 +303,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 3",
-            "ref": "Summit/Summit A-Side - Start/Strawberry 3"
+            "name": "Room a-04b Strawberry 2",
+            "ref": "The Summit A/Start/Room a-04b Strawberry 2"
           }
         ],
         "map_locations": [
@@ -374,8 +318,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 4",
-            "ref": "Summit/Summit A-Side - Start/Strawberry 4"
+            "name": "Room a-05 Strawberry",
+            "ref": "The Summit A/Start/Room a-05 Strawberry"
           }
         ],
         "map_locations": [
@@ -389,13 +333,13 @@
     ]
   },
   {
-    "name": "Summit-500 M",
+    "name": "The Summit 500 M Map",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 5",
-            "ref": "Summit/Summit A-Side - 500 M/Strawberry 5"
+            "name": "Room b-02 Strawberry",
+            "ref": "The Summit A/500 M/Room b-02 Strawberry"
           }
         ],
         "map_locations": [
@@ -409,8 +353,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 6",
-            "ref": "Summit/Summit A-Side - 500 M/Strawberry 6"
+            "name": "Room b-02b Strawberry",
+            "ref": "The Summit A/500 M/Room b-02b Strawberry"
           }
         ],
         "map_locations": [
@@ -424,8 +368,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 7",
-            "ref": "Summit/Summit A-Side - 500 M/Strawberry 7"
+            "name": "Room b-02e Strawberry",
+            "ref": "The Summit A/500 M/Room b-02e Strawberry"
           }
         ],
         "map_locations": [
@@ -439,8 +383,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 8",
-            "ref": "Summit/Summit A-Side - 500 M/Strawberry 8"
+            "name": "Room b-04 Strawberry",
+            "ref": "The Summit A/500 M/Room b-04 Strawberry"
           }
         ],
         "map_locations": [
@@ -454,8 +398,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 9",
-            "ref": "Summit/Summit A-Side - 500 M/Strawberry 9"
+            "name": "Room b-08 Strawberry",
+            "ref": "The Summit A/500 M/Room b-08 Strawberry"
           }
         ],
         "map_locations": [
@@ -469,8 +413,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 10",
-            "ref": "Summit/Summit A-Side - 500 M/Strawberry 10"
+            "name": "Room b-09 Strawberry",
+            "ref": "The Summit A/500 M/Room b-09 Strawberry"
           }
         ],
         "map_locations": [
@@ -484,13 +428,13 @@
     ]
   },
   {
-    "name": "Summit-1000 M",
+    "name": "The Summit 1000 M Map",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 11",
-            "ref": "Summit/Summit A-Side - 1000 M/Strawberry 11"
+            "name": "Room c-03b Strawberry",
+            "ref": "The Summit A/1000 M/Room c-03b Strawberry"
           }
         ],
         "map_locations": [
@@ -504,8 +448,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 12",
-            "ref": "Summit/Summit A-Side - 1000 M/Strawberry 12"
+            "name": "Room c-05 Strawberry",
+            "ref": "The Summit A/1000 M/Room c-05 Strawberry"
           }
         ],
         "map_locations": [
@@ -519,8 +463,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 13",
-            "ref": "Summit/Summit A-Side - 1000 M/Strawberry 13"
+            "name": "Room c-06b Strawberry",
+            "ref": "The Summit A/1000 M/Room c-06b Strawberry"
           }
         ],
         "map_locations": [
@@ -534,8 +478,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 14",
-            "ref": "Summit/Summit A-Side - 1000 M/Strawberry 14"
+            "name": "Room c-07b Strawberry",
+            "ref": "The Summit A/1000 M/Room c-07b Strawberry"
           }
         ],
         "map_locations": [
@@ -549,8 +493,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 15",
-            "ref": "Summit/Summit A-Side - 1000 M/Strawberry 15"
+            "name": "Room c-08 Strawberry",
+            "ref": "The Summit A/1000 M/Room c-08 Strawberry"
           }
         ],
         "map_locations": [
@@ -564,8 +508,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 16",
-            "ref": "Summit/Summit A-Side - 1000 M/Strawberry 16"
+            "name": "Room c-09 Strawberry",
+            "ref": "The Summit A/1000 M/Room c-09 Strawberry"
           }
         ],
         "map_locations": [
@@ -579,13 +523,13 @@
     ]
   },
   {
-    "name": "Summit-1500 M",
+    "name": "The Summit 1500 M Map",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 17",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 17"
+            "name": "Room d-00 Strawberry",
+            "ref": "The Summit A/1500 M/Room d-00 Strawberry"
           }
         ],
         "map_locations": [
@@ -599,8 +543,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 18",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 18"
+            "name": "Room d-01c Strawberry",
+            "ref": "The Summit A/1500 M/Room d-01c Strawberry"
           }
         ],
         "map_locations": [
@@ -614,8 +558,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 19",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 19"
+            "name": "Room d-01d Strawberry",
+            "ref": "The Summit A/1500 M/Room d-01d Strawberry"
           }
         ],
         "map_locations": [
@@ -629,8 +573,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 20",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 20"
+            "name": "Room d-03 Strawberry",
+            "ref": "The Summit A/1500 M/Room d-03 Strawberry"
           }
         ],
         "map_locations": [
@@ -644,8 +588,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 21",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 21"
+            "name": "Room d-04 Strawberry",
+            "ref": "The Summit A/1500 M/Room d-04 Strawberry"
           }
         ],
         "map_locations": [
@@ -659,8 +603,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 22",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 22"
+            "name": "Room d-07 Strawberry",
+            "ref": "The Summit A/1500 M/Room d-07 Strawberry"
           }
         ],
         "map_locations": [
@@ -674,8 +618,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 23",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 23"
+            "name": "Room d-08 Strawberry",
+            "ref": "The Summit A/1500 M/Room d-08 Strawberry"
           }
         ],
         "map_locations": [
@@ -689,8 +633,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 24",
-            "ref": "Summit/Summit A-Side - 1500 M/Strawberry 24"
+            "name": "Room d-10b Strawberry",
+            "ref": "The Summit A/1500 M/Room d-10b Strawberry"
           }
         ],
         "map_locations": [
@@ -705,7 +649,7 @@
         "sections": [
           {
             "name": "Cassette",
-            "ref": "Summit/Summit A-Side - 1500 M/Cassette"
+            "ref": "The Summit A/1500 M/Cassette"
           }
         ],
         "map_locations": [
@@ -719,13 +663,13 @@
     ]
   },
   {
-    "name": "Summit-2000 M",
+    "name": "The Summit 2000 M Map",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 25",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 25"
+            "name": "Room e-02 Strawberry",
+            "ref": "The Summit A/2000 M/Room e-02 Strawberry"
           }
         ],
         "map_locations": [
@@ -739,8 +683,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 26",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 26"
+            "name": "Room e-05 Strawberry",
+            "ref": "The Summit A/2000 M/Room e-05 Strawberry"
           }
         ],
         "map_locations": [
@@ -754,8 +698,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 27",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 27"
+            "name": "Room e-07 Strawberry",
+            "ref": "The Summit A/2000 M/Room e-07 Strawberry"
           }
         ],
         "map_locations": [
@@ -769,8 +713,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 28",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 28"
+            "name": "Room e-09 Strawberry",
+            "ref": "The Summit A/2000 M/Room e-09 Strawberry"
           }
         ],
         "map_locations": [
@@ -784,8 +728,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 29",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 29"
+            "name": "Room e-11 Strawberry",
+            "ref": "The Summit A/2000 M/Room e-11 Strawberry"
           }
         ],
         "map_locations": [
@@ -799,8 +743,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 30",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 30"
+            "name": "Room e-12 Strawberry",
+            "ref": "The Summit A/2000 M/Room e-12 Strawberry"
           }
         ],
         "map_locations": [
@@ -814,8 +758,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 31",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 31"
+            "name": "Room e-10 Strawberry",
+            "ref": "The Summit A/2000 M/Room e-10 Strawberry"
           }
         ],
         "map_locations": [
@@ -829,8 +773,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 32",
-            "ref": "Summit/Summit A-Side - 2000 M/Strawberry 32"
+            "name": "Room e-13 Strawberry",
+            "ref": "The Summit A/2000 M/Room e-13 Strawberry"
           }
         ],
         "map_locations": [
@@ -844,13 +788,13 @@
     ]
   },
   {
-    "name": "Summit-2500 M",
+    "name": "The Summit 2500 M Map",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 33",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 33"
+            "name": "Room f-00 Strawberry",
+            "ref": "The Summit A/2500 M/Room f-00 Strawberry"
           }
         ],
         "map_locations": [
@@ -864,8 +808,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 34",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 34"
+            "name": "Room f-01 Strawberry",
+            "ref": "The Summit A/2500 M/Room f-01 Strawberry"
           }
         ],
         "map_locations": [
@@ -879,8 +823,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 35",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 35"
+            "name": "Room f-07 Strawberry",
+            "ref": "The Summit A/2500 M/Room f-07 Strawberry"
           }
         ],
         "map_locations": [
@@ -894,8 +838,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 36",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 36"
+            "name": "Room f-08b Strawberry",
+            "ref": "The Summit A/2500 M/Room f-08b Strawberry"
           }
         ],
         "map_locations": [
@@ -909,8 +853,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 37",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 37"
+            "name": "Room f-08c Strawberry",
+            "ref": "The Summit A/2500 M/Room f-08c Strawberry"
           }
         ],
         "map_locations": [
@@ -924,8 +868,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 38",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 38"
+            "name": "Room f-11 Strawberry 1",
+            "ref": "The Summit A/2500 M/Room f-11 Strawberry 1"
           }
         ],
         "map_locations": [
@@ -939,8 +883,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 39",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 39"
+            "name": "Room f-11 Strawberry 2",
+            "ref": "The Summit A/2500 M/Room f-11 Strawberry 2"
           }
         ],
         "map_locations": [
@@ -954,8 +898,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 40",
-            "ref": "Summit/Summit A-Side - 2500 M/Strawberry 40"
+            "name": "Room f-11 Strawberry 3",
+            "ref": "The Summit A/2500 M/Room f-11 Strawberry 3"
           }
         ],
         "map_locations": [
@@ -969,13 +913,13 @@
     ]
   },
   {
-    "name": "Summit-3000 M",
+    "name": "The Summit 3000 M Map",
     "children": [
       {
         "sections": [
           {
-            "name": "Strawberry 41",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 41"
+            "name": "Room g-00b Strawberry 1",
+            "ref": "The Summit A/3000 M/Room g-00b Strawberry 1"
           }
         ],
         "map_locations": [
@@ -989,8 +933,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 42",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 42"
+            "name": "Room g-00b Strawberry 2",
+            "ref": "The Summit A/3000 M/Room g-00b Strawberry 2"
           }
         ],
         "map_locations": [
@@ -1004,8 +948,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 43",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 43"
+            "name": "Room g-00b Strawberry 3",
+            "ref": "The Summit A/3000 M/Room g-00b Strawberry 3"
           }
         ],
         "map_locations": [
@@ -1019,8 +963,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 44",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 44"
+            "name": "Room g-01 Strawberry 1",
+            "ref": "The Summit A/3000 M/Room g-01 Strawberry 1"
           }
         ],
         "map_locations": [
@@ -1034,8 +978,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 45",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 45"
+            "name": "Room g-01 Strawberry 2",
+            "ref": "The Summit A/3000 M/Room g-01 Strawberry 2"
           }
         ],
         "map_locations": [
@@ -1049,8 +993,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 46",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 46"
+            "name": "Room g-01 Strawberry 3",
+            "ref": "The Summit A/3000 M/Room g-01 Strawberry 3"
           }
         ],
         "map_locations": [
@@ -1064,8 +1008,8 @@
       {
         "sections": [
           {
-            "name": "Strawberry 47",
-            "ref": "Summit/Summit A-Side - 3000 M/Strawberry 47"
+            "name": "Room g-03 Strawberry",
+            "ref": "The Summit A/3000 M/Room g-03 Strawberry"
           }
         ],
         "map_locations": [
@@ -1080,7 +1024,7 @@
         "sections": [
           {
             "name": "Crystal Heart",
-            "ref": "Summit/Summit A-Side - 3000 M/Crystal Heart"
+            "ref": "The Summit A/3000 M/Crystal Heart"
           }
         ],
         "map_locations": [
@@ -1095,7 +1039,7 @@
         "sections": [
           {
             "name": "Level Clear",
-            "ref": "Summit/Summit A-Side - 3000 M/Level Complete"
+            "ref": "The Summit A/3000 M/Level Clear"
           }
         ],
         "map_locations": [
@@ -1105,6 +1049,52 @@
             "y": 320
           }
         ]
+      }
+    ]
+  },
+  {
+    "name": "The Summit B",
+    "visibility_rules": [
+      "$SUMMITB_IS_VISIBLE"
+    ],
+    "access_rules": [
+      "$SUMMITB"
+    ],
+    "sections": [
+      {
+        "name": "Level Clear",
+        "chest_unopened_img": "images/items/items/red_heart.png",
+        "chest_opened_img": "images/items/items/red_heart2.png"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "celeste_chapter_select",
+        "x": 868,
+        "y": 279
+      }
+    ]
+  },
+  {
+    "name": "The Summit C",
+    "visibility_rules": [
+      "$SUMMITC_IS_VISIBLE"
+    ],
+    "access_rules": [
+      "$SUMMITC"
+    ],
+    "sections": [
+      {
+        "name": "Level Clear",
+        "chest_unopened_img": "images/items/items/yellow_heart.png",
+        "chest_opened_img": "images/items/items/yellow_heart2.png"
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "celeste_chapter_select",
+        "x": 868,
+        "y": 319
       }
     ]
   }

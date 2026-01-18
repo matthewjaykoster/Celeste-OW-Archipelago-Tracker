@@ -1,0 +1,135 @@
+[
+  {
+    "name": "Core A",
+    "access_rules": [
+      "$CORE"
+    ],
+    "visibility_rules": [
+      "$COREA_IS_VISIBLE"
+    ],
+    "chest_unopened_img": "images/items/items/berry.png",
+    "chest_opened_img": "images/items/items/berry2.png",
+    "children": [
+      {
+        "name": "Into the Core",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Room b-06 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celeste_chapter_select",
+            "x": 1057,
+            "y": 173
+          }
+        ]
+      },
+      {
+        "name": "Hot and Cold",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Room c-00b Strawberry"
+          },
+          {
+            "name": "Room c-02 Strawberry"
+          },
+          {
+            "name": "Room c-03b Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celeste_chapter_select",
+            "x": 1097,
+            "y": 173
+          }
+        ]
+      },
+      {
+        "name": "Heart of the Mountain",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Room d-06 Strawberry"
+          },
+          {
+            "name": "Cassette",
+            "chest_unopened_img": "images/items/items/cassette.png",
+            "chest_opened_img": "images/items/items/cassette2.png"
+          },
+          {
+            "name": "Level Clear",
+            "chest_unopened_img": "images/items/items/complete.png",
+            "chest_opened_img": "images/items/items/complete2.png"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celeste_chapter_select",
+            "x": 1077,
+            "y": 206
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Core B",
+    "access_rules": [
+      "$COREB"
+    ],
+    "visibility_rules": [
+      "$COREB_IS_VISIBLE"
+    ],
+    "children": [
+      {
+        "name": "Heartbeat",
+        "sections": [
+          {
+            "name": "Level Clear",
+            "chest_unopened_img": "images/items/items/red_heart.png",
+            "chest_opened_img": "images/items/items/red_heart2.png"
+          }
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "celeste_chapter_select",
+        "x": 1057,
+        "y": 279
+      }
+    ]
+  },
+  {
+    "name": "Core C",
+    "access_rules": [
+      "$COREC"
+    ],
+    "visibility_rules": [
+      "$COREC_IS_VISIBLE"
+    ],
+    "children": [
+      {
+        "name": "Start",
+        "sections": [
+          {
+            "name": "Level Clear",
+            "chest_unopened_img": "images/items/items/yellow_heart.png",
+            "chest_opened_img": "images/items/items/yellow_heart2.png"
+          }
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "celeste_chapter_select",
+        "x": 1057,
+        "y": 319
+      }
+    ]
+  }
+]

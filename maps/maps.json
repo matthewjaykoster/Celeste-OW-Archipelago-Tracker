@@ -1,4 +1,3 @@
-
 [
     {
         "name": "celeste_chapter_select",
@@ -115,7 +114,7 @@
         "img": "images/maps/5_mirror_temple/mirror-temple-search.png"
     },
     {
-        "name": "mirror_temple_search_2",
+        "name": "mirror_temple_rescue",
         "location_size": 55,
         "location_border_thickness": 4,
         "img": "images/maps/5_mirror_temple/mirror-temple-search-2.png"

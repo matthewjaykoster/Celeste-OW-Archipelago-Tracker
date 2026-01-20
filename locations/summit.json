@@ -728,23 +728,23 @@
       {
         "sections": [
           {
-            "name": "Room e-11 Strawberry",
-            "ref": "The Summit A/2000 M/Room e-11 Strawberry"
+            "name": "Room e-10 Strawberry",
+            "ref": "The Summit A/2000 M/Room e-10 Strawberry"
           }
         ],
         "map_locations": [
           {
             "map": "summit_2000_m",
-            "x": 4407,
-            "y": 1040
+            "x": 5239,
+            "y": 1523
           }
         ]
       },
       {
         "sections": [
           {
-            "name": "Room e-12 Strawberry",
-            "ref": "The Summit A/2000 M/Room e-12 Strawberry"
+            "name": "Room e-11 Strawberry",
+            "ref": "The Summit A/2000 M/Room e-11 Strawberry"
           }
         ],
         "map_locations": [
@@ -758,15 +758,15 @@
       {
         "sections": [
           {
-            "name": "Room e-10 Strawberry",
-            "ref": "The Summit A/2000 M/Room e-10 Strawberry"
+            "name": "Room e-12 Strawberry",
+            "ref": "The Summit A/2000 M/Room e-12 Strawberry"
           }
         ],
         "map_locations": [
           {
             "map": "summit_2000_m",
-            "x": 5239,
-            "y": 1523
+            "x": 4407,
+            "y": 1040
           }
         ]
       },
@@ -800,8 +800,8 @@
         "map_locations": [
           {
             "map": "summit_2500_m",
-            "x": 39,
-            "y": 1751
+            "x": 1135,
+            "y": 1968
           }
         ]
       },
@@ -815,8 +815,8 @@
         "map_locations": [
           {
             "map": "summit_2500_m",
-            "x": 1135,
-            "y": 1968
+            "x": 39,
+            "y": 1751
           }
         ]
       },
@@ -890,7 +890,7 @@
         "map_locations": [
           {
             "map": "summit_2500_m",
-            "x": 6047,
+            "x": 5807,
             "y": 720
           }
         ]
@@ -905,7 +905,7 @@
         "map_locations": [
           {
             "map": "summit_2500_m",
-            "x": 5807,
+            "x": 6047,
             "y": 720
           }
         ]

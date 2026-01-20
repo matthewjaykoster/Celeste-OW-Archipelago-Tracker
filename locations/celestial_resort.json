@@ -27,10 +27,10 @@
                         "name": "Room 04-b Strawberry"
                     },
                     {
-                        "name": "Room 06-a Strawberry"
+                        "name": "Room 05-c Strawberry"
                     },
                     {
-                        "name": "Room 07-b Strawberry"
+                        "name": "Room 06-a Strawberry"
                     },
                     {
                         "name": "Room 06-b Strawberry"
@@ -39,7 +39,7 @@
                         "name": "Room 06-c Strawberry"
                     },
                     {
-                        "name": "Room 05-c Strawberry"
+                        "name": "Room 07-b Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -55,25 +55,25 @@
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Room 12-y Strawberry"
+                        "name": "Room 08-x Strawberry"
                     },
                     {
                         "name": "Room 10-y Strawberry"
                     },
                     {
+                        "name": "Room 11-d Strawberry"
+                    },
+                    {
                         "name": "Room 12-c Strawberry"
                     },
                     {
-                        "name": "Room 11-d Strawberry"
+                        "name": "Room 12-y Strawberry"
                     },
                     {
                         "name": "Room 13-b Strawberry"
                     },
                     {
                         "name": "Room 13-x Strawberry"
-                    },
-                    {
-                        "name": "Room 08-x Strawberry"
                     },
                     {
                         "name": "Crystal Heart",
@@ -94,16 +94,16 @@
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Room 06-d Strawberry"
+                        "name": "Room 03-b Strawberry 1"
+                    },
+                    {
+                        "name": "Room 03-b Strawberry 2"
                     },
                     {
                         "name": "Room 04-c Strawberry"
                     },
                     {
-                        "name": "Room 03-b Strawberry 1"
-                    },
-                    {
-                        "name": "Room 03-b Strawberry 2"
+                        "name": "Room 06-d Strawberry"
                     },
                     {
                         "name": "Cassette",
@@ -191,8 +191,8 @@
                 "map_locations": [
                     {
                         "map": "hotel_start",
-                        "x": 2271,
-                        "y": 487
+                        "x": 1455,
+                        "y": 238
                     }
                 ]
             },
@@ -206,8 +206,8 @@
                 "map_locations": [
                     {
                         "map": "hotel_start",
-                        "x": 1983,
-                        "y": 255
+                        "x": 2271,
+                        "y": 487
                     }
                 ]
             },
@@ -221,8 +221,8 @@
                 "map_locations": [
                     {
                         "map": "hotel_start",
-                        "x": 1455,
-                        "y": 238
+                        "x": 1983,
+                        "y": 255
                     }
                 ]
             },
@@ -244,6 +244,21 @@
             {
                 "sections": [
                     {
+                        "name": "Room 05-c Strawberry",
+                        "ref": "Celestial Resort A/Start/Room 05-c Strawberry"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hotel_start",
+                        "x": 3672,
+                        "y": 326
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                         "name": "Room 06-a Strawberry",
                         "ref": "Celestial Resort A/Start/Room 06-a Strawberry"
                     }
@@ -259,21 +274,6 @@
             {
                 "sections": [
                     {
-                        "name": "Room 07-b Strawberry",
-                        "ref": "Celestial Resort A/Start/Room 07-b Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_start",
-                        "x": 3936,
-                        "y": 327
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
                         "name": "Room 06-b Strawberry",
                         "ref": "Celestial Resort A/Start/Room 06-b Strawberry"
                     }
@@ -281,8 +281,8 @@
                 "map_locations": [
                     {
                         "map": "hotel_start",
-                        "x": 3672,
-                        "y": 326
+                        "x": 3936,
+                        "y": 327
                     }
                 ]
             },
@@ -304,8 +304,8 @@
             {
                 "sections": [
                     {
-                        "name": "Room 05-c Strawberry",
-                        "ref": "Celestial Resort A/Start/Room 05-c Strawberry"
+                        "name": "Room 07-b Strawberry",
+                        "ref": "Celestial Resort A/Start/Room 07-b Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -324,15 +324,15 @@
             {
                 "sections": [
                     {
-                        "name": "Room 12-y Strawberry",
-                        "ref": "Celestial Resort A/Huge Mess/Room 12-y Strawberry"
+                        "name": "Room 08-x Strawberry",
+                        "ref": "Celestial Resort A/Huge Mess/Room 08-x Strawberry"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "hotel_huge_mess",
-                        "x": 1439,
-                        "y": 334
+                        "x": 160,
+                        "y": 839
                     }
                 ]
             },
@@ -341,6 +341,21 @@
                     {
                         "name": "Room 10-y Strawberry",
                         "ref": "Celestial Resort A/Huge Mess/Room 10-y Strawberry"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hotel_huge_mess",
+                        "x": 751,
+                        "y": 967
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Room 11-d Strawberry",
+                        "ref": "Celestial Resort A/Huge Mess/Room 11-d Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -361,31 +376,16 @@
                 "map_locations": [
                     {
                         "map": "hotel_huge_mess",
-                        "x": 1895,
-                        "y": 506
+                        "x": 1439,
+                        "y": 334
                     }
                 ]
             },
             {
                 "sections": [
                     {
-                        "name": "Room 11-d Strawberry",
-                        "ref": "Celestial Resort A/Huge Mess/Room 11-d Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_huge_mess",
-                        "x": 1735,
-                        "y": 870
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 13-b Strawberry",
-                        "ref": "Celestial Resort A/Huge Mess/Room 13-b Strawberry"
+                        "name": "Room 12-y Strawberry",
+                        "ref": "Celestial Resort A/Huge Mess/Room 12-y Strawberry"
                     }
                 ],
                 "map_locations": [
@@ -399,6 +399,21 @@
             {
                 "sections": [
                     {
+                        "name": "Room 13-b Strawberry",
+                        "ref": "Celestial Resort A/Huge Mess/Room 13-b Strawberry"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hotel_huge_mess",
+                        "x": 1895,
+                        "y": 506
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
                         "name": "Room 13-x Strawberry",
                         "ref": "Celestial Resort A/Huge Mess/Room 13-x Strawberry"
                     }
@@ -406,23 +421,8 @@
                 "map_locations": [
                     {
                         "map": "hotel_huge_mess",
-                        "x": 751,
-                        "y": 967
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 08-x Strawberry",
-                        "ref": "Celestial Resort A/Huge Mess/Room 08-x Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_huge_mess",
-                        "x": 160,
-                        "y": 839
+                        "x": 1735,
+                        "y": 870
                     }
                 ]
             },
@@ -449,15 +449,30 @@
             {
                 "sections": [
                     {
-                        "name": "Room 06-d Strawberry",
-                        "ref": "Celestial Resort A/Elevator Shaft/Room 06-d Strawberry"
+                        "name": "Room 03-b Strawberry 1",
+                        "ref": "Celestial Resort A/Elevator Shaft/Room 03-b Strawberry 1"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "hotel_elevator_shaft",
-                        "x": 1895,
-                        "y": 38
+                        "x": 695,
+                        "y": 397
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Room 03-b Strawberry 2",
+                        "ref": "Celestial Resort A/Elevator Shaft/Room 03-b Strawberry 2"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "hotel_elevator_shaft",
+                        "x": 831,
+                        "y": 453
                     }
                 ]
             },
@@ -479,30 +494,15 @@
             {
                 "sections": [
                     {
-                        "name": "Room 03-b Strawberry 1",
-                        "ref": "Celestial Resort A/Elevator Shaft/Room 03-b Strawberry 1"
+                        "name": "Room 06-d Strawberry",
+                        "ref": "Celestial Resort A/Elevator Shaft/Room 06-d Strawberry"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "hotel_elevator_shaft",
-                        "x": 831,
-                        "y": 453
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 03-b Strawberry 2",
-                        "ref": "Celestial Resort A/Elevator Shaft/Room 03-b Strawberry 2"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_elevator_shaft",
-                        "x": 695,
-                        "y": 397
+                        "x": 1895,
+                        "y": 38
                     }
                 ]
             },

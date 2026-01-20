@@ -27,10 +27,10 @@
                         "name": "Room a-07 Strawberry"
                     },
                     {
-                        "name": "Room a-10 Strawberry"
+                        "name": "Room a-09 Strawberry"
                     },
                     {
-                        "name": "Room a-09 Strawberry"
+                        "name": "Room a-10 Strawberry"
                     },
                     {
                         "name": "Cassette",
@@ -57,25 +57,25 @@
                         "name": "Room b-01 Strawberry 2"
                     },
                     {
-                        "name": "Room b-04 Strawberry"
-                    },
-                    {
-                        "name": "Room b-07 Strawberry"
-                    },
-                    {
-                        "name": "Room b-03 Strawberry"
-                    },
-                    {
                         "name": "Room b-02 Strawberry 1"
                     },
                     {
                         "name": "Room b-02 Strawberry 2"
                     },
                     {
-                        "name": "Room b-secb Strawberry"
+                        "name": "Room b-03 Strawberry"
+                    },
+                    {
+                        "name": "Room b-04 Strawberry"
+                    },
+                    {
+                        "name": "Room b-07 Strawberry"
                     },
                     {
                         "name": "Room b-08 Strawberry"
+                    },
+                    {
+                        "name": "Room b-secb Strawberry"
                     },
                     {
                         "name": "Crystal Heart",
@@ -256,21 +256,6 @@
             {
                 "sections": [
                     {
-                        "name": "Room a-10 Strawberry",
-                        "ref": "Golden Ridge A/Start/Room a-10 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_start",
-                        "x": 4247,
-                        "y": 255
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
                         "name": "Room a-09 Strawberry",
                         "ref": "Golden Ridge A/Start/Room a-09 Strawberry"
                     }
@@ -280,6 +265,21 @@
                         "map": "ridge_start",
                         "x": 4624,
                         "y": 112
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Room a-10 Strawberry",
+                        "ref": "Golden Ridge A/Start/Room a-10 Strawberry"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ridge_start",
+                        "x": 4247,
+                        "y": 255
                     }
                 ]
             },
@@ -336,51 +336,6 @@
             {
                 "sections": [
                     {
-                        "name": "Room b-04 Strawberry",
-                        "ref": "Golden Ridge A/Shrine/Room b-04 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 1376,
-                        "y": 863
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room b-07 Strawberry",
-                        "ref": "Golden Ridge A/Shrine/Room b-07 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 559,
-                        "y": 944
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room b-03 Strawberry",
-                        "ref": "Golden Ridge A/Shrine/Room b-03 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 327,
-                        "y": 952
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
                         "name": "Room b-02 Strawberry 1",
                         "ref": "Golden Ridge A/Shrine/Room b-02 Strawberry 1"
                     }
@@ -388,8 +343,8 @@
                 "map_locations": [
                     {
                         "map": "ridge_shrine",
-                        "x": 512,
-                        "y": 687
+                        "x": 1376,
+                        "y": 863
                     }
                 ]
             },
@@ -411,15 +366,45 @@
             {
                 "sections": [
                     {
-                        "name": "Room b-secb Strawberry",
-                        "ref": "Golden Ridge A/Shrine/Room b-secb Strawberry"
+                        "name": "Room b-03 Strawberry",
+                        "ref": "Golden Ridge A/Shrine/Room b-03 Strawberry"
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "ridge_shrine",
-                        "x": 1808,
-                        "y": 607
+                        "x": 559,
+                        "y": 944
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Room b-04 Strawberry",
+                        "ref": "Golden Ridge A/Shrine/Room b-04 Strawberry"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ridge_shrine",
+                        "x": 512,
+                        "y": 687
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Room b-07 Strawberry",
+                        "ref": "Golden Ridge A/Shrine/Room b-07 Strawberry"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ridge_shrine",
+                        "x": 327,
+                        "y": 952
                     }
                 ]
             },
@@ -435,6 +420,21 @@
                         "map": "ridge_shrine",
                         "x": 1904,
                         "y": 47
+                    }
+                ]
+            },
+            {
+                "sections": [
+                    {
+                        "name": "Room b-secb Strawberry",
+                        "ref": "Golden Ridge A/Shrine/Room b-secb Strawberry"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "ridge_shrine",
+                        "x": 1808,
+                        "y": 607
                     }
                 ]
             },
@@ -468,8 +468,8 @@
                 "map_locations": [
                     {
                         "map": "ridge_old_trail",
-                        "x": 160,
-                        "y": 1920
+                        "x": 697,
+                        "y": 2184
                     }
                 ]
             },
@@ -483,8 +483,8 @@
                 "map_locations": [
                     {
                         "map": "ridge_old_trail",
-                        "x": 697,
-                        "y": 2184
+                        "x": 160,
+                        "y": 1920
                     }
                 ]
             },
@@ -513,8 +513,8 @@
                 "map_locations": [
                     {
                         "map": "ridge_old_trail",
-                        "x": 2072,
-                        "y": 1223
+                        "x": 2592,
+                        "y": 1104
                     }
                 ]
             },
@@ -528,8 +528,8 @@
                 "map_locations": [
                     {
                         "map": "ridge_old_trail",
-                        "x": 2592,
-                        "y": 1104
+                        "x": 2072,
+                        "y": 1223
                     }
                 ]
             },

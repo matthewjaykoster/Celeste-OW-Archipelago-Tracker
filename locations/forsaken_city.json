@@ -1,13 +1,13 @@
 [
     {
         "name": "Forsaken City A",
-        "chest_unopened_img": "images/items/items/berry.png",
-        "chest_opened_img": "images/items/items/berry2.png",
+        "chest_unopened_img": "images/items/berry.png",
+        "chest_opened_img": "images/items/berry_outline.png",
         "children": [
             {
                 "name": "Start",
-                "chest_unopened_img": "images/items/items/berry.png",
-                "chest_opened_img": "images/items/items/berry2.png",
+                "chest_unopened_img": "images/items/berry.png",
+                "chest_opened_img": "images/items/berry_outline.png",
                 "sections": [
                     {
                         "name": "Room 2 Strawberry"
@@ -38,8 +38,8 @@
             },
             {
                 "name": "Crossing",
-                "chest_unopened_img": "images/items/items/berry.png",
-                "chest_opened_img": "images/items/items/berry2.png",
+                "chest_unopened_img": "images/items/berry.png",
+                "chest_opened_img": "images/items/berry_outline.png",
                 "sections": [
                     {
                         "name": "Room s1 Strawberry"
@@ -70,8 +70,8 @@
                     },
                     {
                         "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/items/blue_heart.png",
-                        "chest_opened_img": "images/items/items/blue_heart2.png"
+                        "chest_unopened_img": "images/items/blue_heart.png",
+                        "chest_opened_img": "images/items/blue_heart_outline.png"
                     }
                 ],
                 "map_locations": [
@@ -84,8 +84,8 @@
             },
             {
                 "name": "Chasm",
-                "chest_unopened_img": "images/items/items/berry.png",
-                "chest_opened_img": "images/items/items/berry2.png",
+                "chest_unopened_img": "images/items/berry.png",
+                "chest_opened_img": "images/items/berry_outline.png",
                 "sections": [
                     {
                         "name": "Room 9b Strawberry"
@@ -104,13 +104,13 @@
                     },
                     {
                         "name": "Cassette",
-                        "chest_unopened_img": "images/items/items/cassette.png",
-                        "chest_opened_img": "images/items/items/cassette2.png"
+                        "chest_unopened_img": "images/items/cassette.png",
+                        "chest_opened_img": "images/items/cassette_outline.png"
                     },
                     {
                         "name": "Level Clear",
-                        "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
+                        "chest_unopened_img": "images/items/complete.png",
+                        "chest_opened_img": "images/items/complete_outline.png"
                     }
                 ],
                 "map_locations": [
@@ -125,8 +125,8 @@
     },
     {
         "name": "Forsaken City A Start Map",
-        "chest_unopened_img": "images/items/items/berry.png",
-        "chest_opened_img": "images/items/items/berry2.png",
+        "chest_unopened_img": "images/items/berry.png",
+        "chest_opened_img": "images/items/berry_outline.png",
         "children": [
             {
                 "sections": [
@@ -222,8 +222,8 @@
     },
     {
         "name": "Forsaken City A Crossing Map",
-        "chest_unopened_img": "images/items/items/berry.png",
-        "chest_opened_img": "images/items/items/berry2.png",
+        "chest_unopened_img": "images/items/berry.png",
+        "chest_opened_img": "images/items/berry_outline.png",
         "children": [
             {
                 "sections": [
@@ -379,8 +379,8 @@
     },
     {
         "name": "Forsaken City A Chasm Map",
-        "chest_unopened_img": "images/items/items/berry.png",
-        "chest_opened_img": "images/items/items/berry2.png",
+        "chest_unopened_img": "images/items/berry.png",
+        "chest_opened_img": "images/items/berry_outline.png",
         "children": [
             {
                 "sections": [
@@ -497,8 +497,8 @@
                 "sections": [
                     {
                         "name": "Level Clear",
-                        "chest_unopened_img": "images/items/items/red_heart.png",
-                        "chest_opened_img": "images/items/items/red_heart2.png"
+                        "chest_unopened_img": "images/items/red_heart.png",
+                        "chest_opened_img": "images/items/red_heart_outline.png"
                     }
                 ]
             }
@@ -519,8 +519,8 @@
                 "sections": [
                     {
                         "name": "Level Clear",
-                        "chest_unopened_img": "images/items/items/yellow_heart.png",
-                        "chest_opened_img": "images/items/items/yellow_heart2.png"
+                        "chest_unopened_img": "images/items/yellow_heart.png",
+                        "chest_opened_img": "images/items/yellow_heart_outline.png"
                     }
                 ]
             }

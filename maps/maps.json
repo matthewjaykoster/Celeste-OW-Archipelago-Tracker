@@ -9,19 +9,19 @@
         "name": "city_start",
         "location_size": 35,
         "location_border_thickness": 4,
-        "img": "images/maps/1_city/city-start.png"
+        "img": "images/maps/1_forsaken_city/city-start.png"
     },
     {
         "name": "city_crossing",
         "location_size": 35,
         "location_border_thickness": 4,
-        "img": "images/maps/1_city/city-crossing.png"
+        "img": "images/maps/1_forsaken_city/city-crossing.png"
     },
     {
         "name": "city_chasm",
         "location_size": 35,
         "location_border_thickness": 4,
-        "img": "images/maps/1_city/city-chasm.png"
+        "img": "images/maps/1_forsaken_city/city-chasm.png"
     },
     {
         "name": "old_site_start",
@@ -45,49 +45,49 @@
         "name": "hotel_start",
         "location_size": 45,
         "location_border_thickness": 4,
-        "img": "images/maps/3_hotel/hotel-start.png"
+        "img": "images/maps/3_celestial_resort/hotel-start.png"
     },
     {
         "name": "hotel_huge_mess",
         "location_size": 40,
         "location_border_thickness": 4,
-        "img": "images/maps/3_hotel/hotel-huge-mess.png"
+        "img": "images/maps/3_celestial_resort/hotel-huge-mess.png"
     },
     {
         "name": "hotel_elevator_shaft",
         "location_size": 30,
         "location_border_thickness": 4,
-        "img": "images/maps/3_hotel/hotel-elevator-shaft.png"
+        "img": "images/maps/3_celestial_resort/hotel-elevator-shaft.png"
     },
     {
         "name": "hotel_presidential_suite",
         "location_size": 65,
         "location_border_thickness": 4,
-        "img": "images/maps/3_hotel/hotel-presidential-suite.png"
+        "img": "images/maps/3_celestial_resort/hotel-presidential-suite.png"
     },
     {
         "name": "ridge_start",
         "location_size": 45,
         "location_border_thickness": 4,
-        "img": "images/maps/4_ridge/ridge-start.png"
+        "img": "images/maps/4_golden_ridge/ridge-start.png"
     },
     {
         "name": "ridge_shrine",
         "location_size": 32,
         "location_border_thickness": 4,
-        "img": "images/maps/4_ridge/ridge-shrine.png"
+        "img": "images/maps/4_golden_ridge/ridge-shrine.png"
     },
     {
         "name": "ridge_old_trail",
         "location_size": 62,
         "location_border_thickness": 4,
-        "img": "images/maps/4_ridge/ridge-old-trail.png"
+        "img": "images/maps/4_golden_ridge/ridge-old-trail.png"
     },
     {
         "name": "ridge_cliff_face",
         "location_size": 55,
         "location_border_thickness": 4,
-        "img": "images/maps/4_ridge/ridge-cliff-face.png"
+        "img": "images/maps/4_golden_ridge/ridge-cliff-face.png"
     },
     {
         "name": "mirror_temple_start",

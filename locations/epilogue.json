@@ -13,8 +13,8 @@
                 "sections": [
                     {
                         "name": "Level Clear",
-                        "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
+                        "chest_unopened_img": "images/items/complete.png",
+                        "chest_opened_img": "images/items/complete_outline.png"
                     }
                 ],
                 "map_locations": [

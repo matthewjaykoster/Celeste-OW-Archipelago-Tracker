@@ -1,8 +1,8 @@
 [
     {
         "name": "Old Site A",
-        "chest_unopened_img": "images/items/items/berry.png",
-        "chest_opened_img": "images/items/items/berry2.png",
+        "chest_unopened_img": "images/items/berry.png",
+        "chest_opened_img": "images/items/berry_outline.png",
         "children": [
             {
                 "name": "Start",
@@ -37,13 +37,13 @@
                     },
                     {
                         "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/items/blue_heart.png",
-                        "chest_opened_img": "images/items/items/blue_heart2.png"
+                        "chest_unopened_img": "images/items/blue_heart.png",
+                        "chest_opened_img": "images/items/blue_heart_outline.png"
                     },
                     {
                         "name": "Cassette",
-                        "chest_unopened_img": "images/items/items/cassette.png",
-                        "chest_opened_img": "images/items/items/cassette2.png"
+                        "chest_unopened_img": "images/items/cassette.png",
+                        "chest_opened_img": "images/items/cassette_outline.png"
                     }
                 ],
                 "map_locations": [
@@ -100,8 +100,8 @@
                     },
                     {
                         "name": "Level Clear",
-                        "chest_unopened_img": "images/items/items/complete.png",
-                        "chest_opened_img": "images/items/items/complete2.png"
+                        "chest_unopened_img": "images/items/complete.png",
+                        "chest_opened_img": "images/items/complete_outline.png"
                     }
                 ],
                 "map_locations": [
@@ -450,8 +450,8 @@
         "sections": [
             {
                 "name": "Level Clear",
-                "chest_unopened_img": "images/items/items/red_heart.png",
-                "chest_opened_img": "images/items/items/red_heart2.png"
+                "chest_unopened_img": "images/items/red_heart.png",
+                "chest_opened_img": "images/items/red_heart_outline.png"
             }
         ],
         "map_locations": [
@@ -468,8 +468,8 @@
         "sections": [
             {
                 "name": "Level Clear",
-                "chest_unopened_img": "images/items/items/yellow_heart.png",
-                "chest_opened_img": "images/items/items/yellow_heart2.png"
+                "chest_unopened_img": "images/items/yellow_heart.png",
+                "chest_opened_img": "images/items/yellow_heart_outline.png"
             }
         ],
         "map_locations": [

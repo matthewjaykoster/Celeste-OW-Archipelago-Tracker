@@ -1,5 +1,8 @@
 [
     {
+        "TODO": "Reorgaize item tracker into items, checkpoints, keys, and settings."
+    },
+    {
         "name": "City A-Side Crystal Heart",
         "type": "toggle",
         "img": "images/items/blue_heart.png",

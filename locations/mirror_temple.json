@@ -717,8 +717,8 @@
     "sections": [
       {
         "name": "Level Clear",
-        "chest_unopened_img": "images/items/complete.png",
-        "chest_opened_img": "images/items/complete_outline.png"
+        "chest_unopened_img": "images/items/red_heart.png",
+        "chest_opened_img": "images/items/red_heart_outline.png"
       }
     ],
     "map_locations": [
@@ -735,8 +735,8 @@
     "sections": [
       {
         "name": "Level Clear",
-        "chest_unopened_img": "images/items/complete.png",
-        "chest_opened_img": "images/items/complete_outline.png"
+        "chest_unopened_img": "images/items/yellow_heart.png",
+        "chest_opened_img": "images/items/yellow_heart_outline.png"
       }
     ],
     "map_locations": [

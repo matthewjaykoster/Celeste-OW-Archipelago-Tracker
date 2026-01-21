@@ -91,37 +91,37 @@
         "initial_stage_idx": 0,
         "stages": [
             {
-                "img": "images/items/summit.png",
+                "img": "images/settings/summit.png",
                 "codes": "summit",
                 "inherit_codes": false
             },
             {
-                "img": "images/items/core.png",
+                "img": "images/settings/core.png",
                 "codes": "core",
                 "inherit_codes": false
             },
             {
-                "img": "images/items/farewell.png",
+                "img": "images/settings/farewell.png",
                 "codes": "farewell",
                 "inherit_codes": false
             },
             {
-                "img": "images/items/summit_b.png",
+                "img": "images/settings/summit_b.png",
                 "codes": "summit_b",
                 "inherit_codes": false
             },
             {
-                "img": "images/items/core_b.png",
+                "img": "images/settings/core_b.png",
                 "codes": "core_b",
                 "inherit_codes": false
             },
             {
-                "img": "images/items/summit_c.png",
+                "img": "images/settings/summit_c.png",
                 "codes": "summit_c",
                 "inherit_codes": false
             },
             {
-                "img": "images/items/core_c.png",
+                "img": "images/settings/core_c.png",
                 "codes": "core_c",
                 "inherit_codes": false
             }

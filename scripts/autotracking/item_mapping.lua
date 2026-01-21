@@ -1,6 +1,6 @@
 ITEM_MAPPING = {
     [211877888] = {{"strawberry", "toggle"}, {"berries_obtained_total", "consumable"}},
-    [211877889] = {{"raspberry", "toggle"}},
+    [211877889] = {{"raspberry", "toggle"}, {"raspberries_obtained_total", "consumable"}},
     [211877904] = {{"grannyshousekeys", "toggle"}},
     [211877920] = {{"baldtrap", "toggle"}},
     [211877921] = {{"literaturetrap", "toggle"}},

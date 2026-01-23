@@ -50,10 +50,10 @@ function onClear(slot_data)
                     elseif item[2] == "consumable" then
                         obj.AcquiredCount = 0
                     else
-                        logDebugArchipelago(string.format("onClear: unknown item type %s for code %s", item[2], item[1]))
+                        logDebugVerbose(string.format("onClear: unknown item type %s for code %s", item[2], item[1]))
                     end
                 else
-                    logDebugArchipelago(string.format("onClear: could not find object for code %s", item[1]))
+                    logDebugVerbose(string.format("onClear: could not find object for code %s", item[1]))
                 end
             end
         end
@@ -73,7 +73,7 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("death_link").AcquiredCount = 0
     end
     if slot_data["trap_link"] ~= nil then
-        Tracker:FindObjectForCode("trap_link").AcquiredCount = tonumber(slot_data["trap_link"])
+        Tracker:FindObjectForCode("trap_link").Active = tonumber(slot_data["trap_link"])
     end
 
     -- Settings: Goal Options
@@ -81,56 +81,55 @@ function onClear(slot_data)
         Tracker:FindObjectForCode("berries_required").AcquiredCount = tonumber(slot_data["strawberries_required"])
     end
     if slot_data["lock_goal_area"] ~= nil then
-        Tracker:FindObjectForCode("lock_goal_area").AcquiredCount = tonumber(slot_data["lock_goal_area"])
+        Tracker:FindObjectForCode("lock_goal_area").Active = tonumber(slot_data["lock_goal_area"])
     end
     if slot_data["goal_area_checkpointsanity"] ~= nil then
-        Tracker:FindObjectForCode("goal_area_checkpointsanity").AcquiredCount = tonumber(
+        Tracker:FindObjectForCode("goal_area_checkpointsanity").Active = tonumber(
             slot_data["goal_area_checkpointsanity"])
     end
     if slot_data["goal_area"] then
-        Tracker:FindObjectForCode("goal").CurrentStage = _mapLevelCodeToNameCode(slot_data["goal_level"])
+        Tracker:FindObjectForCode("goal").CurrentStage = _mapSlotGoalAreaCodeToGoalObjectIndex(slot_data["goal_area"])
     end
 
     -- Settings: Location Options/-sanities
     if slot_data["binosanity"] ~= nil then
-        Tracker:FindObjectForCode("binosanity").AcquiredCount = tonumber(slot_data["binosanity"])
+        Tracker:FindObjectForCode("binosanity").Active = tonumber(slot_data["binosanity"])
     end
     if slot_data["carsanity"] ~= nil then
-        Tracker:FindObjectForCode("carsanity").AcquiredCount = tonumber(slot_data["carsanity"])
+        Tracker:FindObjectForCode("carsanity").Active = tonumber(slot_data["carsanity"])
     end
     if slot_data["checkpointsanity"] ~= nil then
-        Tracker:FindObjectForCode("checkpointsanity").AcquiredCount = tonumber(slot_data["checkpointsanity"])
+        Tracker:FindObjectForCode("checkpointsanity").Active = tonumber(slot_data["checkpointsanity"])
     end
     if slot_data["gemsanity"] ~= nil then
-        Tracker:FindObjectForCode("gemsanity").AcquiredCount = tonumber(slot_data["gemsanity"])
+        Tracker:FindObjectForCode("gemsanity").Active = tonumber(slot_data["gemsanity"])
     end
     if slot_data["keysanity"] ~= nil then
-        Tracker:FindObjectForCode("keysanity").AcquiredCount = tonumber(slot_data["keysanity"])
+        Tracker:FindObjectForCode("keysanity").Active = tonumber(slot_data["keysanity"])
     end
     if slot_data["roomsanity"] ~= nil then
-        Tracker:FindObjectForCode("roomsanity").AcquiredCount = tonumber(slot_data["roomsanity"])
+        Tracker:FindObjectForCode("roomsanity").Active = tonumber(slot_data["roomsanity"])
     end
 
     -- Settings: Location Options/checks
     if slot_data["include_goldens"] ~= nil then
-        Tracker:FindObjectForCode("include_goldens").AcquiredCount = tonumber(slot_data["include_goldens"])
+        Tracker:FindObjectForCode("include_goldens").Active = tonumber(slot_data["include_goldens"])
     end
     if slot_data["include_core"] ~= nil then
-        Tracker:FindObjectForCode("include_core").AcquiredCount = tonumber(slot_data["include_core"])
+        Tracker:FindObjectForCode("include_core").Active = tonumber(slot_data["include_core"])
     end
     if slot_data["include_farewell"] ~= nil then
         -- 0 == "None", 1 == "Empty Space", 2 == "Farewell"
-        Tracker:FindObjectForCode("include_farewell").AcquiredCount =
-            _mapIncludeFarewellToCode(tonumber(slot_data["include_farewell"]))
+        Tracker:FindObjectForCode("include_farewell").CurrentStage = tonumber(slot_data["include_farewell"])
     end
     if slot_data["include_b_sides"] ~= nil then
-        Tracker:FindObjectForCode("include_b_sides").AcquiredCount = tonumber(slot_data["include_b_sides"])
+        Tracker:FindObjectForCode("include_b_sides").Active = tonumber(slot_data["include_b_sides"])
     end
     if slot_data["include_c_sides"] ~= nil then
-        Tracker:FindObjectForCode("include_c_sides").AcquiredCount = tonumber(slot_data["include_c_sides"])
+        Tracker:FindObjectForCode("include_c_sides").Active = tonumber(slot_data["include_c_sides"])
     end
 
-    logDebug("onClear: Settings and goals reset successfully.")
+    logDebug("onClear: Settings and goals reset completed.")
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -277,41 +276,42 @@ function updateTabs(raw_celeste_play_state)
     -- end
 end
 
---- Maps an Include Farewell integer enumeration to its related tracker code.
----@param num number
-function _mapIncludeFarewellToCode(num)
-    if num == 0 then
-        return "include_farewell_disabled"
-    elseif num == 1 then
-        return "include_farewell_empty_space"
-    elseif num == 2 then
-        return "include_farewell_farewell"
-    end
-end
-
 --- Maps a level code (e.g. 10c) to its name code (e.g. farewell_golden).
 ---@param level_code string
-function _mapLevelCodeToNameCode(level_code)
+function _mapSlotGoalAreaCodeToGoalObjectIndex(level_code)
     if level_code == "7a" then
-        return "the_summit_a"
+        return 0
+        -- return "the_summit_a"
     elseif level_code == "7b" then
-        return "the_summit_b"
+        return 1
+        -- return "the_summit_b"
     elseif level_code == "7c" then
-        return "the_summit_c"
+        return 2
+        -- return "the_summit_c"
     elseif level_code == "9a" then
-        return "core_a"
+        return 3
+        -- return "core_a"
     elseif level_code == "9b" then
-        return "core_b"
+        return 4
+        -- return "core_b"
     elseif level_code == "9c" then
-        return "core_c"
+        return 5
+        -- return "core_c"
     elseif level_code == "10a" then
-        return "empty_space"
+        return 6
+        -- return "empty_space"
     elseif level_code == "10b" then
-        return "farewell"
+        return 7
+        -- return "farewell"
     elseif level_code == "10c" then
-        return "farewell_golden"
+        return 8
+        -- return "farewell_golden"
     else
-        logDebug('Found invalid Goal Area level code when mapping to name code.');
+        logDebug(string.format(
+            'Error: Found invalid Goal Area level code (%s) when mapping to name code. Defaulting to Summit A'),
+            level_code);
+        return 0
+        -- return "the_summit_a"
     end
 end
 

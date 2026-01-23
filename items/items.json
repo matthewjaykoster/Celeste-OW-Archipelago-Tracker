@@ -1,1 +1,224 @@
-[]
+[
+    {
+        "name": "Strawberry",
+        "type": "toggle",
+        "img": "images/items/berry.png",
+        "codes": "strawberry"
+    },
+    {
+        "name": "Raspberry",
+        "type": "toggle",
+        "img": "images/items/raspberry.png",
+        "codes": "raspberry"
+    },
+    {
+        "name": "Springs",
+        "type": "toggle",
+        "img": "images/items/spring.png",
+        "codes": "springs"
+    },
+    {
+        "name": "Traffic Blocks",
+        "type": "toggle",
+        "img": "images/items/traffic.png",
+        "codes": "trafficblocks"
+    },
+    {
+        "name": "Pink Cassette Blocks",
+        "type": "toggle",
+        "img": "images/items/pink_cassette.png",
+        "codes": "pinkcassetteblocks"
+    },
+    {
+        "name": "Blue Cassette Blocks",
+        "type": "toggle",
+        "img": "images/items/blue_cassette.png",
+        "codes": "bluecassetteblocks"
+    },
+    {
+        "name": "Dream Blocks",
+        "type": "toggle",
+        "img": "images/items/dream.png",
+        "codes": "dreamblocks"
+    },
+    {
+        "name": "Coins",
+        "type": "toggle",
+        "img": "images/items/coin.png",
+        "codes": "coins"
+    },
+    {
+        "name": "Strawberry Seeds",
+        "type": "toggle",
+        "img": "images/items/seed.png",
+        "codes": "strawberryseeds"
+    },
+    {
+        "name": "Sinking Platforms",
+        "type": "toggle",
+        "img": "images/items/sinking.png",
+        "codes": "sinkingplatforms"
+    },
+    {
+        "name": "Moving Platforms",
+        "type": "toggle",
+        "img": "images/items/moving.png",
+        "codes": "movingplatforms"
+    },
+    {
+        "name": "Blue Boosters",
+        "type": "toggle",
+        "img": "images/items/booster_blue.png",
+        "codes": "blueboosters"
+    },
+    {
+        "name": "Blue Clouds",
+        "type": "toggle",
+        "img": "images/items/cloud_blue.png",
+        "codes": "blueclouds"
+    },
+    {
+        "name": "Move Blocks",
+        "type": "toggle",
+        "img": "images/items/move_block.png",
+        "codes": "moveblocks"
+    },
+    {
+        "name": "White Block",
+        "type": "toggle",
+        "img": "images/items/white_block.png",
+        "codes": "whiteblock"
+    },
+    {
+        "name": "Swap Blocks",
+        "type": "toggle",
+        "img": "images/items/swap_block.png",
+        "codes": "swapblocks"
+    },
+    {
+        "name": "Red Boosters",
+        "type": "toggle",
+        "img": "images/items/booster_red.png",
+        "codes": "redboosters"
+    },
+    {
+        "name": "Torches",
+        "type": "toggle",
+        "img": "images/items/torch.png",
+        "codes": "torches"
+    },
+    {
+        "name": "Theo Crystal",
+        "type": "toggle",
+        "img": "images/items/theo.png",
+        "codes": "theocrystal"
+    },
+    {
+        "name": "Feathers",
+        "type": "toggle",
+        "img": "images/items/feather.png",
+        "codes": "feathers"
+    },
+    {
+        "name": "Bumpers",
+        "type": "toggle",
+        "img": "images/items/bumper.png",
+        "codes": "bumpers"
+    },
+    {
+        "name": "Kevins",
+        "type": "toggle",
+        "img": "images/items/kevin.png",
+        "codes": "kevins"
+    },
+    {
+        "name": "Pink Clouds",
+        "type": "toggle",
+        "img": "images/items/cloud_pink.png",
+        "codes": "pinkclouds"
+    },
+    {
+        "name": "Badeline Boosters",
+        "type": "toggle",
+        "img": "images/items/badeline.png",
+        "codes": "badelineboosters"
+    },
+    {
+        "name": "Fire And Ice Balls",
+        "type": "toggle",
+        "img": "images/items/ice_ball.png",
+        "codes": "fireandiceballs"
+    },
+    {
+        "name": "Core Toggles",
+        "type": "toggle",
+        "img": "images/items/core_toggle.png",
+        "codes": "coretoggles"
+    },
+    {
+        "name": "Core Blocks",
+        "type": "toggle",
+        "img": "images/items/core_block.png",
+        "codes": "coreblocks"
+    },
+    {
+        "name": "Pufferfish",
+        "type": "toggle",
+        "img": "images/items/puffer.png",
+        "codes": "pufferfish"
+    },
+    {
+        "name": "Jellyfish",
+        "type": "toggle",
+        "img": "images/items/jelly.png",
+        "codes": "jellyfish"
+    },
+    {
+        "name": "Breaker Boxes",
+        "type": "toggle",
+        "img": "images/items/breaker.png",
+        "codes": "breakerboxes"
+    },
+    {
+        "name": "Dash Refills",
+        "type": "toggle",
+        "img": "images/items/dash.png",
+        "codes": "dashrefills"
+    },
+    {
+        "name": "Double Dash Refills",
+        "type": "toggle",
+        "img": "images/items/double_dash.png",
+        "codes": "doubledashrefills"
+    },
+    {
+        "name": "Yellow Cassette Blocks",
+        "type": "toggle",
+        "img": "images/items/yellow_cassette.png",
+        "codes": "yellowcassetteblocks"
+    },
+    {
+        "name": "Green Cassette Blocks",
+        "type": "toggle",
+        "img": "images/items/green_cassette.png",
+        "codes": "greencassetteblocks"
+    },
+    {
+        "name": "Bird",
+        "type": "toggle",
+        "img": "images/items/bird.png",
+        "codes": "bird"
+    },
+    {
+        "name": "Dash Switches",
+        "type": "toggle",
+        "img": "images/items/dash_switch.png",
+        "codes": "dashswitches"
+    },
+    {
+        "name": "Seekers",
+        "type": "toggle",
+        "img": "images/items/seekers.png",
+        "codes": "seekers"
+    }
+]

@@ -47,78 +47,21 @@
         }
     },
     "tracker_horizontal": {
-        "type": "container",
-        "background": "#000000",
+        "type": "array",
+        "orientation": "vertical",
+        "background": "#04000a",
         "content": {
             "type": "dock",
             "dropshadow": true,
             "content": [
                 {
                     "type": "dock",
-                    "dock": "bottom",
-                    "content": [
-                        {
-                            "type": "group",
-                            "header": "Items",
-                            "dock": "left",
-                            "margin": "0,0,3,0",
-                            "content": {
-                                "type": "layout",
-                                "h_alignment": "center",
-                                "v_alignment": "center",
-                                "key": "shared_item_grid"
-                            }
-                        },
-                        {
-                            "type": "array",
-                            "dock": "bottom",
-                            "orientation": "vertical",
-                            "content": [
-                                {
-                                    "type": "group",
-                                    "header": "Goals",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "goal_grid"
-                                    }
-                                },
-                                {
-                                    "type": "group",
-                                    "header": "Game Settings",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "setting_grid"
-                                    }
-                                },
-                                {
-                                    "type": "group",
-                                    "header": "Location Settings",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "location_grid"
-                                    }
-                                },
-                                {
-                                    "type": "group",
-                                    "header": "-sanity Settings",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "sanity_grid"
-                                    }
-                                }
-                            ]
-                        }
-                    ]
-                },
-                {
-                    "type": "array",
-                    "v_alignment": "stretch",
-                    "margin": "10, 10",
+                    "orientation": "vertical",
+                    "dock": "top",
                     "content": [
                         {
                             "type": "tabbed",
                             "dock": "top",
-                            "margin": "0, 0",
                             "content": [
                                 {
                                     "title": "Chapter Select",
@@ -470,6 +413,79 @@
                                             }
                                         }
                                     ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "dock",
+                    "orientation": "horizontal",
+                    "dock": "bottom",
+                    "content": [
+                        {
+                            "type": "group",
+                            "header": "Items",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "shared_item_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Checkpoints",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "checkpoints_grid"
+                            }
+                        },
+                        {
+                            "type": "group",
+                            "header": "Keys",
+                            "dock": "left",
+                            "content": {
+                                "type": "layout",
+                                "key": "keys_grid"
+                            }
+                        },
+                        {
+                            "type": "array",
+                            "orientation": "vertical",
+                            "dock": "right",
+                            "content": [
+                                {
+                                    "type": "group",
+                                    "header": "Goals",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "goal_grid"
+                                    }
+                                },
+                                {
+                                    "type": "group",
+                                    "header": "Game Settings",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "setting_grid"
+                                    }
+                                },
+                                {
+                                    "type": "group",
+                                    "header": "Location Settings",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "location_grid"
+                                    }
+                                },
+                                {
+                                    "type": "group",
+                                    "header": "-sanity Settings",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "sanity_grid"
+                                    }
                                 }
                             ]
                         }

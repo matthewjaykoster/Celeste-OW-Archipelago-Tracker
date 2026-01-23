@@ -1,38 +1,44 @@
 # Celeste-OW-Archipelago-Tracker
 
-Poptracker Pack for [Celeste Archipelago Open World](https://github.com/PoryGoneDev/Celeste-Archipelago-Open-World), based on the work by [seto10987](https://github.com/seto10987), located [here](https://github.com/seto10987/Celeste-AP-Tracker).
+Poptracker Pack for [Celeste Archipelago Open World](https://github.com/PoryGoneDev/Celeste-Archipelago-Open-World), based on the work by [seto10987](https://github.com/seto10987), located [at his repository](https://github.com/seto10987/Celeste-AP-Tracker).
 
-Archipelago Celeste pack for [PopTracker](https://github.com/black-sliver/PopTracker/) with Autotracking, built on PopTracker v0.33.0. This version or higher is recommended. 
+Archipelago Celeste pack for [PopTracker](https://github.com/black-sliver/PopTracker/) with Autotracking, built on PopTracker v0.33.0. This version or higher is recommended.
 
-# Features
+## Features
 
-- Usable with Celeste Archipelago Open World, with individual level tracking for A-Side levels (Strawberries, Hearts, and Cassettes).
-- Tracker logic follows Celeste Archpipelago Open World Logic
-- Configurable Goal settings (number of strawberries, number of hearts, and number of tapes).
+- Usable with Celeste Archipelago Open World
+- Automated Map-based tracking for A-Side levels (Strawberries, Hearts, Cassettes, and Level Clears)
+- Automatd Item tracking
+- Automated Setting tracking on connection to the AP World
+- Can theoretically be used manually, but this is untested
 
 ## Future Updates
-- Core locations
-- Ability-based logic and tracking.
-- The various "-sanities" (Checkpoint, Bino, Key, Gem, Car, Room)
-- Golden Berries
 
-# Installation
+- Base tracking logic for A-side locations
+- Golden Berries
+- Cleaner map layouts (some are quite hard to read right now)
+- Automated tab switching
+- Core and Farewell locations (and maps)
+- B and C-side Maps
+- The various "-sanity" checks and logic (Checkpoint, Bino, Key, Gem, Car, Room - not sure if I'll ever get to roomsanity)
+
+## Installation
 
 1. Ensure you have [PopTracker](https://poptracker.github.io/) installed. Make sure you know the folder where you installed PopTracker!
 2. Download the repository. You can do this either by mousing over the "Code" button (above) and clicking "Download ZIP" or by opening the "Releases" page (right) and clicking on the ZIP file under the most recent release.
 
 ![Download Latest ZIP](docs/images/how_to_download.png)
 
-3. Move the file you just downloaded into the "packs" folder withing your PopTracker install folder. No need to unzip the download - PopTracker handles that for you.
-4. Open PopTracker and select the newly installed package (it should be called something like "Celeste Open World Archipelago X.Y.Z"). It should open a map which looks similar to the image below.
+1. Move the file you just downloaded into the "packs" folder withing your PopTracker install folder. No need to unzip the download - PopTracker handles that for you.
+2. Open PopTracker and select the newly installed package (it should be called something like "Celeste Open World Archipelago X.Y.Z"). It should open a map which looks similar to the image below.
 
 ![Screenshot of the pack](docs/images/preview.png)
 
-# Use
+## Use
 
-This package is meant for use with an [Archipelago](https://archipelago.gg/) server. You can use it for manual tracking, but it was not coded for that use case so YMMV. 
+This package is meant for use with an [Archipelago](https://archipelago.gg/) server. You can use it for manual tracking, but it was not coded for that use case so YMMV.
 
-## Autotracking
+### Autotracking
 
 If you are playing using an [Archipelago](https://archipelago.gg/) server, you can utilize the pack's autotracking functionality. Once connected, the pack will automatically track your location checks and items found.
 
@@ -40,7 +46,7 @@ To connect to the Archipelago server, load up the package and then click the "AP
 
 Once connected, that's it! Your settings and current checks/items should autopopulate - you can play and the tracker should handle everything for you.
 
-## Manual
+### Manual
 
 If you are not playing using an [Archipelago](https://archipelago.gg/) server, you'll have to track everything manually. You'll have to know a few things about to use the tracker in order to do this:
 
@@ -52,7 +58,7 @@ If you are not playing using an [Archipelago](https://archipelago.gg/) server, y
 
 And that's about it! There are a few other details, but you'll have to figure them out on your own. Best of luck!
 
-# Interested in Helping Out?
+## Interested in Helping Out?
 
 Interesting in helping maintain this package, modifying it to create your own version, or creating your own pack? Some of [these links](./docs/links.md) might help!
 

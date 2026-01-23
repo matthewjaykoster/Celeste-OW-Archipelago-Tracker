@@ -240,41 +240,41 @@ function onBounce(json)
 end
 
 function updateTabs(raw_celeste_play_state)
-    if raw_celeste_play_state ~= nil then
+    logDebug(string.format("updateTabs called with raw celeste play state: %s", raw_celeste_play_state))
 
-        logDebug(string.format("updateTabs called with raw celeste play state: %s", raw_celeste_play_state))
+    -- if raw_celeste_play_state ~= nil then
 
-        local is_overworld, level, side, room = _parseRawCelestePlayState(raw_celeste_play_state)
+    --     local is_overworld, level, side, room = _parseRawCelestePlayState(raw_celeste_play_state)
 
-        logDebug(string.format("Parsed celeste play state - IsOverworld: %d, Level: %d, Side: %d, Room: %s",
-            is_overworld, level, side, room))
+    --     logDebug(string.format("Parsed celeste play state - IsOverworld: %d, Level: %d, Side: %d, Room: %s",
+    --         is_overworld, level, side, room))
 
-        local tabswitch = Tracker:FindObjectForCode("tab_switch")
-        Tracker:FindObjectForCode("cur_level_id").CurrentStage = level
+    --     local tabswitch = Tracker:FindObjectForCode("tab_switch")
+    --     Tracker:FindObjectForCode("cur_level_id").CurrentStage = level
 
-        if tabswitch.Active then
-            if celeste_play_state ~= lastRoomID then
-                local key = string.format("%d;%d;%d;%s", is_overworld, level, side, room)
-                if TAB_MAPPING[key] then
-                    local roomTabs = {}
-                    for str in string.gmatch(TAB_MAPPING[key], "([^/]+)") do
-                        table.insert(roomTabs, str)
-                    end
-                    if #roomTabs > 0 then
-                        for _, tab in ipairs(roomTabs) do
-                            logDebug(string.format("Updating ID %s to Tab %s", key, tab))
-                            Tracker:UiHint("ActivateTab", tab)
-                        end
-                        lastRoomID = celeste_play_state
-                    else
-                        logDebug(string.format("Failed to find tabs for ID %s", key))
-                    end
-                else
-                    logDebug(string.format("Failed to find Tab ID %s", key))
-                end
-            end
-        end
-    end
+    --     if tabswitch.Active then
+    --         if celeste_play_state ~= lastRoomID then
+    --             local key = string.format("%d;%d;%d;%s", is_overworld, level, side, room)
+    --             if TAB_MAPPING[key] then
+    --                 local roomTabs = {}
+    --                 for str in string.gmatch(TAB_MAPPING[key], "([^/]+)") do
+    --                     table.insert(roomTabs, str)
+    --                 end
+    --                 if #roomTabs > 0 then
+    --                     for _, tab in ipairs(roomTabs) do
+    --                         logDebug(string.format("Updating ID %s to Tab %s", key, tab))
+    --                         Tracker:UiHint("ActivateTab", tab)
+    --                     end
+    --                     lastRoomID = celeste_play_state
+    --                 else
+    --                     logDebug(string.format("Failed to find tabs for ID %s", key))
+    --                 end
+    --             else
+    --                 logDebug(string.format("Failed to find Tab ID %s", key))
+    --             end
+    --         end
+    --     end
+    -- end
 end
 
 --- Maps an Include Farewell integer enumeration to its related tracker code.

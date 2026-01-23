@@ -6,6 +6,7 @@ Tracker:AddItems("items/hearts.json")
 Tracker:AddItems("items/items.json")
 Tracker:AddItems("items/keys.json")
 Tracker:AddItems("items/rooms.json")
+Tracker:AddItems("items/traps.json")
 
 -- Layout Labels
 Tracker:AddItems("items/labels.json")

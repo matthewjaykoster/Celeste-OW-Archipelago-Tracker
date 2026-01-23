@@ -13,7 +13,6 @@
                         "type": "itemgrid",
                         "item_margin": "2, 2",
                         "item_size": "30, 30",
-                        "background": "#04000a",
                         "h_alignment": "right",
                         "item_h_alignment": "center",
                         "item_v_alignment": "center",

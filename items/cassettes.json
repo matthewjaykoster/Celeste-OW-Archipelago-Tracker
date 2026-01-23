@@ -6,51 +6,159 @@
         "codes": "prologuecassette"
     },
     {
-        "name": "Forsaken City Cassette",
+        "name": "Forsaken City Cassette - A-Side",
         "type": "toggle",
         "img": "images/items/cassette.png",
         "codes": "forsakencitycassette-aside"
     },
     {
-        "name": "Old Site Cassette",
+        "name": "Forsaken City Cassette - B-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "forsakencitycassette-bside"
+    },
+    {
+        "name": "Forsaken City Cassette - C-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "forsakencitycassette-cside"
+    },
+    {
+        "name": "Old Site Cassette - A-Side",
         "type": "toggle",
         "img": "images/items/cassette.png",
         "codes": "oldsitecassette-aside"
     },
     {
-        "name": "Celestial Resort Cassette",
+        "name": "Old Site Cassette - B-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "oldsitecassette-bside"
+    },
+    {
+        "name": "Old Site Cassette - C-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "oldsitecassette-cside"
+    },
+    {
+        "name": "Celestial Resort Cassette - A-Side",
         "type": "toggle",
         "img": "images/items/cassette.png",
         "codes": "celestialresortcassette-aside"
     },
     {
-        "name": "Golden Ridge Cassette",
+        "name": "Celestial Resort Cassette - B-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "celestialresortcassette-bside"
+    },
+    {
+        "name": "Celestial Resort Cassette - C-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "celestialresortcassette-cside"
+    },
+    {
+        "name": "Golden Ridge Cassette - A-Side",
         "type": "toggle",
         "img": "images/items/cassette.png",
         "codes": "goldenridgecassette-aside"
     },
     {
-        "name": "Mirror Temple Cassette",
+        "name": "Golden Ridge Cassette - B-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "goldenridgecassette-bside"
+    },
+    {
+        "name": "Golden Ridge Cassette - C-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "goldenridgecassette-cside"
+    },
+    {
+        "name": "Mirror Temple Cassette - A-Side",
         "type": "toggle",
         "img": "images/items/cassette.png",
         "codes": "mirrortemplecassette-aside"
     },
     {
-        "name": "Reflection Cassette",
+        "name": "Mirror Temple Cassette - B-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "mirrortemplecassette-bside"
+    },
+    {
+        "name": "Mirror Temple Cassette - C-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "mirrortemplecassette-cside"
+    },
+    {
+        "name": "Reflection Cassette - A-Side",
         "type": "toggle",
         "img": "images/items/cassette.png",
         "codes": "reflectioncassette-aside"
     },
     {
-        "name": "Summit Cassette",
+        "name": "Reflection Cassette - B-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "reflectioncassette-bside"
+    },
+    {
+        "name": "Reflection Cassette - C-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "reflectioncassette-cside"
+    },
+    {
+        "name": "Summit Cassette - A-Side",
         "type": "toggle",
         "img": "images/items/cassette.png",
         "codes": "thesummitcassette-aside"
     },
     {
-        "name": "Core Cassette",
+        "name": "Summit Cassette - B-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "thesummitcassette-bside"
+    },
+    {
+        "name": "Summit Cassette - C-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "thesummitcassette-cside"
+    },
+    {
+        "name": "Epilogue Cassette",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "epiloguecassette"
+    },
+    {
+        "name": "Core Cassette - A-Side",
         "type": "toggle",
         "img": "images/items/cassette.png",
         "codes": "corecassette-aside"
+    },
+    {
+        "name": "Core Cassette - B-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "corecassette-bside"
+    },
+    {
+        "name": "Core Cassette - C-Side",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "corecassette-cside"
+    },
+    {
+        "name": "Farewell Cassette",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "farewellcassette"
     }
 ]

@@ -6,12 +6,43 @@
         "content": [
             {
                 "type": "array",
-                "orientation": "horizontal",
-                "margin": "0,0",
                 "content": [
                     {
-                        "type": "layout",
-                        "key": "shared_item_grid"
+                        "type": "group",
+                        "header": "Items",
+                        "margin": "0,0,3,0",
+                        "content": {
+                            "type": "layout",
+                            "key": "shared_item_grid"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Checkpoints",
+                        "margin": "0,0,3,0",
+                        "content": {
+                            "type": "layout",
+                            "key": "checkpoints_grid"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "array",
+                "content": [
+                    {
+                        "type": "group",
+                        "header": "Keys",
+                        "margin": "0,0,3,0",
+                        "content": {
+                            "type": "layout",
+                            "key": "keys_grid"
+                        }
                     }
                 ]
             }

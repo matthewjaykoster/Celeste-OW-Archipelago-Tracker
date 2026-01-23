@@ -3,12 +3,12 @@
     "name": "The Summit A",
     "chest_unopened_img": "images/items/berry.png",
     "chest_opened_img": "images/items/berry_outline.png",
+    "access_rules": [
+      "$SUMMIT_A_ACCESS"
+    ],
     "children": [
       {
         "name": "Start",
-        "access_rules": [
-          "$SUMMIT"
-        ],
         "sections": [
           {
             "name": "Room a-02b Strawberry"
@@ -33,9 +33,6 @@
       },
       {
         "name": "500 M",
-        "access_rules": [
-          "$SUMMIT"
-        ],
         "sections": [
           {
             "name": "Room b-02 Strawberry"
@@ -66,9 +63,6 @@
       },
       {
         "name": "1000 M",
-        "access_rules": [
-          "$SUMMIT"
-        ],
         "sections": [
           {
             "name": "Room c-03b Strawberry"
@@ -99,9 +93,6 @@
       },
       {
         "name": "1500 M",
-        "access_rules": [
-          "$SUMMIT"
-        ],
         "sections": [
           {
             "name": "Room d-00 Strawberry"
@@ -143,9 +134,6 @@
       },
       {
         "name": "2000 M",
-        "access_rules": [
-          "$SUMMIT"
-        ],
         "sections": [
           {
             "name": "Room e-02 Strawberry"
@@ -182,9 +170,6 @@
       },
       {
         "name": "2500 M",
-        "access_rules": [
-          "$SUMMIT"
-        ],
         "sections": [
           {
             "name": "Room f-00 Strawberry"
@@ -221,9 +206,6 @@
       },
       {
         "name": "3000 M",
-        "access_rules": [
-          "$SUMMIT"
-        ],
         "sections": [
           {
             "name": "Room g-00b Strawberry 1"
@@ -269,6 +251,9 @@
   },
   {
     "name": "The Summit A Start Map",
+    "access_rules": [
+      "$SUMMIT_A_ACCESS"
+    ],
     "children": [
       {
         "sections": [
@@ -1055,10 +1040,10 @@
   {
     "name": "The Summit B",
     "visibility_rules": [
-      "$SUMMITB_IS_VISIBLE"
+      "$SUMMIT_B_IS_VISIBLE"
     ],
     "access_rules": [
-      "$SUMMITB"
+      "$SUMMIT_B_ACCESS"
     ],
     "sections": [
       {
@@ -1078,10 +1063,10 @@
   {
     "name": "The Summit C",
     "visibility_rules": [
-      "$SUMMITC_IS_VISIBLE"
+      "$SUMMIT_C_IS_VISIBLE"
     ],
     "access_rules": [
-      "$SUMMITC"
+      "$SUMMIT_C_ACCESS"
     ],
     "sections": [
       {

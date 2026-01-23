@@ -32,14 +32,14 @@
                             ],
                             [
                                 "cassettelabel",
-                                "cassette1",
-                                "cassette2",
-                                "cassette3",
-                                "cassette4",
-                                "cassette5",
-                                "cassette6",
-                                "cassette7",
-                                "cassette8"
+                                "forsakencitycassette-aside",
+                                "oldsitecassette-aside",
+                                "celestialresortcassette-aside",
+                                "goldenridgecassette-aside",
+                                "mirrortemplecassette-aside",
+                                "reflectioncassette-aside",
+                                "thesummitcassette-aside",
+                                "corecassette-aside"
                             ],
                             [
                                 "alabel",
@@ -62,17 +62,6 @@
                                 "heartb6",
                                 "heartb7",
                                 "heartb8"
-                            ],
-                            [
-                                "clabel",
-                                "heartc1",
-                                "heartc2",
-                                "heartc3",
-                                "heartc4",
-                                "heartc5",
-                                "heartc6",
-                                "heartc7",
-                                "heartc8"
                             ]
                         ]
                     }

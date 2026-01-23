@@ -1,14 +1,11 @@
 [
     {
         "name": "Epilogue",
-        "visibility_rules": [
-            "$SUMMITB_IS_VISIBLE"
-        ],
         "children": [
             {
                 "name": "Epilogue",
                 "access_rules": [
-                    "$EPILOGUE"
+                    "$EPILOGUE_ACCESS"
                 ],
                 "sections": [
                     {

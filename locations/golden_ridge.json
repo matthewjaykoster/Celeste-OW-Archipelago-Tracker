@@ -662,7 +662,9 @@
     },
     {
         "name": "Golden Ridge B",
-        "access_rules": [],
+        "visibility_rules": [
+            "include_b_sides"
+        ],
         "sections": [
             {
                 "name": "Level Clear",
@@ -680,7 +682,9 @@
     },
     {
         "name": "Golden Ridge C",
-        "access_rules": [],
+        "visibility_rules": [
+            "include_c_sides"
+        ],
         "sections": [
             {
                 "name": "Level Clear",

@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Prologue Cassette",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "prologuecassette"
+    },
+    {
+        "name": "Forsaken City Cassette",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "forsakencitycassette-aside"
+    },
+    {
+        "name": "Old Site Cassette",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "oldsitecassette-aside"
+    },
+    {
+        "name": "Celestial Resort Cassette",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "celestialresortcassette-aside"
+    },
+    {
+        "name": "Golden Ridge Cassette",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "goldenridgecassette-aside"
+    },
+    {
+        "name": "Mirror Temple Cassette",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "mirrortemplecassette-aside"
+    },
+    {
+        "name": "Reflection Cassette",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "reflectioncassette-aside"
+    },
+    {
+        "name": "Summit Cassette",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "thesummitcassette-aside"
+    },
+    {
+        "name": "Core Cassette",
+        "type": "toggle",
+        "img": "images/items/cassette.png",
+        "codes": "corecassette-aside"
+    }
+]

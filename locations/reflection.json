@@ -4,7 +4,6 @@
     "children": [
       {
         "name": "Hollows",
-        "access_rules": [],
         "sections": [
           {
             "name": "Crystal Heart",
@@ -27,7 +26,6 @@
       },
       {
         "name": "Resolution",
-        "access_rules": [],
         "sections": [
           {
             "name": "Level Clear",
@@ -39,7 +37,7 @@
           {
             "map": "celeste_chapter_select",
             "x": 779,
-            "y": 173
+            "y": 206
           }
         ]
       }
@@ -97,7 +95,9 @@
   },
   {
     "name": "Reflection B",
-    "access_rules": [],
+    "visibility_rules": [
+      "include_b_sides"
+    ],
     "sections": [
       {
         "name": "Level Clear",
@@ -115,7 +115,9 @@
   },
   {
     "name": "Reflection C",
-    "access_rules": [],
+    "visibility_rules": [
+      "include_c_sides"
+    ],
     "sections": [
       {
         "name": "Level Clear",

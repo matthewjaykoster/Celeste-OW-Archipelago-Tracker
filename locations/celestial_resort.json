@@ -590,7 +590,9 @@
     },
     {
         "name": "Celestial Resort B",
-        "access_rules": [],
+        "visibility_rules": [
+            "include_b_sides"
+        ],
         "sections": [
             {
                 "name": "Level Clear",
@@ -608,7 +610,9 @@
     },
     {
         "name": "Celestial Resort C",
-        "access_rules": [],
+        "visibility_rules": [
+            "include_c_sides"
+        ],
         "sections": [
             {
                 "name": "Level Clear",

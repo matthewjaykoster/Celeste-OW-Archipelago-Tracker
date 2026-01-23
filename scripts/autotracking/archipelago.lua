@@ -9,8 +9,8 @@ GLOBAL_ITEMS = {}
 
 function onClear(slot_data)
 
-    log_debug("onClear: called with slot data: ")
-    log_debug(dump_table(slot_data))
+    logDebug("onClear: called with slot data: ")
+    logDebug(dumpTable(slot_data))
     -- Slot data reference can be found at: https://github.com/PoryGoneDev/Celeste-Archipelago-Open-World/blob/main/Source/ArchipelagoManager.cs
 
     SLOT_DATA = slot_data
@@ -22,8 +22,8 @@ function onClear(slot_data)
             if location then
                 local obj = Tracker:FindObjectForCode(location)
                 if obj then
-                    log_debug_verbose(string.format('Resetting location %s', location))
-                    log_debug_verbose(tostring(obj))
+                    logDebugVerbose(string.format('Resetting location %s', location))
+                    logDebugVerbose(tostring(obj))
                     if location:sub(1, 1) == "@" then
                         obj.AvailableChestCount = obj.ChestCount
                     else
@@ -34,7 +34,7 @@ function onClear(slot_data)
         end
     end
 
-    log_debug("onClear: Locations reset successfully.")
+    logDebug("onClear: Locations reset successfully.")
 
     -- reset items
     for _, item_map in pairs(ITEM_MAPPING) do
@@ -50,43 +50,87 @@ function onClear(slot_data)
                     elseif item[2] == "consumable" then
                         obj.AcquiredCount = 0
                     else
-                        log_debug_archipelago(string.format("onClear: unknown item type %s for code %s", item[2],
-                            item[1]))
+                        logDebugArchipelago(string.format("onClear: unknown item type %s for code %s", item[2], item[1]))
                     end
                 else
-                    log_debug_archipelago(string.format("onClear: could not find object for code %s", item[1]))
+                    logDebugArchipelago(string.format("onClear: could not find object for code %s", item[1]))
                 end
             end
         end
     end
 
-    log_debug("onClear: Items reset successfully.")
+    logDebug("onClear: Items reset successfully.")
 
     PLAYER_ID = Archipelago.PlayerNumber or -1
     TEAM_NUMBER = Archipelago.TeamNumber or 0
 
-    log_debug("onClear: Player ID and Team Number reset successfully.")
+    logDebug("onClear: Player ID and Team Number reset successfully.")
 
-    -- TODO add in other slot options tracking (sanities, etc)
+    -- Settings: Game Options
+    if slot_data["death_link"] ~= nil and slot_data["death_link_amnesty"] ~= nil then
+        Tracker:FindObjectForCode("death_link").AcquiredCount = tonumber(slot_data["death_link_amnesty"])
+    else
+        Tracker:FindObjectForCode("death_link").AcquiredCount = 0
+    end
+    if slot_data["trap_link"] ~= nil then
+        Tracker:FindObjectForCode("trap_link").AcquiredCount = tonumber(slot_data["trap_link"])
+    end
+
+    -- Settings: Goal Options
     if slot_data["strawberries_required"] ~= nil then
         Tracker:FindObjectForCode("berries_required").AcquiredCount = tonumber(slot_data["strawberries_required"])
     end
-    if slot_data["goal_level"] then
-        Tracker:FindObjectForCode("goal").CurrentStage = slot_data["goal_level"]
+    if slot_data["lock_goal_area"] ~= nil then
+        Tracker:FindObjectForCode("lock_goal_area").AcquiredCount = tonumber(slot_data["lock_goal_area"])
+    end
+    if slot_data["goal_area_checkpointsanity"] ~= nil then
+        Tracker:FindObjectForCode("goal_area_checkpointsanity").AcquiredCount = tonumber(
+            slot_data["goal_area_checkpointsanity"])
+    end
+    if slot_data["goal_area"] then
+        Tracker:FindObjectForCode("goal").CurrentStage = _mapLevelCodeToNameCode(slot_data["goal_level"])
     end
 
-    log_debug("onClear: Goal tracking properties reset successfully.")
-
-    if Archipelago.PlayerNumber > -1 then
-        HINTS_ID = "_read_hints_" .. TEAM_NUMBER .. "_" .. PLAYER_ID
-
-        log_debug(string.format("onClear: Setting hint notifications using Hint ID - %s.", HINTS_ID))
-        log_debug(string.format("hints table dump: %s", dump_table(HINTS_ID)))
-
-        Archipelago:SetNotify({HINTS_ID})
-        Archipelago:Get({HINTS_ID})
-        log_debug("onClear: Set hint notifications successfully.")
+    -- Settings: Location Options/-sanities
+    if slot_data["binosanity"] ~= nil then
+        Tracker:FindObjectForCode("binosanity").AcquiredCount = tonumber(slot_data["binosanity"])
     end
+    if slot_data["carsanity"] ~= nil then
+        Tracker:FindObjectForCode("carsanity").AcquiredCount = tonumber(slot_data["carsanity"])
+    end
+    if slot_data["checkpointsanity"] ~= nil then
+        Tracker:FindObjectForCode("checkpointsanity").AcquiredCount = tonumber(slot_data["checkpointsanity"])
+    end
+    if slot_data["gemsanity"] ~= nil then
+        Tracker:FindObjectForCode("gemsanity").AcquiredCount = tonumber(slot_data["gemsanity"])
+    end
+    if slot_data["keysanity"] ~= nil then
+        Tracker:FindObjectForCode("keysanity").AcquiredCount = tonumber(slot_data["keysanity"])
+    end
+    if slot_data["roomsanity"] ~= nil then
+        Tracker:FindObjectForCode("roomsanity").AcquiredCount = tonumber(slot_data["roomsanity"])
+    end
+
+    -- Settings: Location Options/checks
+    if slot_data["include_goldens"] ~= nil then
+        Tracker:FindObjectForCode("include_goldens").AcquiredCount = tonumber(slot_data["include_goldens"])
+    end
+    if slot_data["include_core"] ~= nil then
+        Tracker:FindObjectForCode("include_core").AcquiredCount = tonumber(slot_data["include_core"])
+    end
+    if slot_data["include_farewell"] ~= nil then
+        -- 0 == "None", 1 == "Empty Space", 2 == "Farewell"
+        Tracker:FindObjectForCode("include_farewell").AcquiredCount =
+            _mapIncludeFarewellToCode(tonumber(slot_data["include_farewell"]))
+    end
+    if slot_data["include_b_sides"] ~= nil then
+        Tracker:FindObjectForCode("include_b_sides").AcquiredCount = tonumber(slot_data["include_b_sides"])
+    end
+    if slot_data["include_c_sides"] ~= nil then
+        Tracker:FindObjectForCode("include_c_sides").AcquiredCount = tonumber(slot_data["include_c_sides"])
+    end
+
+    logDebug("onClear: Settings and goals reset successfully.")
 end
 
 function onItem(index, item_id, item_name, player_number)
@@ -98,18 +142,18 @@ function onItem(index, item_id, item_name, player_number)
     end
     local is_local = player_number == Archipelago.PlayerNumber
 
-    log_debug(string.format("onItem called for local player: index %s, item_id %s, item_name %s", index, item_id,
+    logDebug(string.format("onItem called for local player: index %s, item_id %s, item_name %s", index, item_id,
         item_name))
 
     CUR_INDEX = index;
     local item_map = ITEM_MAPPING[item_id]
     for _, item in pairs(item_map) do
         if not item then
-            log_debug_archipelago(string.format("onItem: could not find item mapping for id %s", item_id))
+            logDebugArchipelago(string.format("onItem: could not find item mapping for id %s", item_id))
             return
         end
         if not item[1] then
-            log_debug_archipelago(string.format("onItem: item entry found with missing first table entry for id %s",
+            logDebugArchipelago(string.format("onItem: item entry found with missing first table entry for id %s",
                 item_id))
             return
         end
@@ -126,10 +170,10 @@ function onItem(index, item_id, item_name, player_number)
             elseif item[2] == "consumable" then
                 obj.AcquiredCount = obj.AcquiredCount + obj.Increment
             else
-                log_debug_archipelago(string.format("onItem: unknown item type %s for code %s", item[2], item[1]))
+                logDebugArchipelago(string.format("onItem: unknown item type %s for code %s", item[2], item[1]))
             end
         else
-            log_debug_archipelago(string.format("onItem: could not find object for code %s", item[1]))
+            logDebugArchipelago(string.format("onItem: could not find object for code %s", item[1]))
         end
         if is_local then
             if LOCAL_ITEMS[item[1]] then
@@ -148,11 +192,11 @@ function onItem(index, item_id, item_name, player_number)
 end
 
 function onLocation(location_id, location_name)
-    log_debug(string.format("onLocation called: location_id %s, location_name %s", location_id, location_name))
+    logDebug(string.format("onLocation called: location_id %s, location_name %s", location_id, location_name))
 
     local location_mapping = LOCATION_MAPPING[location_id]
     if not location_mapping or not location_mapping[1] then
-        log_debug(string.format("onLocation: could not find location mapping for id %s", location_id))
+        logDebug(string.format("onLocation: could not find location mapping for id %s", location_id))
         return
     end
 
@@ -165,70 +209,44 @@ function onLocation(location_id, location_name)
                 obj.Active = true
             end
         else
-            log_debug(string.format("onLocation: could not find object for code %s", location))
+            logDebug(string.format("onLocation: could not find object for code %s", location))
         end
     end
 end
 
 function onNotify(key, value, old_value)
-    log_debug(string.format("onNotify called: key %s, value %s, old_value %s", key, value, old_value))
-
-    if value ~= old_value and key == HINTS_ID then
-        for _, hint in ipairs(value) do
-            if hint.finding_player == Archipelago.PlayerNumber then
-                if not hint.found then
-                    updateHints(hint.location)
-                else
-                    if hint.found then
-                        updateHintsClear(hint.location)
-                    end
-                end
-            end
-        end
-    end
+    logDebug(string.format("onNotify called: key %s, value %s, old_value %s", key, value, old_value))
 end
 
 function onNotifyLaunch(key, value)
-    log_debug(string.format("onNotifyLaunch called: key %s, value %s", key, value))
-
-    if key == HINTS_ID then
-        for _, hint in ipairs(value) do
-            if hint.finding_player == Archipelago.PlayerNumber then
-                if not hint.found then
-                    updateHints(hint.location)
-                elseif hint.found then
-                    updateHintsClear(hint.location)
-                end
-            end
-        end
-    end
+    logDebug(string.format("onNotifyLaunch called: key %s, value %s", key, value))
 end
 
 function updateHints(locationID)
-    log_debug_archipelago(string.format("called updateHints: %s", locationID))
+    logDebugArchipelago(string.format("called updateHints: %s", locationID))
 end
 
 function updateHintsClear(locationID)
-    log_debug_archipelago(string.format("called updateHintsClear: %s", locationID))
+    logDebugArchipelago(string.format("called updateHintsClear: %s", locationID))
 end
 
 function onScout(location_id, location_name, item_id, item_name, item_player)
-    log_debug_archipelago(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id,
+    logDebugArchipelago(string.format("called onScout: %s, %s, %s, %s, %s", location_id, location_name, item_id,
         item_name, item_player))
 end
 
 function onBounce(json)
-    log_debug_archipelago(string.format("called onBounce: %s", dump_table(json)))
+    logDebugArchipelago(string.format("called onBounce: %s", dumpTable(json)))
 end
 
 function updateTabs(raw_celeste_play_state)
     if raw_celeste_play_state ~= nil then
 
-        log_debug(string.format("updateTabs called with raw celeste play state: %s", raw_celeste_play_state))
+        logDebug(string.format("updateTabs called with raw celeste play state: %s", raw_celeste_play_state))
 
         local is_overworld, level, side, room = _parseRawCelestePlayState(raw_celeste_play_state)
 
-        log_debug(string.format("Parsed celeste play state - IsOverworld: %d, Level: %d, Side: %d, Room: %s",
+        logDebug(string.format("Parsed celeste play state - IsOverworld: %d, Level: %d, Side: %d, Room: %s",
             is_overworld, level, side, room))
 
         local tabswitch = Tracker:FindObjectForCode("tab_switch")
@@ -244,18 +262,56 @@ function updateTabs(raw_celeste_play_state)
                     end
                     if #roomTabs > 0 then
                         for _, tab in ipairs(roomTabs) do
-                            log_debug(string.format("Updating ID %s to Tab %s", key, tab))
+                            logDebug(string.format("Updating ID %s to Tab %s", key, tab))
                             Tracker:UiHint("ActivateTab", tab)
                         end
                         lastRoomID = celeste_play_state
                     else
-                        log_debug(string.format("Failed to find tabs for ID %s", key))
+                        logDebug(string.format("Failed to find tabs for ID %s", key))
                     end
                 else
-                    log_debug(string.format("Failed to find Tab ID %s", key))
+                    logDebug(string.format("Failed to find Tab ID %s", key))
                 end
             end
         end
+    end
+end
+
+--- Maps an Include Farewell integer enumeration to its related tracker code.
+---@param num number
+function _mapIncludeFarewellToCode(num)
+    if num == 0 then
+        return "include_farewell_disabled"
+    elseif num == 1 then
+        return "include_farewell_empty_space"
+    elseif num == 2 then
+        return "include_farewell_farewell"
+    end
+end
+
+--- Maps a level code (e.g. 10c) to its name code (e.g. farewell_golden).
+---@param level_code string
+function _mapLevelCodeToNameCode(level_code)
+    if level_code == "7a" then
+        return "the_summit_a"
+    elseif level_code == "7b" then
+        return "the_summit_b"
+    elseif level_code == "7c" then
+        return "the_summit_c"
+    elseif level_code == "9a" then
+        return "core_a"
+    elseif level_code == "9b" then
+        return "core_b"
+    elseif level_code == "9c" then
+        return "core_c"
+    elseif level_code == "10a" then
+        return "empty_space"
+    elseif level_code == "10b" then
+        return "farewell"
+    elseif level_code == "10c" then
+        return "farewell_golden"
+    else
+        logDebug('Found invalid Goal Area level code when mapping to name code.');
     end
 end
 

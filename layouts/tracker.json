@@ -70,13 +70,43 @@
                             }
                         },
                         {
-                            "type": "group",
-                            "header": "Settings",
-                            "dock": "top",
-                            "content": {
-                                "type": "layout",
-                                "key": "setting_grid"
-                            }
+                            "type": "array",
+                            "dock": "bottom",
+                            "orientation": "vertical",
+                            "content": [
+                                {
+                                    "type": "group",
+                                    "header": "Goals",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "goal_grid"
+                                    }
+                                },
+                                {
+                                    "type": "group",
+                                    "header": "Game Settings",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "setting_grid"
+                                    }
+                                },
+                                {
+                                    "type": "group",
+                                    "header": "Location Settings",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "location_grid"
+                                    }
+                                },
+                                {
+                                    "type": "group",
+                                    "header": "-sanity Settings",
+                                    "content": {
+                                        "type": "layout",
+                                        "key": "sanity_grid"
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },

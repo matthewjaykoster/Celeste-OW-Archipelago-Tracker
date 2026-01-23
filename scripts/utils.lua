@@ -1,27 +1,27 @@
 -- Writes a message to console if debug logging is enabled.
-function log_debug(message)
+function logDebug(message)
     if ENABLE_DEBUG_LOG then
         print(message)
     end
 end
 
 -- Writes a message to console if archipelago debug logging is enabled.
-function log_debug_archipelago(message)
+function logDebugArchipelago(message)
     if AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(message)
     end
 end
 
 -- Writes a message to console if verbose debug logging is enabled.
-function log_debug_verbose(message)
+function logDebugVerbose(message)
     if ENABLE_DEBUG_LOG_VERBOSE then
         print(message)
     end
 end
 
 -- from https://stackoverflow.com/questions/9168058/how-to-dump-a-table-to-console
--- dumps a table in a readable string
-function dump_table(o, depth)
+-- Dumps a table in a readable string
+function dumpTable(o, depth)
     if depth == nil then
         depth = 0
     end
@@ -33,7 +33,7 @@ function dump_table(o, depth)
             if type(k) ~= 'number' then
                 k = '"' .. k .. '"'
             end
-            s = s .. tabs2 .. '[' .. k .. '] = ' .. dump_table(v, depth + 1) .. ',\n'
+            s = s .. tabs2 .. '[' .. k .. '] = ' .. dumpTable(v, depth + 1) .. ',\n'
         end
         return s .. tabs .. '}'
     else
@@ -41,7 +41,8 @@ function dump_table(o, depth)
     end
 end
 
-function checkRequirements(required_count_reference, obtained_count_reference)
+-- Checks whether the second reference count meets or exceeds the first.
+function checkAmountMetOrExceeds(required_count_reference, obtained_count_reference)
     local required_count = Tracker:ProviderCountForCode(required_count_reference)
     local obtained_count = Tracker:ProviderCountForCode(obtained_count_reference)
 
@@ -51,23 +52,3 @@ function checkRequirements(required_count_reference, obtained_count_reference)
         return 0
     end
 end
-
-function HEART(hearts_obtained_total, count)
-    if Tracker:FindObjectForCode(hearts_obtained_total).AcquiredCount >= tonumber(count) then
-        return true
-    else
-        return false
-    end
-end
-
-function GATESWITCH()
-    if Tracker:FindObjectForCode("gateshidden").CurrentStage == 1 then
-        log_debug("Switching gates to to hidden.")
-        Tracker:FindObjectForCode("gates").CurrentStage = 0
-    elseif Tracker:FindObjectForCode("gateshidden").CurrentStage == 0 then
-        log_debug("Switching gates to to visible.")
-        Tracker:FindObjectForCode("gates").CurrentStage = 1
-    end
-end
-
-ScriptHost:AddWatchForCode("gates handler", "gateshidden", GATESWITCH)

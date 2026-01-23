@@ -129,6 +129,7 @@
         "chest_opened_img": "images/items/berry_outline.png",
         "children": [
             {
+                "name": "Room 2",
                 "sections": [
                     {
                         "name": "Room 2 Strawberry",
@@ -144,6 +145,7 @@
                 ]
             },
             {
+                "name": "Room 3",
                 "sections": [
                     {
                         "name": "Room 3 Strawberry",
@@ -159,6 +161,7 @@
                 ]
             },
             {
+                "name": "Room 3b",
                 "sections": [
                     {
                         "name": "Room 3b Strawberry",
@@ -174,6 +177,7 @@
                 ]
             },
             {
+                "name": "Room 5",
                 "sections": [
                     {
                         "name": "Room 5 Strawberry",
@@ -189,6 +193,7 @@
                 ]
             },
             {
+                "name": "Room 5a",
                 "sections": [
                     {
                         "name": "Room 5a Strawberry",
@@ -204,6 +209,7 @@
                 ]
             },
             {
+                "name": "Room 5z",
                 "sections": [
                     {
                         "name": "Room 5z Strawberry",
@@ -226,6 +232,7 @@
         "chest_opened_img": "images/items/berry_outline.png",
         "children": [
             {
+                "name": "Room s1",
                 "sections": [
                     {
                         "name": "Room s1 Strawberry",
@@ -241,6 +248,7 @@
                 ]
             },
             {
+                "name": "Room 6",
                 "sections": [
                     {
                         "name": "Room 6 Strawberry",
@@ -256,6 +264,7 @@
                 ]
             },
             {
+                "name": "Room 7a",
                 "sections": [
                     {
                         "name": "Room 7a Strawberry",
@@ -271,6 +280,7 @@
                 ]
             },
             {
+                "name": "Room 7z",
                 "sections": [
                     {
                         "name": "Room 7z Strawberry",
@@ -286,6 +296,7 @@
                 ]
             },
             {
+                "name": "Room 7zb",
                 "sections": [
                     {
                         "name": "Room 7zb Strawberry",
@@ -301,6 +312,7 @@
                 ]
             },
             {
+                "name": "Room 8b",
                 "sections": [
                     {
                         "name": "Room 8b Strawberry",
@@ -316,6 +328,7 @@
                 ]
             },
             {
+                "name": "Room 8zb",
                 "sections": [
                     {
                         "name": "Room 8zb Strawberry",
@@ -331,6 +344,7 @@
                 ]
             },
             {
+                "name": "Room 9",
                 "sections": [
                     {
                         "name": "Room 9 Strawberry",
@@ -346,6 +360,7 @@
                 ]
             },
             {
+                "name": "Room 9z",
                 "sections": [
                     {
                         "name": "Room 9z Strawberry",
@@ -361,6 +376,7 @@
                 ]
             },
             {
+                "name": "Crystal Heart",
                 "sections": [
                     {
                         "name": "Crystal Heart",
@@ -383,6 +399,7 @@
         "chest_opened_img": "images/items/berry_outline.png",
         "children": [
             {
+                "name": "Room 9b",
                 "sections": [
                     {
                         "name": "Room 9b Strawberry",
@@ -398,6 +415,7 @@
                 ]
             },
             {
+                "name": "Room 9c",
                 "sections": [
                     {
                         "name": "Room 9c Strawberry",
@@ -413,6 +431,7 @@
                 ]
             },
             {
+                "name": "Room 10zb",
                 "sections": [
                     {
                         "name": "Room 10zb Strawberry",
@@ -428,6 +447,7 @@
                 ]
             },
             {
+                "name": "Room 11",
                 "sections": [
                     {
                         "name": "Room 11 Strawberry",
@@ -443,6 +463,7 @@
                 ]
             },
             {
+                "name": "Room 12z",
                 "sections": [
                     {
                         "name": "Room 12z Strawberry",
@@ -458,6 +479,7 @@
                 ]
             },
             {
+                "name": "Cassette",
                 "sections": [
                     {
                         "name": "Cassette",
@@ -473,6 +495,7 @@
                 ]
             },
             {
+                "name": "Level Clear",
                 "sections": [
                     {
                         "name": "Level Clear",
@@ -491,6 +514,9 @@
     },
     {
         "name": "Forsaken City B",
+        "visibility_rules": [
+            "include_b_sides"
+        ],
         "children": [
             {
                 "name": "Start",
@@ -500,19 +526,22 @@
                         "chest_unopened_img": "images/items/red_heart.png",
                         "chest_opened_img": "images/items/red_heart_outline.png"
                     }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 232,
+                        "y": 279
+                    }
                 ]
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "celeste_chapter_select",
-                "x": 232,
-                "y": 279
             }
         ]
     },
     {
         "name": "Forsaken City C",
+        "visibility_rules": [
+            "include_c_sides"
+        ],
         "children": [
             {
                 "name": "Start",
@@ -522,14 +551,14 @@
                         "chest_unopened_img": "images/items/yellow_heart.png",
                         "chest_opened_img": "images/items/yellow_heart_outline.png"
                     }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 232,
+                        "y": 319
+                    }
                 ]
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "celeste_chapter_select",
-                "x": 232,
-                "y": 319
             }
         ]
     }

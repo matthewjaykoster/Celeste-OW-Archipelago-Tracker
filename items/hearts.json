@@ -1,0 +1,98 @@
+[
+    {
+        "name": "City A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/blue_heart.png",
+        "codes": "crystalheart1"
+    },
+    {
+        "name": "Old Site A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/blue_heart.png",
+        "codes": "crystalheart2"
+    },
+    {
+        "name": "Hotel A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/blue_heart.png",
+        "codes": "crystalheart3"
+    },
+    {
+        "name": "Ridge A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/blue_heart.png",
+        "codes": "crystalheart4"
+    },
+    {
+        "name": "Mirror Temple A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/blue_heart.png",
+        "codes": "crystalheart5"
+    },
+    {
+        "name": "Reflection A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/blue_heart.png",
+        "codes": "crystalheart6"
+    },
+    {
+        "name": "Summit A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/blue_heart.png",
+        "codes": "crystalheart7"
+    },
+    {
+        "name": "Core A-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/blue_heart.png",
+        "codes": "crystalheart8"
+    },
+    {
+        "name": "City B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/red_heart.png",
+        "codes": "crystalheart9"
+    },
+    {
+        "name": "Old Site B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/red_heart.png",
+        "codes": "crystalheart10"
+    },
+    {
+        "name": "Hotel B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/red_heart.png",
+        "codes": "crystalheart11"
+    },
+    {
+        "name": "Ridge B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/red_heart.png",
+        "codes": "crystalheart12"
+    },
+    {
+        "name": "Mirror Temple B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/red_heart.png",
+        "codes": "crystalheart13"
+    },
+    {
+        "name": "Reflection B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/red_heart.png",
+        "codes": "crystalheart14"
+    },
+    {
+        "name": "Summit B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/red_heart.png",
+        "codes": "crystalheart15"
+    },
+    {
+        "name": "Core B-Side Crystal Heart",
+        "type": "toggle",
+        "img": "images/items/red_heart.png",
+        "codes": "crystalheart16"
+    }
+]

@@ -15,87 +15,129 @@ end
 
 -- Tracker:FindObjectForCode("goal").CurrentStage - Need numeric mapping here for each of these
 
-function SUMMIT()
-    -- TODO
-    return true
+function CORE_A_ACCESS()
+    if not IS_GOAL("core_a") then
+        return true
+    end
+
+    if not has("lock_goal_area") then
+        return true
+    end
+
+    return BERRYREQ_IS_MET()
 end
-function SUMMITB()
-    -- TODO
-    return true
+function CORE_B_ACCESS()
+    if not IS_GOAL("core_b") then
+        return true
+    end
+
+    if not has("lock_goal_area") then
+        return true
+    end
+
+    return BERRYREQ_IS_MET()
 end
-function SUMMITC()
-    -- TODO
-    return true
+function CORE_C_ACCESS()
+    if not IS_GOAL("core_c") then
+        return true
+    end
+
+    if not has("lock_goal_area") then
+        return true
+    end
+
+    return BERRYREQ_IS_MET()
 end
 
-function EPILOGUE()
+function EPILOGUE_ACCESS()
     -- TODO
     return BERRYREQ_IS_MET() -- and <goal level is completed>
 end
 
-function CORE()
-    -- TODO - don't forget gates_vanilla and/or gates_disabled
-    return true
-
-end
-function COREB()
-    -- TODO - don't forget gates_vanilla and/or gates_disabled
-    return true
-
-end
-function COREC()
-    -- TODO - don't forget gates_vanilla and/or gates_disabled
-    return true
-
-end
-
-function FAREWELL()
+function FAREWELL_ACCESS()
     -- TODO
     return true
+end
+
+function SUMMIT_A_ACCESS()
+    if not IS_GOAL("the_summit_a") then
+        return true
+    end
+
+    if not has("lock_goal_area") then
+        return true
+    end
+
+    return BERRYREQ_IS_MET()
+end
+function SUMMIT_B_ACCESS()
+    if not IS_GOAL("the_summit_b") then
+        return true
+    end
+
+    if not has("lock_goal_area") then
+        return true
+    end
+
+    return BERRYREQ_IS_MET()
+end
+function SUMMIT_C_ACCESS()
+    if not IS_GOAL("the_summit_c") then
+        return true
+    end
+
+    if not has("lock_goal_area") then
+        return true
+    end
+
+    return BERRYREQ_IS_MET()
 end
 
 ---------------------------
 -- Level Visibilty Rules --
 ---------------------------
-function SUMMITB_IS_VISIBLE()
-    -- TODO
-    return true
+function CORE_A_IS_VISIBLE()
+    return IS_GOAL("core_a") or has("include_core")
 end
-function SUMMITC_IS_VISIBLE()
-    -- TODO
-    return true
+function CORE_B_IS_VISIBLE()
+    return IS_GOAL("core_b") or (has("include_core") and has("include_b_sides"))
+end
+function CORE_C_IS_VISIBLE()
+    return IS_GOAL("core_c") or (has("include_core") and has("include_c_sides"))
 end
 
-function COREA_IS_VISIBLE()
-    -- TODO
-    return true
+function FAREWELL_EMPTY_SPACE_IS_VISIBLE()
+    return IS_GOAL("empty_space") or has("include_farewell_empty_space")
 end
-function COREB_IS_VISIBLE()
-    -- TODO
-    return true
-end
-function COREC_IS_VISIBLE()
-    -- TODO
-    return true
+
+function FAREWELL_FINALE_IS_VISIBLE()
+    return IS_GOAL("farewell") or IS_GOAL("farewell_golden") or has("include_farewell_farewell")
 end
 
 function FAREWELL_IS_VISIBLE()
     return FAREWELL_EMPTY_SPACE_IS_VISIBLE() or FAREWELL_FINALE_IS_VISIBLE()
 end
 
-function FAREWELL_EMPTY_SPACE_IS_VISIBLE()
-    -- TODO
-    return true
+function SUMMIT_B_IS_VISIBLE()
+    return has("include_b_sides") or has("the_summit_b")
 end
-
-function FAREWELL_FINALE_IS_VISIBLE()
-    -- TODO
-    return true
+function SUMMIT_C_IS_VISIBLE()
+    return has("include_c_sides") or has("the_summit_c")
 end
 
 ----------------------------
 -- Goal Requirement Rules --
 ----------------------------
+function IS_GOAL(level_name)
+    -- Enumerated Options from Slot Data.
+    --  the_summit_a, the_summit_b, the_summit_c, core_a, core_b, core_c, empty_space, farewell, farewell_golden
+
+    -- The player should only ever have one of the above options. Could load from SLOT_DATA if AP Autotracking - but
+    -- we won't have that during manual operation, so we have to go to the Tracker rather than SLOT_DATA, even though
+    -- that technically just makes this another "has" function.
+    return has(level_name)
+end
+
 function BERRYREQ_IS_MET()
-    return checkRequirements("berries_required", "berries_obtained_total")
+    return checkAmountMetOrExceeds("berries_required", "berries_obtained_total")
 end

@@ -1,178 +1,38 @@
 [
     {
         "name": "Goal Level",
-        "type": "toggle",
+        "type": "static",
         "img": "images/labels/goal_level.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
         "codes": "goal_level_label"
     },
     {
         "name": "Strawberries Required",
-        "type": "toggle",
+        "type": "static",
         "img": "images/labels/berries_required.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
         "codes": "berry_req_label"
+    }
+    {
+        "name": "Death Link Label",
+        "type": "static",
+        "img": "images/labels/death_link.png",
+        "codes": "death_link_label"
     },
     {
-        "name": "Hearts Required",
-        "type": "toggle",
-        "img": "images/labels/hearts_required.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "heart_req_label"
+        "name": "Trap Link Label",
+        "type": "static",
+        "img": "images/labels/trap_link.png",
+        "codes": "trap_link_label"
     },
     {
-        "name": "Cassettes Required",
-        "type": "toggle",
-        "img": "images/labels/cassettes_required.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "cassettes_req_label"
+        "name": "Lock Goal Area Label",
+        "type": "static",
+        "img": "images/labels/lock_goal_area.png",
+        "codes": "lock_goal_area_label"
     },
     {
-        "name": "Heart Total",
-        "type": "toggle",
-        "img": "images/labels/heart_total.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "heart_total_label"
-    },
-    {
-        "name": "Berry Total",
-        "type": "toggle",
-        "img": "images/labels/berries_total.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "berry_total_label"
-    },
-    {
-        "name": "Cassette Total",
-        "type": "toggle",
-        "img": "images/labels/cassettes_total.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "cassette_total_label"
-    },
-    {
-        "name": "A",
-        "type": "toggle",
-        "img": "images/labels/a.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "alabel"
-    },
-    {
-        "name": "B",
-        "type": "toggle",
-        "img": "images/labels/b.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "blabel"
-    },
-    {
-        "name": "C",
-        "type": "toggle",
-        "img": "images/labels/c.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "clabel"
-    },
-    {
-        "name": "Cassettes",
-        "type": "toggle",
-        "img": "images/labels/cassette_label.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "cassettelabel"
-    },
-    {
-        "name": "Chapter 1",
-        "type": "toggle",
-        "img": "images/labels/ch1.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch1"
-    },
-    {
-        "name": "Chapter 2",
-        "type": "toggle",
-        "img": "images/labels/ch2.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch2"
-    },
-    {
-        "name": "Chapter 3",
-        "type": "toggle",
-        "img": "images/labels/ch3.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch3"
-    },
-    {
-        "name": "Chapter 4",
-        "type": "toggle",
-        "img": "images/labels/ch4.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch4"
-    },
-    {
-        "name": "Chapter 5",
-        "type": "toggle",
-        "img": "images/labels/ch5.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch5"
-    },
-    {
-        "name": "Chapter 6",
-        "type": "toggle",
-        "img": "images/labels/ch6.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch6"
-    },
-    {
-        "name": "Chapter 7",
-        "type": "toggle",
-        "img": "images/labels/ch7.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch7"
-    },
-    {
-        "name": "Epilogue",
-        "type": "toggle",
-        "img": "images/labels/ep.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ep_label"
-    },
-    {
-        "name": "Chapter 8",
-        "type": "toggle",
-        "img": "images/labels/ch9.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch8"
-    },
-    {
-        "name": "Chapter 9",
-        "type": "toggle",
-        "img": "images/labels/ch10.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "ch9"
-    },
-    {
-        "name": "Heart Gates Label",
-        "type": "toggle",
-        "img": "images/labels/heart_gates.png",
-        "initial_active_state": true,
-        "allow_disabled": false,
-        "codes": "heart_gates_label"
+        "name": "Goal Area Checkpointsanity Label",
+        "type": "static",
+        "img": "images/labels/goal_cp_sanity.png",
+        "codes": "goal_area_checkpointsanity_label"
     }
 ]

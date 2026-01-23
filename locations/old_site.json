@@ -446,7 +446,9 @@
     },
     {
         "name": "Old Site B",
-        "access_rules": [],
+        "visibility_rules": [
+            "include_b_sides"
+        ],
         "sections": [
             {
                 "name": "Level Clear",
@@ -464,7 +466,9 @@
     },
     {
         "name": "Old Site C",
-        "access_rules": [],
+        "visibility_rules": [
+            "include_c_sides"
+        ],
         "sections": [
             {
                 "name": "Level Clear",

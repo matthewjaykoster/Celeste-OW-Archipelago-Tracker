@@ -2,10 +2,10 @@
     {
         "name": "Farewell",
         "access_rules": [
-            "$FAREWELL"
+            "$FAREWELL_ACCESS"
         ],
         "visibility_rules": [
-            "farewell"
+            "$FAREWELL_IS_VISIBLE"
         ],
         "children": [
             {
@@ -16,14 +16,14 @@
                         "chest_unopened_img": "images/items/complete.png",
                         "chest_opened_img": "images/items/complete_outline.png"
                     }
+                ],
+                "map_locations": [
+                    {
+                        "map": "celeste_chapter_select",
+                        "x": 1129,
+                        "y": 173
+                    }
                 ]
-            }
-        ],
-        "map_locations": [
-            {
-                "map": "celeste_chapter_select",
-                "x": 1129,
-                "y": 173
             }
         ]
     }

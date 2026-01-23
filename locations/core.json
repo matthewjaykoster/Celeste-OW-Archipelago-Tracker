@@ -2,10 +2,10 @@
   {
     "name": "Core A",
     "access_rules": [
-      "$CORE"
+      "$CORE_A_ACCESS"
     ],
     "visibility_rules": [
-      "$COREA_IS_VISIBLE"
+      "$CORE_A_IS_VISIBLE"
     ],
     "chest_unopened_img": "images/items/berry.png",
     "chest_opened_img": "images/items/berry_outline.png",
@@ -21,7 +21,7 @@
         "map_locations": [
           {
             "map": "celeste_chapter_select",
-            "x": 1057,
+            "x": 1026,
             "y": 173
           }
         ]
@@ -43,7 +43,7 @@
         "map_locations": [
           {
             "map": "celeste_chapter_select",
-            "x": 1097,
+            "x": 1060,
             "y": 173
           }
         ]
@@ -69,7 +69,7 @@
         "map_locations": [
           {
             "map": "celeste_chapter_select",
-            "x": 1077,
+            "x": 1043,
             "y": 206
           }
         ]
@@ -79,10 +79,10 @@
   {
     "name": "Core B",
     "access_rules": [
-      "$COREB"
+      "$CORE_B_ACCESS"
     ],
     "visibility_rules": [
-      "$COREB_IS_VISIBLE"
+      "$CORE_B_IS_VISIBLE"
     ],
     "children": [
       {
@@ -93,24 +93,24 @@
             "chest_unopened_img": "images/items/red_heart.png",
             "chest_opened_img": "images/items/red_heart_outline.png"
           }
+        ],
+        "map_locations": [
+          {
+            "map": "celeste_chapter_select",
+            "x": 1043,
+            "y": 279
+          }
         ]
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "celeste_chapter_select",
-        "x": 1057,
-        "y": 279
       }
     ]
   },
   {
     "name": "Core C",
     "access_rules": [
-      "$COREC"
+      "$CORE_C_ACCESS"
     ],
     "visibility_rules": [
-      "$COREC_IS_VISIBLE"
+      "$CORE_C_IS_VISIBLE"
     ],
     "children": [
       {
@@ -121,14 +121,14 @@
             "chest_unopened_img": "images/items/yellow_heart.png",
             "chest_opened_img": "images/items/yellow_heart_outline.png"
           }
+        ],
+        "map_locations": [
+          {
+            "map": "celeste_chapter_select",
+            "x": 1043,
+            "y": 319
+          }
         ]
-      }
-    ],
-    "map_locations": [
-      {
-        "map": "celeste_chapter_select",
-        "x": 1057,
-        "y": 319
       }
     ]
   }

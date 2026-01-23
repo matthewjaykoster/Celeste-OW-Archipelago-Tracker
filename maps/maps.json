@@ -117,7 +117,7 @@
         "name": "mirror_temple_rescue",
         "location_size": 55,
         "location_border_thickness": 4,
-        "img": "images/maps/5_mirror_temple/mirror-temple-search-2.png"
+        "img": "images/maps/5_mirror_temple/mirror-temple-rescue.png"
     },
     {
         "name": "reflection_hollows",

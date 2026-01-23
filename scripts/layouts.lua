@@ -1,4 +1,4 @@
-Tracker:AddLayouts("layouts/items.json")
+Tracker:AddLayouts("layouts/items_layout.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/broadcast.json")
-Tracker:AddLayouts("layouts/settings.json")
+Tracker:AddLayouts("layouts/slot_settings_layout.json")

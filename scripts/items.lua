@@ -12,7 +12,6 @@ Tracker:AddItems("items/traps.json")
 Tracker:AddItems("items/labels.json")
 
 -- Settings and Goals (often from Slot Data, though not always)
-Tracker:AddItems("items/settings_auto_tab.json")
 Tracker:AddItems("items/settings_game.json")
 Tracker:AddItems("items/settings_goals.json")
 Tracker:AddItems("items/settings_locations.json")

@@ -47,24 +47,18 @@
         }
     },
     "tracker_horizontal": {
-        "type": "array",
-        "orientation": "vertical",
+        "type": "dock",
         "background": "#04000a",
-        "content": {
-            "type": "dock",
-            "dropshadow": true,
-            "content": [
-                {
-                    "type": "dock",
-                    "orientation": "vertical",
-                    "dock": "top",
-                    "content": [
-                        {
-                            "type": "tabbed",
-                            "dock": "top",
-                            "content": [
-                                {
-                                    "title": "Chapter Select",
+        "content": [
+            {
+                "type": "array",
+                "content": [
+                    {
+                        "type": "tabbed",
+                        "tabs": [
+                            {
+                                "title": "Chapter Select",
+                                "content": {
                                     "type": "tabbed",
                                     "tabs": [
                                         {
@@ -77,9 +71,11 @@
                                             }
                                         }
                                     ]
-                                },
-                                {
-                                    "title": "Forsaken City",
+                                }
+                            },
+                            {
+                                "title": "Forsaken City",
+                                "content": {
                                     "type": "tabbed",
                                     "tabs": [
                                         {
@@ -110,9 +106,11 @@
                                             }
                                         }
                                     ]
-                                },
-                                {
-                                    "title": "Old Site",
+                                }
+                            },
+                            {
+                                "title": "Old Site",
+                                "content": {
                                     "type": "tabbed",
                                     "tabs": [
                                         {
@@ -143,9 +141,11 @@
                                             }
                                         }
                                     ]
-                                },
-                                {
-                                    "title": "Celestial Resort",
+                                }
+                            },
+                            {
+                                "title": "Celestial Resort",
+                                "content": {
                                     "type": "tabbed",
                                     "tabs": [
                                         {
@@ -185,9 +185,11 @@
                                             }
                                         }
                                     ]
-                                },
-                                {
-                                    "title": "Golden Ridge",
+                                }
+                            },
+                            {
+                                "title": "Golden Ridge",
+                                "content": {
                                     "type": "tabbed",
                                     "tabs": [
                                         {
@@ -227,9 +229,11 @@
                                             }
                                         }
                                     ]
-                                },
-                                {
-                                    "title": "Mirror Temple",
+                                }
+                            },
+                            {
+                                "title": "Mirror Temple",
+                                "content": {
                                     "type": "tabbed",
                                     "tabs": [
                                         {
@@ -278,9 +282,11 @@
                                             }
                                         }
                                     ]
-                                },
-                                {
-                                    "title": "Reflection",
+                                }
+                            },
+                            {
+                                "title": "Reflection",
+                                "content": {
                                     "type": "tabbed",
                                     "tabs": [
                                         {
@@ -293,9 +299,11 @@
                                             }
                                         }
                                     ]
-                                },
-                                {
-                                    "title": "Summit",
+                                }
+                            },
+                            {
+                                "title": "Summit",
+                                "content": {
                                     "type": "tabbed",
                                     "tabs": [
                                         {
@@ -371,9 +379,11 @@
                                             }
                                         }
                                     ]
-                                },
-                                {
-                                    "title": "Core",
+                                }
+                            },
+                            {
+                                "title": "Core",
+                                "content": {
                                     "type": "tabbed",
                                     "tabs": [
                                         {
@@ -414,84 +424,83 @@
                                         }
                                     ]
                                 }
-                            ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "dock",
+                "dock": "bottom",
+                "content": [
+                    {
+                        "dock": "left",
+                        "type": "group",
+                        "header": "Items",
+                        "content": {
+                            "type": "layout",
+                            "key": "shared_item_grid"
                         }
-                    ]
-                },
-                {
-                    "type": "dock",
-                    "orientation": "horizontal",
-                    "dock": "bottom",
-                    "content": [
-                        {
-                            "type": "group",
-                            "header": "Items",
-                            "dock": "left",
-                            "content": {
-                                "type": "layout",
-                                "key": "shared_item_grid"
-                            }
-                        },
-                        {
-                            "type": "group",
-                            "header": "Checkpoints",
-                            "dock": "left",
-                            "content": {
-                                "type": "layout",
-                                "key": "checkpoints_grid"
-                            }
-                        },
-                        {
-                            "type": "group",
-                            "header": "Keys",
-                            "dock": "left",
-                            "content": {
-                                "type": "layout",
-                                "key": "keys_grid"
-                            }
-                        },
-                        {
-                            "type": "array",
-                            "orientation": "vertical",
-                            "dock": "right",
-                            "content": [
-                                {
-                                    "type": "group",
-                                    "header": "Goals",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "goal_grid"
-                                    }
-                                },
-                                {
-                                    "type": "group",
-                                    "header": "Game Settings",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "setting_grid"
-                                    }
-                                },
-                                {
-                                    "type": "group",
-                                    "header": "Location Settings",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "location_grid"
-                                    }
-                                },
-                                {
-                                    "type": "group",
-                                    "header": "-sanity Settings",
-                                    "content": {
-                                        "type": "layout",
-                                        "key": "sanity_grid"
-                                    }
+                    },
+                    {
+                        "dock": "left",
+                        "type": "group",
+                        "header": "Checkpoints",
+                        "content": {
+                            "type": "layout",
+                            "key": "checkpoints_grid"
+                        }
+                    },
+                    {
+                        "dock": "left",
+                        "type": "group",
+                        "header": "Keys",
+                        "content": {
+                            "type": "layout",
+                            "key": "keys_grid"
+                        }
+                    },
+                    {
+                        "dock": "right",
+                        "type": "array",
+                        "orientation": "vertical",
+                        "content": [
+                            {
+                                "type": "group",
+                                "header": "Goals",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "goal_grid"
                                 }
-                            ]
-                        }
-                    ]
-                }
-            ]
-        }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Game Settings",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "setting_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "Location Settings",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "location_grid"
+                                }
+                            },
+                            {
+                                "type": "group",
+                                "header": "-sanity Settings",
+                                "content": {
+                                    "type": "layout",
+                                    "key": "sanity_grid"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
     }
 }

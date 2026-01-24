@@ -2,7 +2,7 @@
 
 Automated Map Tracker for [Celeste Archipelago Open World](https://github.com/PoryGoneDev/Celeste-Archipelago-Open-World), based on the work by [seto10987](https://github.com/seto10987), located [at his repository](https://github.com/seto10987/Celeste-AP-Tracker).
 
-Built for use with [PopTracker](https://github.com/black-sliver/PopTracker/) on PopTracker v0.33.0. This version or higher is recommended.
+Built for use with [PopTracker v0.33.0](https://github.com/black-sliver/PopTracker/). This version or higher is recommended.
 
 ## Features
 

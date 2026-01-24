@@ -1,20 +1,21 @@
 # Celeste-OW-Archipelago-Tracker
 
-Poptracker Pack for [Celeste Archipelago Open World](https://github.com/PoryGoneDev/Celeste-Archipelago-Open-World), based on the work by [seto10987](https://github.com/seto10987), located [at his repository](https://github.com/seto10987/Celeste-AP-Tracker).
+Automated Map Tracker for [Celeste Archipelago Open World](https://github.com/PoryGoneDev/Celeste-Archipelago-Open-World), based on the work by [seto10987](https://github.com/seto10987), located [at his repository](https://github.com/seto10987/Celeste-AP-Tracker).
 
-Archipelago Celeste pack for [PopTracker](https://github.com/black-sliver/PopTracker/) with Autotracking, built on PopTracker v0.33.0. This version or higher is recommended.
+Built for use with [PopTracker](https://github.com/black-sliver/PopTracker/) on PopTracker v0.33.0. This version or higher is recommended.
 
 ## Features
 
 - Usable with Celeste Archipelago Open World
-- Automated Map-based tracking for A-Side levels (Strawberries, Hearts, Cassettes, and Level Clears)
-- Automatd Item tracking
-- Automated Setting tracking on connection to the AP World
+- Does NOT YET have logic built into location checks
+- Automated map-based location tracking for A-Side levels (Strawberries, Hearts, Cassettes, and Level Clears). Minimal support for B- and C-sides
+- Automated item tracking
+- Automated setting tracking on connection to the AP World
 - Can theoretically be used manually, but this is untested
 
 ## Future Updates
 
-- Base tracking logic for A-side locations
+- Base tracking logic for A-side locations (and then other locations)
 - Golden Berries
 - Cleaner map layouts (some are quite hard to read right now)
 - Automated tab switching
@@ -26,12 +27,9 @@ Archipelago Celeste pack for [PopTracker](https://github.com/black-sliver/PopTra
 
 1. Ensure you have [PopTracker](https://poptracker.github.io/) installed. Make sure you know the folder where you installed PopTracker!
 2. Download the repository. You can do this either by mousing over the "Code" button (above) and clicking "Download ZIP" or by opening the "Releases" page (right) and clicking on the ZIP file under the most recent release.
-
 ![Download Latest ZIP](docs/images/how_to_download.png)
-
-1. Move the file you just downloaded into the "packs" folder withing your PopTracker install folder. No need to unzip the download - PopTracker handles that for you.
-2. Open PopTracker and select the newly installed package (it should be called something like "Celeste Open World Archipelago X.Y.Z"). It should open a map which looks similar to the image below.
-
+3. Move the file you just downloaded into the "packs" folder withing your PopTracker install folder. No need to unzip the download - PopTracker handles that for you.
+4. Open PopTracker and select the newly installed package (it should be called something like "Celeste Open World Archipelago X.Y.Z"). It should open a map which looks similar to the image below.
 ![Screenshot of the pack](docs/images/preview.png)
 
 ## Use
@@ -63,3 +61,5 @@ And that's about it! There are a few other details, but you'll have to figure th
 Interesting in helping maintain this package, modifying it to create your own version, or creating your own pack? Some of [these links](./docs/links.md) might help!
 
 This pacakge is licensed using the MIT license, so you can use the code for whatever (don't feel like you have to contact me for permission, but I'd appreciate if you do use it, plesae add me to your thanks/credits in your code and README).
+
+Feel free to throw up Issues and/or Pull Request. I'll get to them if I have time.

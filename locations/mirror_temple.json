@@ -145,9 +145,7 @@
             "name": "Room d-15 Strawberry 2"
           },
           {
-            "name": "Level Clear",
-            "chest_unopened_img": "images/items/complete.png",
-            "chest_opened_img": "images/items/complete_outline.png"
+            "name": "Room d-19 Strawberry"
           }
         ],
         "map_locations": [

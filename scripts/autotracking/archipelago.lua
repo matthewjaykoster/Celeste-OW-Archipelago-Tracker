@@ -67,7 +67,7 @@ function onClear(slot_data)
     logDebug("onClear: Player ID and Team Number reset successfully.")
 
     -- Settings: Game Options
-    if slot_data["death_link"] ~= nil and slot_data["death_link_amnesty"] ~= nil then
+    if slot_data["death_link"] ~= nil and slot_data["death_link"] ~= 0 and slot_data["death_link_amnesty"] ~= nil then
         Tracker:FindObjectForCode("death_link").AcquiredCount = tonumber(slot_data["death_link_amnesty"])
     else
         Tracker:FindObjectForCode("death_link").AcquiredCount = 0

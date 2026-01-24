@@ -218,7 +218,7 @@
     {
         "name": "Seekers",
         "type": "toggle",
-        "img": "images/items/seekers.png",
+        "img": "images/items/seeker.png",
         "codes": "seekers"
     }
 ]

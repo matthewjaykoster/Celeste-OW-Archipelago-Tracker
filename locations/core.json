@@ -15,7 +15,10 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Room b-06 Strawberry"
+            "name": "Room b-06 Strawberry",
+            "access_rules": [
+              "bumpers,coins,coreblocks,coretoggles,dashrefills,fireiceballs,springs"
+            ]
           }
         ],
         "map_locations": [
@@ -31,13 +34,22 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Room c-00b Strawberry"
+            "name": "Room c-00b Strawberry",
+            "access_rules": [
+              "bumpers,coins,coreblocks,coretoggles,dashrefills,fireiceballs,springs"
+            ]
           },
           {
-            "name": "Room c-02 Strawberry"
+            "name": "Room c-02 Strawberry",
+            "access_rules": [
+              "bumpers,coins,coreblocks,coretoggles,dashrefills,fireiceballs,springs"
+            ]
           },
           {
-            "name": "Room c-03b Strawberry"
+            "name": "Room c-03b Strawberry",
+            "access_rules": [
+              "bumpers,coins,coreblocks,coretoggles,dashrefills,fireiceballs,springs"
+            ]
           }
         ],
         "map_locations": [
@@ -53,17 +65,26 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Room d-06 Strawberry"
+            "name": "Room d-06 Strawberry",
+            "access_rules": [
+              "bumpers,coins,coreblocks,coretoggles,dashrefills,fireiceballs,springs"
+            ]
           },
           {
             "name": "Cassette",
             "chest_unopened_img": "images/items/cassette.png",
-            "chest_opened_img": "images/items/cassette_outline.png"
+            "chest_opened_img": "images/items/cassette_outline.png",
+            "access_rules": [
+              "badelineboosters,bluecassetteblocks,bumpers,coins,coreblocks,coretoggles,dashrefills,feathers,fireiceballs,pinkcassetteblocks,springs"
+            ]
           },
           {
             "name": "Level Clear",
             "chest_unopened_img": "images/items/complete.png",
-            "chest_opened_img": "images/items/complete_outline.png"
+            "chest_opened_img": "images/items/complete_outline.png",
+            "access_rules": [
+              "badelineboosters,bluecassetteblocks,bumpers,coins,coreblocks,coretoggles,dashrefills,feathers,fireiceballs,pinkcassetteblocks,springs"
+            ]
           }
         ],
         "map_locations": [
@@ -91,7 +112,8 @@
           {
             "name": "Level Clear",
             "chest_unopened_img": "images/items/red_heart.png",
-            "chest_opened_img": "images/items/red_heart_outline.png"
+            "chest_opened_img": "images/items/red_heart_outline.png",
+            "access_rules": []
           }
         ],
         "map_locations": [
@@ -100,7 +122,8 @@
             "x": 1043,
             "y": 279
           }
-        ]
+        ],
+        "access_rules": []
       }
     ]
   },
@@ -119,7 +142,10 @@
           {
             "name": "Level Clear",
             "chest_unopened_img": "images/items/yellow_heart.png",
-            "chest_opened_img": "images/items/yellow_heart_outline.png"
+            "chest_opened_img": "images/items/yellow_heart_outline.png",
+            "access_rules": [
+              "bumpers,coreblocks,coretoggles,dashrefills,dreamblocks,kevinblocks,pinkclouds,springs,swapblocks,trafficblocks"
+            ]
           }
         ],
         "map_locations": [
@@ -128,7 +154,8 @@
             "x": 1043,
             "y": 319
           }
-        ]
+        ],
+        "access_rules": []
       }
     ]
   }

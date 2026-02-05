@@ -1,27 +1,29 @@
 [
-    {
+  {
+    "name": "Epilogue",
+    "children": [
+      {
         "name": "Epilogue",
-        "children": [
-            {
-                "name": "Epilogue",
-                "access_rules": [
-                    "$EPILOGUE_ACCESS"
-                ],
-                "sections": [
-                    {
-                        "name": "Level Clear",
-                        "chest_unopened_img": "images/items/complete.png",
-                        "chest_opened_img": "images/items/complete_outline.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 954,
-                        "y": 173
-                    }
-                ]
-            }
+        "access_rules": [
+          "$EPILOGUE_ACCESS"
+        ],
+        "sections": [
+          {
+            "name": "Level Clear",
+            "chest_unopened_img": "images/items/complete.png",
+            "chest_opened_img": "images/items/complete_outline.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celeste_chapter_select",
+            "x": 954,
+            "y": 173
+          }
         ]
-    }
+      }
+    ],
+    "access_rules": []
+  }
 ]

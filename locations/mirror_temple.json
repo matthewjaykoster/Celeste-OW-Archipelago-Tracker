@@ -1,6 +1,7 @@
 [
   {
     "name": "Mirror Temple A",
+    "access_rules": [],
     "chest_unopened_img": "images/items/berry.png",
     "chest_opened_img": "images/items/berry_outline.png",
     "children": [
@@ -9,40 +10,74 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Room a-00x Strawberry"
+            "name": "Room a-00x Strawberry",
+            "access_rules": []
           },
           {
-            "name": "Room a-01 Strawberry 1"
+            "name": "Room a-01 Strawberry 1",
+            "access_rules": [
+              "dashswitches,redboosters"
+            ]
           },
           {
-            "name": "Room a-01 Strawberry 2"
+            "name": "Room a-01 Strawberry 2",
+            "access_rules": [
+              "dashswitches,redboosters"
+            ]
           },
           {
-            "name": "Room a-02 Strawberry"
+            "name": "Room a-02 Strawberry",
+            "access_rules": [
+              "dashswitches,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room a-03 Strawberry"
+            "name": "Room a-03 Strawberry",
+            "access_rules": [
+              "dashswitches,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room a-04 Strawberry"
+            "name": "Room a-04 Strawberry",
+            "access_rules": [
+              "dashswitches,redboosters,springs,swapblocks"
+            ]
           },
           {
-            "name": "Room a-05 Strawberry"
+            "name": "Room a-05 Strawberry",
+            "access_rules": [
+              "dashswitches,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room a-06 Strawberry"
+            "name": "Room a-06 Strawberry",
+            "access_rules": [
+              "dashswitches,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room a-07 Strawberry"
+            "name": "Room a-07 Strawberry",
+            "access_rules": [
+              "dashrefills,dashswitches,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room a-11 Strawberry"
+            "name": "Room a-11 Strawberry",
+            "access_rules": [
+              "dashrefills,dashswitches,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room a-15 Strawberry"
+            "name": "Room a-15 Strawberry",
+            "access_rules": [
+              "coins,redboosters"
+            ]
           },
           {
-            "name": "Room a-14 Strawberry"
+            "name": "Room a-14 Strawberry",
+            "access_rules": [
+              "dashrefills,dashswitches,redboosters,swapblocks"
+            ]
           }
         ],
         "map_locations": [
@@ -58,47 +93,99 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Room b-01c Strawberry"
+            "name": "Room b-01c Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashswitches,redboosters,swapblocks",
+              "dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room b-03 Strawberry"
+            "name": "Room b-03 Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashswitches,redboosters,swapblocks",
+              "dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room b-05 Strawberry"
+            "name": "Room b-05 Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashrefills,dashswitches,redboosters,swapblocks",
+              "dashrefills,dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room b-10 Strawberry"
+            "name": "Room b-10 Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashswitches,redboosters,swapblocks",
+              "dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room b-12 Strawberry"
+            "name": "Room b-12 Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashswitches,redboosters,swapblocks",
+              "dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room b-17 Strawberry 1"
+            "name": "Room b-17 Strawberry 1",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashswitches,redboosters,swapblocks",
+              "dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room b-17 Strawberry 2"
+            "name": "Room b-17 Strawberry 2",
+            "access_rules": [
+              "dashswitches,mirrortemplea-entrancekey,redboosters,springs,strawberryseeds,swapblocks",
+              "$KEYSANITY_IS_DISABLED,dashswitches,redboosters,springs,strawberryseeds,swapblocks"
+            ]
           },
           {
-            "name": "Room b-18 Strawberry"
+            "name": "Room b-18 Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashswitches,redboosters",
+              "dashswitches,mirrortemplea-entrancekey,redboosters"
+            ]
           },
           {
-            "name": "Room b-20 Strawberry 1"
+            "name": "Room b-20 Strawberry 1",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashswitches,redboosters",
+              "dashswitches,mirrortemplea-entrancekey,redboosters"
+            ]
           },
           {
-            "name": "Room b-20 Strawberry 2"
+            "name": "Room b-20 Strawberry 2",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashswitches,redboosters,swapblocks",
+              "dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room b-21 Strawberry"
+            "name": "Room b-21 Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashrefills,dashswitches,redboosters,swapblocks",
+              "dashrefills,dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks"
+            ]
           },
           {
             "name": "Crystal Heart",
             "chest_unopened_img": "images/items/blue_heart.png",
-            "chest_opened_img": "images/items/blue_heart_outline.png"
+            "chest_opened_img": "images/items/blue_heart_outline.png",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashrefills,dashswitches,redboosters,swapblocks",
+              "dashrefills,dashswitches,mirrortemplea-depthskey,mirrortemplea-entrancekey,redboosters,swapblocks"
+            ]
           },
           {
             "name": "Cassette",
             "chest_unopened_img": "images/items/cassette.png",
-            "chest_opened_img": "images/items/cassette_outline.png"
+            "chest_opened_img": "images/items/cassette_outline.png",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,bluecassetteblocks,dashswitches,pinkcassetteblocks,redboosters,swapblocks",
+              "bluecassetteblocks,dashswitches,mirrortemplea-entrancekey,pinkcassetteblocks,redboosters,swapblocks"
+            ]
           }
         ],
         "map_locations": [
@@ -114,7 +201,11 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Room c-08 Strawberry"
+            "name": "Room c-08 Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashrefills,dashswitches,redboosters,seekers,swapblocks",
+              "dashrefills,dashswitches,mirrortemplea-entrancekey,redboosters,seekers,swapblocks"
+            ]
           }
         ],
         "map_locations": [
@@ -130,22 +221,45 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Room d-04 Strawberry 1"
+            "name": "Room d-04 Strawberry 1",
+            "access_rules": [
+              "coins,dashrefills,dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks",
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,dashswitches,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room d-04 Strawberry 2"
+            "name": "Room d-04 Strawberry 2",
+            "access_rules": [
+              "coins,dashrefills,dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks",
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,dashswitches,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room d-13 Strawberry"
+            "name": "Room d-13 Strawberry",
+            "access_rules": [
+              "coins,dashrefills,dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks",
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,dashswitches,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room d-15 Strawberry 1"
+            "name": "Room d-15 Strawberry 1",
+            "access_rules": [
+              "coins,dashrefills,dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks",
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,dashswitches,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room d-15 Strawberry 2"
+            "name": "Room d-15 Strawberry 2",
+            "access_rules": [
+              "coins,dashrefills,dashswitches,mirrortemplea-entrancekey,redboosters,swapblocks",
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,dashswitches,redboosters,swapblocks"
+            ]
           },
           {
-            "name": "Room d-19 Strawberry"
+            "name": "Room d-19 Strawberry",
+            "access_rules": [
+              "Search Key 3,coins,dashrefills,dashswitches,mirrortemplea-entrancekey,mirrortemplea-searchkey1,mirrortemplea-searchkey2,redboosters,swapblocks"
+            ]
           }
         ],
         "map_locations": [
@@ -161,12 +275,16 @@
         "access_rules": [],
         "sections": [
           {
-            "name": "Room e-06 Strawberry"
+            "name": "Room e-06 Strawberry",
+            "access_rules": [
+              "dashswitches"
+            ]
           },
           {
             "name": "Level Clear",
             "chest_unopened_img": "images/items/complete.png",
-            "chest_opened_img": "images/items/complete_outline.png"
+            "chest_opened_img": "images/items/complete_outline.png",
+            "access_rules": []
           }
         ],
         "map_locations": [
@@ -195,7 +313,8 @@
             "x": 166,
             "y": 1104
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -210,7 +329,8 @@
             "x": 2110,
             "y": 592
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -225,7 +345,8 @@
             "x": 2294,
             "y": 895
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -240,7 +361,8 @@
             "x": 2766,
             "y": 1255
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -255,7 +377,8 @@
             "x": 2310,
             "y": 1199
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -270,7 +393,8 @@
             "x": 1870,
             "y": 1295
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -285,7 +409,8 @@
             "x": 2310,
             "y": 1424
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -300,7 +425,8 @@
             "x": 2756,
             "y": 1559
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -315,7 +441,8 @@
             "x": 1798,
             "y": 1531
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -330,7 +457,8 @@
             "x": 1447,
             "y": 344
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -345,7 +473,8 @@
             "x": 2678,
             "y": 32
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -360,9 +489,11 @@
             "x": 3198,
             "y": 231
           }
-        ]
+        ],
+        "access_rules": []
       }
-    ]
+    ],
+    "access_rules": []
   },
   {
     "name": "Mirror Temple A Depths Map",
@@ -380,7 +511,8 @@
             "x": 1055,
             "y": 1528
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -395,7 +527,8 @@
             "x": 1384,
             "y": 784
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -410,7 +543,8 @@
             "x": 2191,
             "y": 864
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -425,7 +559,8 @@
             "x": 1423,
             "y": 1640
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -440,7 +575,8 @@
             "x": 2063,
             "y": 1680
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -455,7 +591,8 @@
             "x": 2695,
             "y": 1351
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -470,7 +607,8 @@
             "x": 2816,
             "y": 1528
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -485,7 +623,8 @@
             "x": 279,
             "y": 1175
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -500,7 +639,8 @@
             "x": 807,
             "y": 1008
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -515,7 +655,8 @@
             "x": 1071,
             "y": 1008
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -530,7 +671,8 @@
             "x": 336,
             "y": 920
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -545,7 +687,8 @@
             "x": 5447,
             "y": 1142
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -560,9 +703,11 @@
             "x": 3120,
             "y": 1440
           }
-        ]
+        ],
+        "access_rules": []
       }
-    ]
+    ],
+    "access_rules": []
   },
   {
     "name": "Mirror Temple A Unravelling Map",
@@ -580,9 +725,11 @@
             "x": 1983,
             "y": 647
           }
-        ]
+        ],
+        "access_rules": []
       }
-    ]
+    ],
+    "access_rules": []
   },
   {
     "name": "Mirror Temple A Search Map",
@@ -600,7 +747,8 @@
             "x": 687,
             "y": 399
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -615,7 +763,8 @@
             "x": 711,
             "y": 583
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -630,7 +779,8 @@
             "x": 2008,
             "y": 855
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -645,7 +795,8 @@
             "x": 1671,
             "y": 535
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -660,7 +811,8 @@
             "x": 2015,
             "y": 510
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -675,7 +827,8 @@
             "x": 183,
             "y": 623
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -690,7 +843,8 @@
             "x": 2136,
             "y": 148
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -705,9 +859,11 @@
             "x": 6140,
             "y": 99
           }
-        ]
+        ],
+        "access_rules": []
       }
-    ]
+    ],
+    "access_rules": []
   },
   {
     "name": "Mirror Temple B",
@@ -718,7 +874,11 @@
       {
         "name": "Level Clear",
         "chest_unopened_img": "images/items/red_heart.png",
-        "chest_opened_img": "images/items/red_heart_outline.png"
+        "chest_opened_img": "images/items/red_heart_outline.png",
+        "access_rules": [
+          "$KEYSANITY_IS_DISABLED,bluecassetteblocks,coins,dashrefills,dashswitches,pinkcassetteblocks,redboosters,seekers,springs,swapblocks,theocrystal",
+          "bluecassetteblocks,coins,dashrefills,dashswitches,mirrortempleb-centralchamberkey1,mirrortempleb-centralchamberkey2,pinkcassetteblocks,redboosters,seekers,springs,swapblocks,theocrystal"
+        ]
       }
     ],
     "map_locations": [
@@ -727,7 +887,8 @@
         "x": 634,
         "y": 279
       }
-    ]
+    ],
+    "access_rules": []
   },
   {
     "name": "Mirror Temple C",
@@ -738,7 +899,10 @@
       {
         "name": "Level Clear",
         "chest_unopened_img": "images/items/yellow_heart.png",
-        "chest_opened_img": "images/items/yellow_heart_outline.png"
+        "chest_opened_img": "images/items/yellow_heart_outline.png",
+        "access_rules": [
+          "dashrefills,dashswitches,redboosters,swapblocks"
+        ]
       }
     ],
     "map_locations": [
@@ -747,6 +911,7 @@
         "x": 634,
         "y": 319
       }
-    ]
+    ],
+    "access_rules": []
   }
 ]

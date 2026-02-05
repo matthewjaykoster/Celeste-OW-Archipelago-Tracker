@@ -1,631 +1,764 @@
 [
-    {
-        "name": "Celestial Resort A",
-        "chest_unopened_img": "images/items/berry.png",
-        "chest_opened_img": "images/items/berry_outline.png",
-        "children": [
-            {
-                "name": "Start",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Room s2 Strawberry 1"
-                    },
-                    {
-                        "name": "Room s2 Strawberry 2"
-                    },
-                    {
-                        "name": "Room s3 Strawberry"
-                    },
-                    {
-                        "name": "Room 00-a Strawberry"
-                    },
-                    {
-                        "name": "Room 00-b Strawberry"
-                    },
-                    {
-                        "name": "Room 04-b Strawberry"
-                    },
-                    {
-                        "name": "Room 05-c Strawberry"
-                    },
-                    {
-                        "name": "Room 06-a Strawberry"
-                    },
-                    {
-                        "name": "Room 06-b Strawberry"
-                    },
-                    {
-                        "name": "Room 06-c Strawberry"
-                    },
-                    {
-                        "name": "Room 07-b Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 390,
-                        "y": 173
-                    }
-                ]
-            },
-            {
-                "name": "Huge Mess",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Room 08-x Strawberry"
-                    },
-                    {
-                        "name": "Room 10-y Strawberry"
-                    },
-                    {
-                        "name": "Room 11-d Strawberry"
-                    },
-                    {
-                        "name": "Room 12-c Strawberry"
-                    },
-                    {
-                        "name": "Room 12-y Strawberry"
-                    },
-                    {
-                        "name": "Room 13-b Strawberry"
-                    },
-                    {
-                        "name": "Room 13-x Strawberry"
-                    },
-                    {
-                        "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/blue_heart.png",
-                        "chest_opened_img": "images/items/blue_heart_outline.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 424,
-                        "y": 173
-                    }
-                ]
-            },
-            {
-                "name": "Elevator Shaft",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Room 03-b Strawberry 1"
-                    },
-                    {
-                        "name": "Room 03-b Strawberry 2"
-                    },
-                    {
-                        "name": "Room 04-c Strawberry"
-                    },
-                    {
-                        "name": "Room 06-d Strawberry"
-                    },
-                    {
-                        "name": "Cassette",
-                        "chest_unopened_img": "images/items/cassette.png",
-                        "chest_opened_img": "images/items/cassette_outline.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 390,
-                        "y": 206
-                    }
-                ]
-            },
-            {
-                "name": "Presidential Suite",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Room roof03 Strawberry"
-                    },
-                    {
-                        "name": "Room roof06 Strawberry 1"
-                    },
-                    {
-                        "name": "Room roof06 Strawberry 2"
-                    },
-                    {
-                        "name": "Level Clear",
-                        "chest_unopened_img": "images/items/complete.png",
-                        "chest_opened_img": "images/items/complete_outline.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 424,
-                        "y": 206
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Celestial Resort A Start Map",
-        "children": [
-            {
-                "sections": [
-                    {
-                        "name": "Room s2 Strawberry 1",
-                        "ref": "Celestial Resort A/Start/Room s2 Strawberry 1"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_start",
-                        "x": 1088,
-                        "y": 647
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room s2 Strawberry 2",
-                        "ref": "Celestial Resort A/Start/Room s2 Strawberry 2"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_start",
-                        "x": 807,
-                        "y": 366
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room s3 Strawberry",
-                        "ref": "Celestial Resort A/Start/Room s3 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_start",
-                        "x": 1455,
-                        "y": 238
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 00-a Strawberry",
-                        "ref": "Celestial Resort A/Start/Room 00-a Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_start",
-                        "x": 2271,
-                        "y": 487
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 00-b Strawberry",
-                        "ref": "Celestial Resort A/Start/Room 00-b Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_start",
-                        "x": 1983,
-                        "y": 255
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 04-b Strawberry",
-                        "ref": "Celestial Resort A/Start/Room 04-b Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_start",
-                        "x": 3471,
-                        "y": 311
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 05-c Strawberry",
-                        "ref": "Celestial Resort A/Start/Room 05-c Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_start",
-                        "x": 3672,
-                        "y": 326
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 06-a Strawberry",
-                        "ref": "Celestial Resort A/Start/Room 06-a Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_start",
-                        "x": 4087,
-                        "y": 447
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 06-b Strawberry",
-                        "ref": "Celestial Resort A/Start/Room 06-b Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_start",
-                        "x": 3936,
-                        "y": 327
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 06-c Strawberry",
-                        "ref": "Celestial Resort A/Start/Room 06-c Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_start",
-                        "x": 4039,
-                        "y": 30
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 07-b Strawberry",
-                        "ref": "Celestial Resort A/Start/Room 07-b Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_start",
-                        "x": 4407,
-                        "y": 215
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Celestial Resort A Huge Mess Map",
-        "children": [
-            {
-                "sections": [
-                    {
-                        "name": "Room 08-x Strawberry",
-                        "ref": "Celestial Resort A/Huge Mess/Room 08-x Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_huge_mess",
-                        "x": 160,
-                        "y": 839
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 10-y Strawberry",
-                        "ref": "Celestial Resort A/Huge Mess/Room 10-y Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_huge_mess",
-                        "x": 751,
-                        "y": 967
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 11-d Strawberry",
-                        "ref": "Celestial Resort A/Huge Mess/Room 11-d Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_huge_mess",
-                        "x": 1247,
-                        "y": 119
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 12-c Strawberry",
-                        "ref": "Celestial Resort A/Huge Mess/Room 12-c Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_huge_mess",
-                        "x": 1439,
-                        "y": 334
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 12-y Strawberry",
-                        "ref": "Celestial Resort A/Huge Mess/Room 12-y Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_huge_mess",
-                        "x": 1551,
-                        "y": 959
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 13-b Strawberry",
-                        "ref": "Celestial Resort A/Huge Mess/Room 13-b Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_huge_mess",
-                        "x": 1895,
-                        "y": 506
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 13-x Strawberry",
-                        "ref": "Celestial Resort A/Huge Mess/Room 13-x Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_huge_mess",
-                        "x": 1735,
-                        "y": 870
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Crystal Heart",
-                        "ref": "Celestial Resort A/Huge Mess/Crystal Heart"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_huge_mess",
-                        "x": 1120,
-                        "y": 317
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Celestial Resort A Elevator Shaft Map",
-        "children": [
-            {
-                "sections": [
-                    {
-                        "name": "Room 03-b Strawberry 1",
-                        "ref": "Celestial Resort A/Elevator Shaft/Room 03-b Strawberry 1"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_elevator_shaft",
-                        "x": 695,
-                        "y": 397
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 03-b Strawberry 2",
-                        "ref": "Celestial Resort A/Elevator Shaft/Room 03-b Strawberry 2"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_elevator_shaft",
-                        "x": 831,
-                        "y": 453
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 04-c Strawberry",
-                        "ref": "Celestial Resort A/Elevator Shaft/Room 04-c Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_elevator_shaft",
-                        "x": 1247,
-                        "y": 253
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 06-d Strawberry",
-                        "ref": "Celestial Resort A/Elevator Shaft/Room 06-d Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_elevator_shaft",
-                        "x": 1895,
-                        "y": 38
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Cassette",
-                        "ref": "Celestial Resort A/Elevator Shaft/Cassette"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_elevator_shaft",
-                        "x": 23,
-                        "y": 262
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Celestial Resort A Presidential Suite Map",
-        "children": [
-            {
-                "sections": [
-                    {
-                        "name": "Room roof03 Strawberry",
-                        "ref": "Celestial Resort A/Presidential Suite/Room roof03 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_presidential_suite",
-                        "x": 2272,
-                        "y": 47
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room roof06 Strawberry 1",
-                        "ref": "Celestial Resort A/Presidential Suite/Room roof06 Strawberry 1"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_presidential_suite",
-                        "x": 4831,
-                        "y": 43
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room roof06 Strawberry 2",
-                        "ref": "Celestial Resort A/Presidential Suite/Room roof06 Strawberry 2"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_presidential_suite",
-                        "x": 5471,
-                        "y": 144
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Level Clear",
-                        "ref": "Celestial Resort A/Presidential Suite/Level Clear"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "hotel_presidential_suite",
-                        "x": 6502,
-                        "y": 53
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Celestial Resort B",
-        "visibility_rules": [
-            "include_b_sides"
-        ],
+  {
+    "name": "Celestial Resort A",
+    "chest_unopened_img": "images/items/berry.png",
+    "chest_opened_img": "images/items/berry_outline.png",
+    "children": [
+      {
+        "name": "Start",
+        "access_rules": [],
         "sections": [
-            {
-                "name": "Level Clear",
-                "chest_unopened_img": "images/items/red_heart.png",
-                "chest_opened_img": "images/items/red_heart_outline.png"
-            }
+          {
+            "name": "Room s2 Strawberry 1",
+            "access_rules": []
+          },
+          {
+            "name": "Room s2 Strawberry 2",
+            "access_rules": []
+          },
+          {
+            "name": "Room s3 Strawberry",
+            "access_rules": []
+          },
+          {
+            "name": "Room 00-a Strawberry",
+            "access_rules": [
+              "celestialresorta-frontdoorkey",
+              "$KEYSANITY_IS_DISABLED"
+            ]
+          },
+          {
+            "name": "Room 00-b Strawberry",
+            "access_rules": [
+              "celestialresorta-frontdoorkey,dashrefills,springs",
+              "$KEYSANITY_IS_DISABLED,dashrefills,springs"
+            ]
+          },
+          {
+            "name": "Room 04-b Strawberry",
+            "access_rules": [
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,dashrefills,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,dashrefills,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 05-c Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 06-a Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 06-b Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 06-c Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 07-b Strawberry",
+            "access_rules": []
+          }
         ],
         "map_locations": [
-            {
-                "map": "celeste_chapter_select",
-                "x": 407,
-                "y": 279
-            }
+          {
+            "map": "celeste_chapter_select",
+            "x": 390,
+            "y": 173
+          }
         ]
-    },
-    {
-        "name": "Celestial Resort C",
-        "visibility_rules": [
-            "include_c_sides"
-        ],
+      },
+      {
+        "name": "Huge Mess",
+        "access_rules": [],
         "sections": [
-            {
-                "name": "Level Clear",
-                "chest_unopened_img": "images/items/yellow_heart.png",
-                "chest_opened_img": "images/items/yellow_heart_outline.png"
-            }
+          {
+            "name": "Room 08-x Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,brownclutter,dashrefills,movingplatforms,sinkingplatforms",
+              "brownclutter,celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,dashrefills,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,dashrefills,movingplatforms,pinkclutter,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,dashrefills,greenclutter,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,dashrefills,greenclutter,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,pinkclutter,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 10-y Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,coins,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 11-d Strawberry",
+            "access_rules": [
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,dashrefills,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 12-c Strawberry",
+            "access_rules": [
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,dashrefills,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 12-y Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,coins,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 13-b Strawberry",
+            "access_rules": [
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,dashrefills,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 13-x Strawberry",
+            "access_rules": [
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,dashrefills,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Crystal Heart",
+            "chest_unopened_img": "images/items/blue_heart.png",
+            "chest_opened_img": "images/items/blue_heart_outline.png",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,pinkclutter,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,dashrefills,movingplatforms,pinkclutter,sinkingplatforms"
+            ]
+          }
         ],
         "map_locations": [
-            {
-                "map": "celeste_chapter_select",
-                "x": 407,
-                "y": 319
-            }
+          {
+            "map": "celeste_chapter_select",
+            "x": 424,
+            "y": 173
+          }
         ]
-    }
+      },
+      {
+        "name": "Elevator Shaft",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Room 03-b Strawberry 1",
+            "access_rules": [
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 03-b Strawberry 2",
+            "access_rules": [
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 04-c Strawberry",
+            "access_rules": [
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Room 06-d Strawberry",
+            "access_rules": [
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms"
+            ]
+          },
+          {
+            "name": "Cassette",
+            "chest_unopened_img": "images/items/cassette.png",
+            "chest_opened_img": "images/items/cassette_outline.png",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,bluecassetteblocks,coins,dashrefills,movingplatforms,pinkcassetteblocks,sinkingplatforms",
+              "bluecassetteblocks,celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,pinkcassetteblocks,sinkingplatforms"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celeste_chapter_select",
+            "x": 390,
+            "y": 206
+          }
+        ]
+      },
+      {
+        "name": "Presidential Suite",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Room roof03 Strawberry",
+            "access_rules": []
+          },
+          {
+            "name": "Room roof06 Strawberry 1",
+            "access_rules": []
+          },
+          {
+            "name": "Room roof06 Strawberry 2",
+            "access_rules": []
+          },
+          {
+            "name": "Level Clear",
+            "chest_unopened_img": "images/items/complete.png",
+            "chest_opened_img": "images/items/complete_outline.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celeste_chapter_select",
+            "x": 424,
+            "y": 206
+          }
+        ]
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Celestial Resort A Start Map",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Room s2 Strawberry 1",
+            "ref": "Celestial Resort A/Start/Room s2 Strawberry 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_start",
+            "x": 1088,
+            "y": 647
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room s2 Strawberry 2",
+            "ref": "Celestial Resort A/Start/Room s2 Strawberry 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_start",
+            "x": 807,
+            "y": 366
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room s3 Strawberry",
+            "ref": "Celestial Resort A/Start/Room s3 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_start",
+            "x": 1455,
+            "y": 238
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 00-a Strawberry",
+            "ref": "Celestial Resort A/Start/Room 00-a Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_start",
+            "x": 2271,
+            "y": 487
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 00-b Strawberry",
+            "ref": "Celestial Resort A/Start/Room 00-b Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_start",
+            "x": 1983,
+            "y": 255
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 04-b Strawberry",
+            "ref": "Celestial Resort A/Start/Room 04-b Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_start",
+            "x": 3471,
+            "y": 311
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 05-c Strawberry",
+            "ref": "Celestial Resort A/Start/Room 05-c Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_start",
+            "x": 3672,
+            "y": 326
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 06-a Strawberry",
+            "ref": "Celestial Resort A/Start/Room 06-a Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_start",
+            "x": 4087,
+            "y": 447
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 06-b Strawberry",
+            "ref": "Celestial Resort A/Start/Room 06-b Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_start",
+            "x": 3936,
+            "y": 327
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 06-c Strawberry",
+            "ref": "Celestial Resort A/Start/Room 06-c Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_start",
+            "x": 4039,
+            "y": 30
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 07-b Strawberry",
+            "ref": "Celestial Resort A/Start/Room 07-b Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_start",
+            "x": 4407,
+            "y": 215
+          }
+        ],
+        "access_rules": []
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Celestial Resort A Huge Mess Map",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Room 08-x Strawberry",
+            "ref": "Celestial Resort A/Huge Mess/Room 08-x Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_huge_mess",
+            "x": 160,
+            "y": 839
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 10-y Strawberry",
+            "ref": "Celestial Resort A/Huge Mess/Room 10-y Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_huge_mess",
+            "x": 751,
+            "y": 967
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 11-d Strawberry",
+            "ref": "Celestial Resort A/Huge Mess/Room 11-d Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_huge_mess",
+            "x": 1247,
+            "y": 119
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 12-c Strawberry",
+            "ref": "Celestial Resort A/Huge Mess/Room 12-c Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_huge_mess",
+            "x": 1439,
+            "y": 334
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 12-y Strawberry",
+            "ref": "Celestial Resort A/Huge Mess/Room 12-y Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_huge_mess",
+            "x": 1551,
+            "y": 959
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 13-b Strawberry",
+            "ref": "Celestial Resort A/Huge Mess/Room 13-b Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_huge_mess",
+            "x": 1895,
+            "y": 506
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 13-x Strawberry",
+            "ref": "Celestial Resort A/Huge Mess/Room 13-x Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_huge_mess",
+            "x": 1735,
+            "y": 870
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Crystal Heart",
+            "ref": "Celestial Resort A/Huge Mess/Crystal Heart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_huge_mess",
+            "x": 1120,
+            "y": 317
+          }
+        ],
+        "access_rules": []
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Celestial Resort A Elevator Shaft Map",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Room 03-b Strawberry 1",
+            "ref": "Celestial Resort A/Elevator Shaft/Room 03-b Strawberry 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_elevator_shaft",
+            "x": 695,
+            "y": 397
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 03-b Strawberry 2",
+            "ref": "Celestial Resort A/Elevator Shaft/Room 03-b Strawberry 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_elevator_shaft",
+            "x": 831,
+            "y": 453
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 04-c Strawberry",
+            "ref": "Celestial Resort A/Elevator Shaft/Room 04-c Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_elevator_shaft",
+            "x": 1247,
+            "y": 253
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 06-d Strawberry",
+            "ref": "Celestial Resort A/Elevator Shaft/Room 06-d Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_elevator_shaft",
+            "x": 1895,
+            "y": 38
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Cassette",
+            "ref": "Celestial Resort A/Elevator Shaft/Cassette"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_elevator_shaft",
+            "x": 23,
+            "y": 262
+          }
+        ],
+        "access_rules": []
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Celestial Resort A Presidential Suite Map",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Room roof03 Strawberry",
+            "ref": "Celestial Resort A/Presidential Suite/Room roof03 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_presidential_suite",
+            "x": 2272,
+            "y": 47
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room roof06 Strawberry 1",
+            "ref": "Celestial Resort A/Presidential Suite/Room roof06 Strawberry 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_presidential_suite",
+            "x": 4831,
+            "y": 43
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room roof06 Strawberry 2",
+            "ref": "Celestial Resort A/Presidential Suite/Room roof06 Strawberry 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_presidential_suite",
+            "x": 5471,
+            "y": 144
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Level Clear",
+            "ref": "Celestial Resort A/Presidential Suite/Level Clear"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "hotel_presidential_suite",
+            "x": 6502,
+            "y": 53
+          }
+        ],
+        "access_rules": []
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Celestial Resort B",
+    "visibility_rules": [
+      "include_b_sides"
+    ],
+    "sections": [
+      {
+        "name": "Level Clear",
+        "chest_unopened_img": "images/items/red_heart.png",
+        "chest_opened_img": "images/items/red_heart_outline.png",
+        "access_rules": [
+          "bluecassetteblocks,coins,dashrefills,movingplatforms,pinkcassetteblocks,sinkingplatforms,springs"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "celeste_chapter_select",
+        "x": 407,
+        "y": 279
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Celestial Resort C",
+    "visibility_rules": [
+      "include_c_sides"
+    ],
+    "sections": [
+      {
+        "name": "Level Clear",
+        "chest_unopened_img": "images/items/yellow_heart.png",
+        "chest_opened_img": "images/items/yellow_heart_outline.png",
+        "access_rules": [
+          "coins,dashrefills,sinkingplatforms"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "celeste_chapter_select",
+        "x": 407,
+        "y": 319
+      }
+    ],
+    "access_rules": []
+  }
 ]

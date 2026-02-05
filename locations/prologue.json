@@ -1,27 +1,29 @@
 [
-    {
-        "name": "Prologue",
-        "chest_unopened_img": "images/items/berry.png",
-        "chest_opened_img": "images/items/berry_outline.png",
-        "children": [
-            {
-                "name": "Prologue",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Level Clear",
-                        "chest_unopened_img": "images/items/complete.png",
-                        "chest_opened_img": "images/items/complete_outline.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 145,
-                        "y": 173
-                    }
-                ]
-            }
+  {
+    "name": "Prologue",
+    "access_rules": [],
+    "chest_unopened_img": "images/items/berry.png",
+    "chest_opened_img": "images/items/berry_outline.png",
+    "children": [
+      {
+        "name": "Start",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Level Clear",
+            "chest_unopened_img": "images/items/complete.png",
+            "chest_opened_img": "images/items/complete_outline.png",
+            "access_rules": []
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celeste_chapter_select",
+            "x": 145,
+            "y": 173
+          }
         ]
-    }
+      }
+    ]
+  }
 ]

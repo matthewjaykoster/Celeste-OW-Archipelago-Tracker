@@ -1,703 +1,844 @@
 [
-    {
-        "name": "Golden Ridge A",
-        "chest_unopened_img": "images/items/berry.png",
-        "chest_opened_img": "images/items/berry_outline.png",
-        "children": [
-            {
-                "name": "Start",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Room a-01x Strawberry"
-                    },
-                    {
-                        "name": "Room a-02 Strawberry"
-                    },
-                    {
-                        "name": "Room a-03 Strawberry"
-                    },
-                    {
-                        "name": "Room a-04 Strawberry"
-                    },
-                    {
-                        "name": "Room a-06 Strawberry"
-                    },
-                    {
-                        "name": "Room a-07 Strawberry"
-                    },
-                    {
-                        "name": "Room a-09 Strawberry"
-                    },
-                    {
-                        "name": "Room a-10 Strawberry"
-                    },
-                    {
-                        "name": "Cassette",
-                        "chest_unopened_img": "images/items/cassette.png",
-                        "chest_opened_img": "images/items/cassette_outline.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 479,
-                        "y": 173
-                    }
-                ]
-            },
-            {
-                "name": "Shrine",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Room b-01 Strawberry 1"
-                    },
-                    {
-                        "name": "Room b-01 Strawberry 2"
-                    },
-                    {
-                        "name": "Room b-02 Strawberry 1"
-                    },
-                    {
-                        "name": "Room b-02 Strawberry 2"
-                    },
-                    {
-                        "name": "Room b-03 Strawberry"
-                    },
-                    {
-                        "name": "Room b-04 Strawberry"
-                    },
-                    {
-                        "name": "Room b-07 Strawberry"
-                    },
-                    {
-                        "name": "Room b-08 Strawberry"
-                    },
-                    {
-                        "name": "Room b-secb Strawberry"
-                    },
-                    {
-                        "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/blue_heart.png",
-                        "chest_opened_img": "images/items/blue_heart_outline.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 513,
-                        "y": 173
-                    }
-                ]
-            },
-            {
-                "name": "Old Trail",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Room c-00 Strawberry"
-                    },
-                    {
-                        "name": "Room c-01 Strawberry"
-                    },
-                    {
-                        "name": "Room c-05 Strawberry"
-                    },
-                    {
-                        "name": "Room c-06 Strawberry"
-                    },
-                    {
-                        "name": "Room c-06b Strawberry"
-                    },
-                    {
-                        "name": "Room c-08 Strawberry"
-                    },
-                    {
-                        "name": "Room c-10 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 479,
-                        "y": 206
-                    }
-                ]
-            },
-            {
-                "name": "Cliff Face",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Room d-00b Strawberry"
-                    },
-                    {
-                        "name": "Room d-01 Strawberry"
-                    },
-                    {
-                        "name": "Room d-04 Strawberry"
-                    },
-                    {
-                        "name": "Room d-07 Strawberry"
-                    },
-                    {
-                        "name": "Room d-09 Strawberry"
-                    },
-                    {
-                        "name": "Level Clear",
-                        "chest_unopened_img": "images/items/complete.png",
-                        "chest_opened_img": "images/items/complete_outline.png"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 513,
-                        "y": 206
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Golden Ridge A Start Map",
-        "children": [
-            {
-                "sections": [
-                    {
-                        "name": "Room a-01x Strawberry",
-                        "ref": "Golden Ridge A/Start/Room a-01x Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_start",
-                        "x": 1096,
-                        "y": 600
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room a-02 Strawberry",
-                        "ref": "Golden Ridge A/Start/Room a-02 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_start",
-                        "x": 2071,
-                        "y": 751
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room a-03 Strawberry",
-                        "ref": "Golden Ridge A/Start/Room a-03 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_start",
-                        "x": 2591,
-                        "y": 632
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room a-04 Strawberry",
-                        "ref": "Golden Ridge A/Start/Room a-04 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_start",
-                        "x": 3287,
-                        "y": 672
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room a-06 Strawberry",
-                        "ref": "Golden Ridge A/Start/Room a-06 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_start",
-                        "x": 3863,
-                        "y": 608
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room a-07 Strawberry",
-                        "ref": "Golden Ridge A/Start/Room a-07 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_start",
-                        "x": 4255,
-                        "y": 472
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room a-09 Strawberry",
-                        "ref": "Golden Ridge A/Start/Room a-09 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_start",
-                        "x": 4624,
-                        "y": 112
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room a-10 Strawberry",
-                        "ref": "Golden Ridge A/Start/Room a-10 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_start",
-                        "x": 4247,
-                        "y": 255
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Cassette",
-                        "ref": "Golden Ridge A/Start/Cassette"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_start",
-                        "x": 3319,
-                        "y": 264
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Golden Ridge A Shrine Map",
-        "children": [
-            {
-                "sections": [
-                    {
-                        "name": "Room b-01 Strawberry 1",
-                        "ref": "Golden Ridge A/Shrine/Room b-01 Strawberry 1"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 1383,
-                        "y": 1031
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room b-01 Strawberry 2",
-                        "ref": "Golden Ridge A/Shrine/Room b-01 Strawberry 2"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 1455,
-                        "y": 1056
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room b-02 Strawberry 1",
-                        "ref": "Golden Ridge A/Shrine/Room b-02 Strawberry 1"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 1376,
-                        "y": 863
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room b-02 Strawberry 2",
-                        "ref": "Golden Ridge A/Shrine/Room b-02 Strawberry 2"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 1319,
-                        "y": 696
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room b-03 Strawberry",
-                        "ref": "Golden Ridge A/Shrine/Room b-03 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 559,
-                        "y": 944
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room b-04 Strawberry",
-                        "ref": "Golden Ridge A/Shrine/Room b-04 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 512,
-                        "y": 687
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room b-07 Strawberry",
-                        "ref": "Golden Ridge A/Shrine/Room b-07 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 327,
-                        "y": 952
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room b-08 Strawberry",
-                        "ref": "Golden Ridge A/Shrine/Room b-08 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 1904,
-                        "y": 47
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room b-secb Strawberry",
-                        "ref": "Golden Ridge A/Shrine/Room b-secb Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 1808,
-                        "y": 607
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Crystal Heart",
-                        "ref": "Golden Ridge A/Shrine/Crystal Heart"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_shrine",
-                        "x": 1575,
-                        "y": 430
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Golden Ridge A Old Trail Map",
-        "children": [
-            {
-                "sections": [
-                    {
-                        "name": "Room c-00 Strawberry",
-                        "ref": "Golden Ridge A/Old Trail/Room c-00 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_old_trail",
-                        "x": 697,
-                        "y": 2184
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room c-01 Strawberry",
-                        "ref": "Golden Ridge A/Old Trail/Room c-01 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_old_trail",
-                        "x": 160,
-                        "y": 1920
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room c-05 Strawberry",
-                        "ref": "Golden Ridge A/Old Trail/Room c-05 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_old_trail",
-                        "x": 2520,
-                        "y": 1664
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room c-06 Strawberry",
-                        "ref": "Golden Ridge A/Old Trail/Room c-06 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_old_trail",
-                        "x": 2592,
-                        "y": 1104
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room c-06b Strawberry",
-                        "ref": "Golden Ridge A/Old Trail/Room c-06b Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_old_trail",
-                        "x": 2072,
-                        "y": 1223
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room c-08 Strawberry",
-                        "ref": "Golden Ridge A/Old Trail/Room c-08 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_old_trail",
-                        "x": 3856,
-                        "y": 280
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room c-10 Strawberry",
-                        "ref": "Golden Ridge A/Old Trail/Room c-10 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_old_trail",
-                        "x": 4192,
-                        "y": 128
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Golden Ridge A Cliff Face Map",
-        "children": [
-            {
-                "sections": [
-                    {
-                        "name": "Room d-00b Strawberry",
-                        "ref": "Golden Ridge A/Cliff Face/Room d-00b Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_cliff_face",
-                        "x": 480,
-                        "y": 245
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room d-01 Strawberry",
-                        "ref": "Golden Ridge A/Cliff Face/Room d-01 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_cliff_face",
-                        "x": 1151,
-                        "y": 437
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room d-04 Strawberry",
-                        "ref": "Golden Ridge A/Cliff Face/Room d-04 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_cliff_face",
-                        "x": 2575,
-                        "y": 285
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room d-07 Strawberry",
-                        "ref": "Golden Ridge A/Cliff Face/Room d-07 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_cliff_face",
-                        "x": 3847,
-                        "y": 269
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room d-09 Strawberry",
-                        "ref": "Golden Ridge A/Cliff Face/Room d-09 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_cliff_face",
-                        "x": 5735,
-                        "y": 197
-                    }
-                ]
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Level Clear",
-                        "ref": "Golden Ridge A/Cliff Face/Level Clear"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "ridge_cliff_face",
-                        "x": 6173,
-                        "y": 123
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Golden Ridge B",
-        "visibility_rules": [
-            "include_b_sides"
-        ],
+  {
+    "name": "Golden Ridge A",
+    "chest_unopened_img": "images/items/berry.png",
+    "chest_opened_img": "images/items/berry_outline.png",
+    "children": [
+      {
+        "name": "Start",
+        "access_rules": [],
         "sections": [
-            {
-                "name": "Level Clear",
-                "chest_unopened_img": "images/items/red_heart.png",
-                "chest_opened_img": "images/items/red_heart_outline.png"
-            }
+          {
+            "name": "Room a-01x Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds"
+            ]
+          },
+          {
+            "name": "Room a-02 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds"
+            ]
+          },
+          {
+            "name": "Room a-03 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds"
+            ]
+          },
+          {
+            "name": "Room a-04 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room a-06 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room a-07 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room a-09 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room a-10 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,movingplatforms,pinkclouds,springs,strawberryseeds"
+            ]
+          },
+          {
+            "name": "Cassette",
+            "chest_unopened_img": "images/items/cassette.png",
+            "chest_opened_img": "images/items/cassette_outline.png",
+            "access_rules": [
+              "blueboosters,bluecassetteblocks,blueclouds,coins,movingplatforms,pinkcassetteblocks,pinkclouds"
+            ]
+          }
         ],
         "map_locations": [
-            {
-                "map": "celeste_chapter_select",
-                "x": 496,
-                "y": 279
-            }
+          {
+            "map": "celeste_chapter_select",
+            "x": 479,
+            "y": 173
+          }
         ]
-    },
-    {
-        "name": "Golden Ridge C",
-        "visibility_rules": [
-            "include_c_sides"
-        ],
+      },
+      {
+        "name": "Shrine",
+        "access_rules": [],
         "sections": [
-            {
-                "name": "Level Clear",
-                "chest_unopened_img": "images/items/yellow_heart.png",
-                "chest_opened_img": "images/items/yellow_heart_outline.png"
-            }
+          {
+            "name": "Room b-01 Strawberry 1",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room b-01 Strawberry 2",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room b-02 Strawberry 1",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room b-02 Strawberry 2",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room b-03 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room b-04 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room b-07 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room b-08 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room b-secb Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Crystal Heart",
+            "chest_unopened_img": "images/items/blue_heart.png",
+            "chest_opened_img": "images/items/blue_heart_outline.png",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,moveblocks,movingplatforms,pinkclouds,whiteblock"
+            ]
+          }
         ],
         "map_locations": [
-            {
-                "map": "celeste_chapter_select",
-                "x": 496,
-                "y": 319
-            }
+          {
+            "map": "celeste_chapter_select",
+            "x": 513,
+            "y": 173
+          }
         ]
-    }
+      },
+      {
+        "name": "Old Trail",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Room c-00 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room c-01 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room c-05 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room c-06 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room c-06b Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds"
+            ]
+          },
+          {
+            "name": "Room c-08 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds,springs"
+            ]
+          },
+          {
+            "name": "Room c-10 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds,springs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celeste_chapter_select",
+            "x": 479,
+            "y": 206
+          }
+        ]
+      },
+      {
+        "name": "Cliff Face",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Room d-00b Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds,springs"
+            ]
+          },
+          {
+            "name": "Room d-01 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds,springs"
+            ]
+          },
+          {
+            "name": "Room d-04 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds,springs"
+            ]
+          },
+          {
+            "name": "Room d-07 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds,springs"
+            ]
+          },
+          {
+            "name": "Room d-09 Strawberry",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds,springs"
+            ]
+          },
+          {
+            "name": "Level Clear",
+            "chest_unopened_img": "images/items/complete.png",
+            "chest_opened_img": "images/items/complete_outline.png",
+            "access_rules": [
+              "blueboosters,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkclouds,springs"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celeste_chapter_select",
+            "x": 513,
+            "y": 206
+          }
+        ]
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Golden Ridge A Start Map",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Room a-01x Strawberry",
+            "ref": "Golden Ridge A/Start/Room a-01x Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_start",
+            "x": 1096,
+            "y": 600
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room a-02 Strawberry",
+            "ref": "Golden Ridge A/Start/Room a-02 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_start",
+            "x": 2071,
+            "y": 751
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room a-03 Strawberry",
+            "ref": "Golden Ridge A/Start/Room a-03 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_start",
+            "x": 2591,
+            "y": 632
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room a-04 Strawberry",
+            "ref": "Golden Ridge A/Start/Room a-04 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_start",
+            "x": 3287,
+            "y": 672
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room a-06 Strawberry",
+            "ref": "Golden Ridge A/Start/Room a-06 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_start",
+            "x": 3863,
+            "y": 608
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room a-07 Strawberry",
+            "ref": "Golden Ridge A/Start/Room a-07 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_start",
+            "x": 4255,
+            "y": 472
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room a-09 Strawberry",
+            "ref": "Golden Ridge A/Start/Room a-09 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_start",
+            "x": 4624,
+            "y": 112
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room a-10 Strawberry",
+            "ref": "Golden Ridge A/Start/Room a-10 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_start",
+            "x": 4247,
+            "y": 255
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Cassette",
+            "ref": "Golden Ridge A/Start/Cassette"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_start",
+            "x": 3319,
+            "y": 264
+          }
+        ],
+        "access_rules": []
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Golden Ridge A Shrine Map",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Room b-01 Strawberry 1",
+            "ref": "Golden Ridge A/Shrine/Room b-01 Strawberry 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_shrine",
+            "x": 1383,
+            "y": 1031
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room b-01 Strawberry 2",
+            "ref": "Golden Ridge A/Shrine/Room b-01 Strawberry 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_shrine",
+            "x": 1455,
+            "y": 1056
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room b-02 Strawberry 1",
+            "ref": "Golden Ridge A/Shrine/Room b-02 Strawberry 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_shrine",
+            "x": 1376,
+            "y": 863
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room b-02 Strawberry 2",
+            "ref": "Golden Ridge A/Shrine/Room b-02 Strawberry 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_shrine",
+            "x": 1319,
+            "y": 696
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room b-03 Strawberry",
+            "ref": "Golden Ridge A/Shrine/Room b-03 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_shrine",
+            "x": 559,
+            "y": 944
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room b-04 Strawberry",
+            "ref": "Golden Ridge A/Shrine/Room b-04 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_shrine",
+            "x": 512,
+            "y": 687
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room b-07 Strawberry",
+            "ref": "Golden Ridge A/Shrine/Room b-07 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_shrine",
+            "x": 327,
+            "y": 952
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room b-08 Strawberry",
+            "ref": "Golden Ridge A/Shrine/Room b-08 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_shrine",
+            "x": 1904,
+            "y": 47
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room b-secb Strawberry",
+            "ref": "Golden Ridge A/Shrine/Room b-secb Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_shrine",
+            "x": 1808,
+            "y": 607
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Crystal Heart",
+            "ref": "Golden Ridge A/Shrine/Crystal Heart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_shrine",
+            "x": 1575,
+            "y": 430
+          }
+        ],
+        "access_rules": []
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Golden Ridge A Old Trail Map",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Room c-00 Strawberry",
+            "ref": "Golden Ridge A/Old Trail/Room c-00 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_old_trail",
+            "x": 697,
+            "y": 2184
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room c-01 Strawberry",
+            "ref": "Golden Ridge A/Old Trail/Room c-01 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_old_trail",
+            "x": 160,
+            "y": 1920
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room c-05 Strawberry",
+            "ref": "Golden Ridge A/Old Trail/Room c-05 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_old_trail",
+            "x": 2520,
+            "y": 1664
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room c-06 Strawberry",
+            "ref": "Golden Ridge A/Old Trail/Room c-06 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_old_trail",
+            "x": 2592,
+            "y": 1104
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room c-06b Strawberry",
+            "ref": "Golden Ridge A/Old Trail/Room c-06b Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_old_trail",
+            "x": 2072,
+            "y": 1223
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room c-08 Strawberry",
+            "ref": "Golden Ridge A/Old Trail/Room c-08 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_old_trail",
+            "x": 3856,
+            "y": 280
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room c-10 Strawberry",
+            "ref": "Golden Ridge A/Old Trail/Room c-10 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_old_trail",
+            "x": 4192,
+            "y": 128
+          }
+        ],
+        "access_rules": []
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Golden Ridge A Cliff Face Map",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Room d-00b Strawberry",
+            "ref": "Golden Ridge A/Cliff Face/Room d-00b Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_cliff_face",
+            "x": 480,
+            "y": 245
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room d-01 Strawberry",
+            "ref": "Golden Ridge A/Cliff Face/Room d-01 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_cliff_face",
+            "x": 1151,
+            "y": 437
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room d-04 Strawberry",
+            "ref": "Golden Ridge A/Cliff Face/Room d-04 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_cliff_face",
+            "x": 2575,
+            "y": 285
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room d-07 Strawberry",
+            "ref": "Golden Ridge A/Cliff Face/Room d-07 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_cliff_face",
+            "x": 3847,
+            "y": 269
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room d-09 Strawberry",
+            "ref": "Golden Ridge A/Cliff Face/Room d-09 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_cliff_face",
+            "x": 5735,
+            "y": 197
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Level Clear",
+            "ref": "Golden Ridge A/Cliff Face/Level Clear"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "ridge_cliff_face",
+            "x": 6173,
+            "y": 123
+          }
+        ],
+        "access_rules": []
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Golden Ridge B",
+    "visibility_rules": [
+      "include_b_sides"
+    ],
+    "sections": [
+      {
+        "name": "Level Clear",
+        "chest_unopened_img": "images/items/red_heart.png",
+        "chest_opened_img": "images/items/red_heart_outline.png",
+        "access_rules": [
+          "blueboosters,bluecassetteblocks,blueclouds,coins,dashrefills,moveblocks,movingplatforms,pinkcassetteblocks,pinkclouds,springs"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "celeste_chapter_select",
+        "x": 496,
+        "y": 279
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Golden Ridge C",
+    "visibility_rules": [
+      "include_c_sides"
+    ],
+    "sections": [
+      {
+        "name": "Level Clear",
+        "chest_unopened_img": "images/items/yellow_heart.png",
+        "chest_opened_img": "images/items/yellow_heart_outline.png",
+        "access_rules": [
+          "blueboosters,dashrefills,moveblocks,pinkclouds"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "celeste_chapter_select",
+        "x": 496,
+        "y": 319
+      }
+    ],
+    "access_rules": []
+  }
 ]

@@ -9,41 +9,70 @@
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Room 1 Strawberry"
+                        "name": "Room 1 Strawberry",
+                        "access_rules": [
+                            "dreamblocks"
+                        ]
                     },
                     {
-                        "name": "Room d0 Strawberry"
+                        "name": "Room d0 Strawberry",
+                        "access_rules": [
+                            "dreamblocks"
+                        ]
                     },
                     {
-                        "name": "Room d1 Strawberry"
+                        "name": "Room d1 Strawberry",
+                        "access_rules": [
+                            "dreamblocks,strawberryseeds"
+                        ]
                     },
                     {
-                        "name": "Room d2 Strawberry 1"
+                        "name": "Room d2 Strawberry 1",
+                        "access_rules": [
+                            "dreamblocks"
+                        ]
                     },
                     {
-                        "name": "Room d2 Strawberry 2"
+                        "name": "Room d2 Strawberry 2",
+                        "access_rules": [
+                            "dreamblocks"
+                        ]
                     },
                     {
-                        "name": "Room d3 Strawberry"
+                        "name": "Room d3 Strawberry",
+                        "access_rules": [
+                            "dashrefills"
+                        ]
                     },
                     {
-                        "name": "Room d4 Strawberry"
+                        "name": "Room d4 Strawberry",
+                        "access_rules": [
+                            "dreamblocks,trafficblocks"
+                        ]
                     },
                     {
-                        "name": "Room d5 Strawberry"
+                        "name": "Room d5 Strawberry",
+                        "access_rules": [
+                            "dreamblocks"
+                        ]
                     },
                     {
-                        "name": "Room d6 Strawberry"
+                        "name": "Room d6 Strawberry",
+                        "access_rules": []
                     },
                     {
                         "name": "Crystal Heart",
                         "chest_unopened_img": "images/items/blue_heart.png",
-                        "chest_opened_img": "images/items/blue_heart_outline.png"
+                        "chest_opened_img": "images/items/blue_heart_outline.png",
+                        "access_rules": []
                     },
                     {
                         "name": "Cassette",
                         "chest_unopened_img": "images/items/cassette.png",
-                        "chest_opened_img": "images/items/cassette_outline.png"
+                        "chest_opened_img": "images/items/cassette_outline.png",
+                        "access_rules": [
+                            "bluecassetteblocks,dreamblocks,pinkcassetteblocks"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -59,28 +88,52 @@
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Room 4 Strawberry"
+                        "name": "Room 4 Strawberry",
+                        "access_rules": [
+                            "dreamblocks"
+                        ]
                     },
                     {
-                        "name": "Room 5 Strawberry"
+                        "name": "Room 5 Strawberry",
+                        "access_rules": [
+                            "dreamblocks"
+                        ]
                     },
                     {
-                        "name": "Room 8 Strawberry"
+                        "name": "Room 8 Strawberry",
+                        "access_rules": [
+                            "coins,dreamblocks"
+                        ]
                     },
                     {
-                        "name": "Room 9 Strawberry"
+                        "name": "Room 9 Strawberry",
+                        "access_rules": [
+                            "coins,dreamblocks"
+                        ]
                     },
                     {
-                        "name": "Room 9b Strawberry"
+                        "name": "Room 9b Strawberry",
+                        "access_rules": [
+                            "coins,dreamblocks"
+                        ]
                     },
                     {
-                        "name": "Room 10 Strawberry"
+                        "name": "Room 10 Strawberry",
+                        "access_rules": [
+                            "coins,dreamblocks"
+                        ]
                     },
                     {
-                        "name": "Room 12c Strawberry"
+                        "name": "Room 12c Strawberry",
+                        "access_rules": [
+                            "coins,dashrefills,dreamblocks"
+                        ]
                     },
                     {
-                        "name": "Room 12d Strawberry"
+                        "name": "Room 12d Strawberry",
+                        "access_rules": [
+                            "coins,dashrefills,dreamblocks"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -96,12 +149,18 @@
                 "access_rules": [],
                 "sections": [
                     {
-                        "name": "Room end_3c Strawberry"
+                        "name": "Room end_3c Strawberry",
+                        "access_rules": [
+                            "coins,dashrefills,dreamblocks,springs"
+                        ]
                     },
                     {
                         "name": "Level Clear",
                         "chest_unopened_img": "images/items/complete.png",
-                        "chest_opened_img": "images/items/complete_outline.png"
+                        "chest_opened_img": "images/items/complete_outline.png",
+                        "access_rules": [
+                            "coins,dashrefills,dreamblocks"
+                        ]
                     }
                 ],
                 "map_locations": [
@@ -112,7 +171,8 @@
                     }
                 ]
             }
-        ]
+        ],
+        "access_rules": []
     },
     {
         "name": "Old Site A Start Map",
@@ -130,7 +190,8 @@
                         "x": 975,
                         "y": 568
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -145,7 +206,8 @@
                         "x": 831,
                         "y": 952
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -160,7 +222,8 @@
                         "x": 480,
                         "y": 1120
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -175,7 +238,8 @@
                         "x": 1148,
                         "y": 1004
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -190,7 +254,8 @@
                         "x": 1359,
                         "y": 1011
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -205,7 +270,8 @@
                         "x": 1704,
                         "y": 1400
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -220,7 +286,8 @@
                         "x": 1264,
                         "y": 880
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -235,7 +302,8 @@
                         "x": 1615,
                         "y": 888
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -250,7 +318,8 @@
                         "x": 472,
                         "y": 1224
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -265,7 +334,8 @@
                         "x": 224,
                         "y": 112
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -280,9 +350,11 @@
                         "x": 863,
                         "y": 1576
                     }
-                ]
+                ],
+                "access_rules": []
             }
-        ]
+        ],
+        "access_rules": []
     },
     {
         "name": "Old Site A Intervention Map",
@@ -300,7 +372,8 @@
                         "x": 358,
                         "y": 1151
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -315,7 +388,8 @@
                         "x": 87,
                         "y": 982
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -330,7 +404,8 @@
                         "x": 119,
                         "y": 287
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -345,7 +420,8 @@
                         "x": 750,
                         "y": 511
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -360,7 +436,8 @@
                         "x": 478,
                         "y": 142
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -375,7 +452,8 @@
                         "x": 918,
                         "y": 799
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -390,7 +468,8 @@
                         "x": 1870,
                         "y": 1519
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -405,9 +484,11 @@
                         "x": 2207,
                         "y": 2087
                     }
-                ]
+                ],
+                "access_rules": []
             }
-        ]
+        ],
+        "access_rules": []
     },
     {
         "name": "Old Site A Awake Map",
@@ -425,7 +506,8 @@
                         "x": 2136,
                         "y": 343
                     }
-                ]
+                ],
+                "access_rules": []
             },
             {
                 "sections": [
@@ -440,9 +522,11 @@
                         "x": 3018,
                         "y": 830
                     }
-                ]
+                ],
+                "access_rules": []
             }
-        ]
+        ],
+        "access_rules": []
     },
     {
         "name": "Old Site B",
@@ -453,7 +537,10 @@
             {
                 "name": "Level Clear",
                 "chest_unopened_img": "images/items/red_heart.png",
-                "chest_opened_img": "images/items/red_heart_outline.png"
+                "chest_opened_img": "images/items/red_heart_outline.png",
+                "access_rules": [
+                    "bluecassetteblocks,coins,dashrefills,dreamblocks,springs"
+                ]
             }
         ],
         "map_locations": [
@@ -462,7 +549,8 @@
                 "x": 319,
                 "y": 279
             }
-        ]
+        ],
+        "access_rules": []
     },
     {
         "name": "Old Site C",
@@ -473,7 +561,10 @@
             {
                 "name": "Level Clear",
                 "chest_unopened_img": "images/items/yellow_heart.png",
-                "chest_opened_img": "images/items/yellow_heart_outline.png"
+                "chest_opened_img": "images/items/yellow_heart_outline.png",
+                "access_rules": [
+                    "coins,dashrefills,dreamblocks"
+                ]
             }
         ],
         "map_locations": [
@@ -482,6 +573,7 @@
                 "x": 319,
                 "y": 319
             }
-        ]
+        ],
+        "access_rules": []
     }
 ]

@@ -9,18 +9,31 @@
     "children": [
       {
         "name": "Start",
+        "access_rules": [],
         "sections": [
           {
-            "name": "Room a-02b Strawberry"
+            "name": "Room a-02b Strawberry",
+            "access_rules": [
+              "dashrefills,springs"
+            ]
           },
           {
-            "name": "Room a-04b Strawberry 1"
+            "name": "Room a-04b Strawberry 1",
+            "access_rules": [
+              "dashrefills,springs"
+            ]
           },
           {
-            "name": "Room a-04b Strawberry 2"
+            "name": "Room a-04b Strawberry 2",
+            "access_rules": [
+              "dashrefills,springs"
+            ]
           },
           {
-            "name": "Room a-05 Strawberry"
+            "name": "Room a-05 Strawberry",
+            "access_rules": [
+              "dashrefills,springs"
+            ]
           }
         ],
         "map_locations": [
@@ -33,24 +46,43 @@
       },
       {
         "name": "500 M",
+        "access_rules": [],
         "sections": [
           {
-            "name": "Room b-02 Strawberry"
+            "name": "Room b-02 Strawberry",
+            "access_rules": [
+              "badelineboosters,dashrefills,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room b-02b Strawberry"
+            "name": "Room b-02b Strawberry",
+            "access_rules": [
+              "badelineboosters,dashrefills,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room b-02e Strawberry"
+            "name": "Room b-02e Strawberry",
+            "access_rules": [
+              "badelineboosters,dashrefills,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room b-04 Strawberry"
+            "name": "Room b-04 Strawberry",
+            "access_rules": [
+              "badelineboosters,dashrefills,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room b-08 Strawberry"
+            "name": "Room b-08 Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room b-09 Strawberry"
+            "name": "Room b-09 Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,springs,trafficblocks"
+            ]
           }
         ],
         "map_locations": [
@@ -63,24 +95,43 @@
       },
       {
         "name": "1000 M",
+        "access_rules": [],
         "sections": [
           {
-            "name": "Room c-03b Strawberry"
+            "name": "Room c-03b Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room c-05 Strawberry"
+            "name": "Room c-05 Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room c-06b Strawberry"
+            "name": "Room c-06b Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room c-07b Strawberry"
+            "name": "Room c-07b Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room c-08 Strawberry"
+            "name": "Room c-08 Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room c-09 Strawberry"
+            "name": "Room c-09 Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,springs,trafficblocks"
+            ]
           }
         ],
         "map_locations": [
@@ -93,35 +144,63 @@
       },
       {
         "name": "1500 M",
+        "access_rules": [],
         "sections": [
           {
-            "name": "Room d-00 Strawberry"
+            "name": "Room d-00 Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room d-01c Strawberry"
+            "name": "Room d-01c Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room d-01d Strawberry"
+            "name": "Room d-01d Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room d-03 Strawberry"
+            "name": "Room d-03 Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room d-04 Strawberry"
+            "name": "Room d-04 Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room d-07 Strawberry"
+            "name": "Room d-07 Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room d-08 Strawberry"
+            "name": "Room d-08 Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room d-10b Strawberry"
+            "name": "Room d-10b Strawberry",
+            "access_rules": [
+              "badelineboosters,coins,dashrefills,dreamblocks,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
             "name": "Cassette",
             "chest_unopened_img": "images/items/cassette.png",
-            "chest_opened_img": "images/items/cassette_outline.png"
+            "chest_opened_img": "images/items/cassette_outline.png",
+            "access_rules": [
+              "badelineboosters,bluecassetteblocks,coins,dashrefills,dreamblocks,pinkcassetteblocks,sinkingplatforms,springs,trafficblocks"
+            ]
           }
         ],
         "map_locations": [
@@ -134,30 +213,62 @@
       },
       {
         "name": "2000 M",
+        "access_rules": [],
         "sections": [
           {
-            "name": "Room e-02 Strawberry"
+            "name": "Room e-02 Strawberry",
+            "access_rules": [
+              "badelineboosters,blueboosters,coins,dashrefills,dreamblocks,pinkclouds,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room e-05 Strawberry"
+            "name": "Room e-05 Strawberry",
+            "access_rules": [
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,movingplatforms,sinkingplatforms,springs,trafficblocks",
+              "badelineboosters,blueboosters,coins,dashrefills,dreamblocks,pinkclouds,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room e-07 Strawberry"
+            "name": "Room e-07 Strawberry",
+            "access_rules": [
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,movingplatforms,sinkingplatforms,springs,trafficblocks",
+              "badelineboosters,blueboosters,coins,dashrefills,dreamblocks,moveblocks,pinkclouds,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room e-09 Strawberry"
+            "name": "Room e-09 Strawberry",
+            "access_rules": [
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,pinkclouds,sinkingplatforms,springs,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,movingplatforms,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room e-11 Strawberry"
+            "name": "Room e-11 Strawberry",
+            "access_rules": [
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,pinkclouds,sinkingplatforms,springs,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,movingplatforms,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room e-12 Strawberry"
+            "name": "Room e-12 Strawberry",
+            "access_rules": [
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,pinkclouds,sinkingplatforms,springs,strawberryseeds,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,movingplatforms,sinkingplatforms,springs,strawberryseeds,trafficblocks"
+            ]
           },
           {
-            "name": "Room e-10 Strawberry"
+            "name": "Room e-10 Strawberry",
+            "access_rules": [
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,pinkclouds,sinkingplatforms,springs,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,movingplatforms,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room e-13 Strawberry"
+            "name": "Room e-13 Strawberry",
+            "access_rules": [
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,pinkclouds,sinkingplatforms,springs,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,movingplatforms,sinkingplatforms,springs,trafficblocks"
+            ]
           }
         ],
         "map_locations": [
@@ -170,30 +281,73 @@
       },
       {
         "name": "2500 M",
+        "access_rules": [],
         "sections": [
           {
-            "name": "Room f-00 Strawberry"
+            "name": "Room f-00 Strawberry",
+            "access_rules": [
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,trafficblocks"
+            ]
           },
           {
-            "name": "Room f-01 Strawberry"
+            "name": "Room f-01 Strawberry",
+            "access_rules": [
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,movingplatforms,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,pinkclouds,sinkingplatforms,springs,swapblocks,trafficblocks"
+            ]
           },
           {
-            "name": "Room f-07 Strawberry"
+            "name": "Room f-07 Strawberry",
+            "access_rules": [
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks"
+            ]
           },
           {
-            "name": "Room f-08b Strawberry"
+            "name": "Room f-08b Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks"
+            ]
           },
           {
-            "name": "Room f-08c Strawberry"
+            "name": "Room f-08c Strawberry",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks"
+            ]
           },
           {
-            "name": "Room f-11 Strawberry 1"
+            "name": "Room f-11 Strawberry 1",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks"
+            ]
           },
           {
-            "name": "Room f-11 Strawberry 2"
+            "name": "Room f-11 Strawberry 2",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks"
+            ]
           },
           {
-            "name": "Room f-11 Strawberry 3"
+            "name": "Room f-11 Strawberry 3",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks"
+            ]
           }
         ],
         "map_locations": [
@@ -206,37 +360,88 @@
       },
       {
         "name": "3000 M",
+        "access_rules": [],
         "sections": [
           {
-            "name": "Room g-00b Strawberry 1"
+            "name": "Room g-00b Strawberry 1",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks"
+            ]
           },
           {
-            "name": "Room g-00b Strawberry 2"
+            "name": "Room g-00b Strawberry 2",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks"
+            ]
           },
           {
-            "name": "Room g-00b Strawberry 3"
+            "name": "Room g-00b Strawberry 3",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks"
+            ]
           },
           {
-            "name": "Room g-01 Strawberry 1"
+            "name": "Room g-01 Strawberry 1",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks"
+            ]
           },
           {
-            "name": "Room g-01 Strawberry 2"
+            "name": "Room g-01 Strawberry 2",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks"
+            ]
           },
           {
-            "name": "Room g-01 Strawberry 3"
+            "name": "Room g-01 Strawberry 3",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks"
+            ]
           },
           {
-            "name": "Room g-03 Strawberry"
+            "name": "Room g-03 Strawberry",
+            "access_rules": [
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,feathers,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,feathers,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks"
+            ]
           },
           {
             "name": "Crystal Heart",
             "chest_unopened_img": "images/items/blue_heart.png",
-            "chest_opened_img": "images/items/blue_heart_outline.png"
+            "chest_opened_img": "images/items/blue_heart_outline.png",
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,Gem 1,Gem 2,Gem 3,Gem 4,Gem 5,Gem 6,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "Gem 1,Gem 2,Gem 3,Gem 4,Gem 5,Gem 6,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,Gem 1,Gem 2,Gem 3,Gem 4,Gem 5,Gem 6,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "Gem 1,Gem 2,Gem 3,Gem 4,Gem 5,Gem 6,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks"
+            ]
           },
           {
             "name": "Level Clear",
             "chest_unopened_img": "images/items/complete.png",
-            "chest_opened_img": "images/items/complete_outline.png"
+            "chest_opened_img": "images/items/complete_outline.png",
+            "access_rules": [
+              "badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,feathers,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,feathers,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks"
+            ]
           }
         ],
         "map_locations": [
@@ -256,6 +461,7 @@
     ],
     "children": [
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room a-02b Strawberry",
@@ -271,6 +477,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room a-04b Strawberry 1",
@@ -286,6 +493,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room a-04b Strawberry 2",
@@ -301,6 +509,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room a-05 Strawberry",
@@ -319,8 +528,10 @@
   },
   {
     "name": "The Summit 500 M Map",
+    "access_rules": [],
     "children": [
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room b-02 Strawberry",
@@ -336,6 +547,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room b-02b Strawberry",
@@ -351,6 +563,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room b-02e Strawberry",
@@ -366,6 +579,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room b-04 Strawberry",
@@ -381,6 +595,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room b-08 Strawberry",
@@ -396,6 +611,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room b-09 Strawberry",
@@ -414,8 +630,10 @@
   },
   {
     "name": "The Summit 1000 M Map",
+    "access_rules": [],
     "children": [
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room c-03b Strawberry",
@@ -431,6 +649,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room c-05 Strawberry",
@@ -446,6 +665,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room c-06b Strawberry",
@@ -461,6 +681,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room c-07b Strawberry",
@@ -476,6 +697,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room c-08 Strawberry",
@@ -491,6 +713,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room c-09 Strawberry",
@@ -509,8 +732,10 @@
   },
   {
     "name": "The Summit 1500 M Map",
+    "access_rules": [],
     "children": [
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room d-00 Strawberry",
@@ -526,6 +751,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room d-01c Strawberry",
@@ -541,6 +767,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room d-01d Strawberry",
@@ -556,6 +783,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room d-03 Strawberry",
@@ -571,6 +799,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room d-04 Strawberry",
@@ -586,6 +815,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room d-07 Strawberry",
@@ -601,6 +831,7 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Room d-08 Strawberry",
@@ -628,7 +859,8 @@
             "x": 4615,
             "y": 815
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -643,7 +875,8 @@
             "x": 2471,
             "y": 712
           }
-        ]
+        ],
+        "access_rules": []
       }
     ]
   },
@@ -663,7 +896,8 @@
             "x": 1407,
             "y": 2512
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -678,7 +912,8 @@
             "x": 3239,
             "y": 2496
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -693,7 +928,8 @@
             "x": 4363,
             "y": 1804
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -708,7 +944,8 @@
             "x": 4015,
             "y": 1472
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -723,7 +960,8 @@
             "x": 5239,
             "y": 1523
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -738,7 +976,8 @@
             "x": 4711,
             "y": 1343
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -753,7 +992,8 @@
             "x": 4407,
             "y": 1040
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -768,9 +1008,11 @@
             "x": 6551,
             "y": 640
           }
-        ]
+        ],
+        "access_rules": []
       }
-    ]
+    ],
+    "access_rules": []
   },
   {
     "name": "The Summit 2500 M Map",
@@ -788,7 +1030,8 @@
             "x": 1135,
             "y": 1968
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -803,7 +1046,8 @@
             "x": 39,
             "y": 1751
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -818,7 +1062,8 @@
             "x": 3263,
             "y": 1623
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -833,7 +1078,8 @@
             "x": 3879,
             "y": 1648
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -848,7 +1094,8 @@
             "x": 5032,
             "y": 1704
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -863,7 +1110,8 @@
             "x": 5959,
             "y": 1216
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -878,7 +1126,8 @@
             "x": 5807,
             "y": 720
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -893,9 +1142,11 @@
             "x": 6047,
             "y": 720
           }
-        ]
+        ],
+        "access_rules": []
       }
-    ]
+    ],
+    "access_rules": []
   },
   {
     "name": "The Summit 3000 M Map",
@@ -913,7 +1164,8 @@
             "x": 567,
             "y": 3185
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -928,7 +1180,8 @@
             "x": 583,
             "y": 2720
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -943,7 +1196,8 @@
             "x": 663,
             "y": 1993
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -958,7 +1212,8 @@
             "x": 71,
             "y": 81
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -973,7 +1228,8 @@
             "x": 712,
             "y": 6888
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -988,7 +1244,8 @@
             "x": 416,
             "y": 6712
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -1003,7 +1260,8 @@
             "x": 1168,
             "y": 2680
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -1018,7 +1276,8 @@
             "x": 720,
             "y": 3583
           }
-        ]
+        ],
+        "access_rules": []
       },
       {
         "sections": [
@@ -1033,9 +1292,11 @@
             "x": 2247,
             "y": 320
           }
-        ]
+        ],
+        "access_rules": []
       }
-    ]
+    ],
+    "access_rules": []
   },
   {
     "name": "The Summit B",
@@ -1049,7 +1310,10 @@
       {
         "name": "Level Clear",
         "chest_unopened_img": "images/items/red_heart.png",
-        "chest_opened_img": "images/items/red_heart_outline.png"
+        "chest_opened_img": "images/items/red_heart_outline.png",
+        "access_rules": [
+          "badelineboosters,blueboosters,bluecassetteblocks,blueclouds,coins,dashrefills,dreamblocks,moveblocks,movingplatforms,pinkcassetteblocks,pinkclouds,redboosters,springs,swapblocks,trafficblocks"
+        ]
       }
     ],
     "map_locations": [
@@ -1072,7 +1336,10 @@
       {
         "name": "Level Clear",
         "chest_unopened_img": "images/items/yellow_heart.png",
-        "chest_opened_img": "images/items/yellow_heart_outline.png"
+        "chest_opened_img": "images/items/yellow_heart_outline.png",
+        "access_rules": [
+          "badelineboosters,coins,dashrefills,pinkclouds,springs"
+        ]
       }
     ],
     "map_locations": [

@@ -1,19 +1,25 @@
 [
   {
     "name": "Reflection A",
+    "access_rules": [],
     "children": [
       {
         "name": "Hollows",
+        "access_rules": [],
         "sections": [
           {
             "name": "Crystal Heart",
             "chest_unopened_img": "images/items/blue_heart.png",
-            "chest_opened_img": "images/items/blue_heart_outline.png"
+            "chest_opened_img": "images/items/blue_heart_outline.png",
+            "access_rules": []
           },
           {
             "name": "Cassette",
             "chest_unopened_img": "images/items/cassette.png",
-            "chest_opened_img": "images/items/cassette_outline.png"
+            "chest_opened_img": "images/items/cassette_outline.png",
+            "access_rules": [
+              "bluecassetteblocks,dashrefills,pinkcassetteblocks"
+            ]
           }
         ],
         "map_locations": [
@@ -26,11 +32,13 @@
       },
       {
         "name": "Resolution",
+        "access_rules": [],
         "sections": [
           {
             "name": "Level Clear",
             "chest_unopened_img": "images/items/complete.png",
-            "chest_opened_img": "images/items/complete_outline.png"
+            "chest_opened_img": "images/items/complete_outline.png",
+            "access_rules": []
           }
         ],
         "map_locations": [
@@ -45,12 +53,15 @@
   },
   {
     "name": "Reflection A Hollows Map",
+    "access_rules": [],
     "children": [
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Crystal Heart",
-            "ref": "Reflection A/Hollows/Crystal Heart"
+            "ref": "Reflection A/Hollows/Crystal Heart",
+            "access_rules": []
           }
         ],
         "map_locations": [
@@ -62,10 +73,12 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Cassette",
-            "ref": "Reflection A/Hollows/Cassette"
+            "ref": "Reflection A/Hollows/Cassette",
+            "access_rules": []
           }
         ],
         "map_locations": [
@@ -77,10 +90,12 @@
         ]
       },
       {
+        "access_rules": [],
         "sections": [
           {
             "name": "Level Clear",
-            "ref": "Reflection A/Resolution/Level Clear"
+            "ref": "Reflection A/Resolution/Level Clear",
+            "access_rules": []
           }
         ],
         "map_locations": [
@@ -95,6 +110,7 @@
   },
   {
     "name": "Reflection B",
+    "access_rules": [],
     "visibility_rules": [
       "include_b_sides"
     ],
@@ -102,7 +118,10 @@
       {
         "name": "Level Clear",
         "chest_unopened_img": "images/items/red_heart.png",
-        "chest_opened_img": "images/items/red_heart_outline.png"
+        "chest_opened_img": "images/items/red_heart_outline.png",
+        "access_rules": [
+          "bluecassetteblocks,bumpers,coins,dashrefills,feathers,kevinblocks,springs"
+        ]
       }
     ],
     "map_locations": [
@@ -115,6 +134,7 @@
   },
   {
     "name": "Reflection C",
+    "access_rules": [],
     "visibility_rules": [
       "include_c_sides"
     ],
@@ -122,7 +142,10 @@
       {
         "name": "Level Clear",
         "chest_unopened_img": "images/items/yellow_heart.png",
-        "chest_opened_img": "images/items/yellow_heart_outline.png"
+        "chest_opened_img": "images/items/yellow_heart_outline.png",
+        "access_rules": [
+          "bumpers,dashrefills,feathers,kevinblocks"
+        ]
       }
     ],
     "map_locations": [

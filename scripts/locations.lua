@@ -1,3 +1,4 @@
+Tracker:AddLocations("locations/prologue.json")
 Tracker:AddLocations("locations/forsaken_city.json")
 Tracker:AddLocations("locations/old_site.json")
 Tracker:AddLocations("locations/celestial_resort.json")

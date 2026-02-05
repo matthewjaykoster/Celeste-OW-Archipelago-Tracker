@@ -10,6 +10,17 @@ function has(item_id, amount)
 end
 
 ------------------------
+--   Settings Rules   --
+------------------------
+function KEYSANITY_IS_DISABLED()
+    if not has("keysanity") then
+        return true
+    end
+
+    return false
+end
+
+------------------------
 -- Level Access Rules --
 ------------------------
 

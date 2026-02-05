@@ -8,10 +8,10 @@ Built for use with [PopTracker v0.33.0](https://github.com/black-sliver/PopTrack
 
 - Usable with Celeste Archipelago Open World
 - Does NOT YET have logic built into location checks
-- Automated map-based location tracking for A-Side levels (Strawberries, Hearts, Cassettes, and Level Clears). Minimal support for B- and C-sides
+- Automated map-based location tracking for A-Side levels (Strawberries, Hearts, Cassettes, and Level Clears) and minimal support for B- and C-sides
 - Automated item tracking
 - Automated setting tracking on connection to the AP World
-- Can theoretically be used manually, but this is untested
+- Can theoretically be used manuall (this is untested)
 
 ## Future Updates
 
@@ -28,7 +28,7 @@ Built for use with [PopTracker v0.33.0](https://github.com/black-sliver/PopTrack
 1. Ensure you have [PopTracker](https://poptracker.github.io/) installed. Make sure you know the folder where you installed PopTracker!
 2. Download the repository. You can do this either by mousing over the "Code" button (above) and clicking "Download ZIP" or by opening the "Releases" page (right) and clicking on the ZIP file under the most recent release.
 ![Download Latest ZIP](docs/images/how_to_download.png)
-3. Move the file you just downloaded into the "packs" folder withing your PopTracker install folder. No need to unzip the download - PopTracker handles that for you.
+3. Move the file you just downloaded into the "packs" folder within your PopTracker install folder. No need to unzip the download - PopTracker handles that for you.
 4. Open PopTracker and select the newly installed package (it should be called something like "Celeste Open World Archipelago X.Y.Z"). It should open a map which looks similar to the image below.
 ![Screenshot of the pack](docs/images/preview.png)
 

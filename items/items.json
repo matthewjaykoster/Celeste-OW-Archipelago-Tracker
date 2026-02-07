@@ -129,7 +129,7 @@
         "name": "Kevins",
         "type": "toggle",
         "img": "images/items/kevin.png",
-        "codes": "kevins"
+        "codes": "kevinblocks"
     },
     {
         "name": "Pink Clouds",

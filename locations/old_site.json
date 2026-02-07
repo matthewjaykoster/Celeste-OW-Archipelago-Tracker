@@ -1,579 +1,579 @@
 [
-    {
-        "name": "Old Site A",
-        "chest_unopened_img": "images/items/berry.png",
-        "chest_opened_img": "images/items/berry_outline.png",
-        "children": [
-            {
-                "name": "Start",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Room 1 Strawberry",
-                        "access_rules": [
-                            "dreamblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room d0 Strawberry",
-                        "access_rules": [
-                            "dreamblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room d1 Strawberry",
-                        "access_rules": [
-                            "dreamblocks,strawberryseeds"
-                        ]
-                    },
-                    {
-                        "name": "Room d2 Strawberry 1",
-                        "access_rules": [
-                            "dreamblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room d2 Strawberry 2",
-                        "access_rules": [
-                            "dreamblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room d3 Strawberry",
-                        "access_rules": [
-                            "dashrefills"
-                        ]
-                    },
-                    {
-                        "name": "Room d4 Strawberry",
-                        "access_rules": [
-                            "dreamblocks,trafficblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room d5 Strawberry",
-                        "access_rules": [
-                            "dreamblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room d6 Strawberry",
-                        "access_rules": []
-                    },
-                    {
-                        "name": "Crystal Heart",
-                        "chest_unopened_img": "images/items/blue_heart.png",
-                        "chest_opened_img": "images/items/blue_heart_outline.png",
-                        "access_rules": []
-                    },
-                    {
-                        "name": "Cassette",
-                        "chest_unopened_img": "images/items/cassette.png",
-                        "chest_opened_img": "images/items/cassette_outline.png",
-                        "access_rules": [
-                            "bluecassetteblocks,dreamblocks,pinkcassetteblocks"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 302,
-                        "y": 173
-                    }
-                ]
-            },
-            {
-                "name": "Intervention",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Room 4 Strawberry",
-                        "access_rules": [
-                            "dreamblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room 5 Strawberry",
-                        "access_rules": [
-                            "dreamblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room 8 Strawberry",
-                        "access_rules": [
-                            "coins,dreamblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room 9 Strawberry",
-                        "access_rules": [
-                            "coins,dreamblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room 9b Strawberry",
-                        "access_rules": [
-                            "coins,dreamblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room 10 Strawberry",
-                        "access_rules": [
-                            "coins,dreamblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room 12c Strawberry",
-                        "access_rules": [
-                            "coins,dashrefills,dreamblocks"
-                        ]
-                    },
-                    {
-                        "name": "Room 12d Strawberry",
-                        "access_rules": [
-                            "coins,dashrefills,dreamblocks"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 336,
-                        "y": 173
-                    }
-                ]
-            },
-            {
-                "name": "Awake",
-                "access_rules": [],
-                "sections": [
-                    {
-                        "name": "Room end_3c Strawberry",
-                        "access_rules": [
-                            "coins,dashrefills,dreamblocks,springs"
-                        ]
-                    },
-                    {
-                        "name": "Level Clear",
-                        "chest_unopened_img": "images/items/complete.png",
-                        "chest_opened_img": "images/items/complete_outline.png",
-                        "access_rules": [
-                            "coins,dashrefills,dreamblocks"
-                        ]
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "celeste_chapter_select",
-                        "x": 319,
-                        "y": 206
-                    }
-                ]
-            }
-        ],
-        "access_rules": []
-    },
-    {
-        "name": "Old Site A Start Map",
-        "children": [
-            {
-                "sections": [
-                    {
-                        "name": "Room 1 Strawberry",
-                        "ref": "Old Site A/Start/Room 1 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_start",
-                        "x": 975,
-                        "y": 568
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room d0 Strawberry",
-                        "ref": "Old Site A/Start/Room d0 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_start",
-                        "x": 831,
-                        "y": 952
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room d1 Strawberry",
-                        "ref": "Old Site A/Start/Room d1 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_start",
-                        "x": 480,
-                        "y": 1120
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room d2 Strawberry 1",
-                        "ref": "Old Site A/Start/Room d2 Strawberry 1"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_start",
-                        "x": 1148,
-                        "y": 1004
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room d2 Strawberry 2",
-                        "ref": "Old Site A/Start/Room d2 Strawberry 2"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_start",
-                        "x": 1359,
-                        "y": 1011
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room d3 Strawberry",
-                        "ref": "Old Site A/Start/Room d3 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_start",
-                        "x": 1704,
-                        "y": 1400
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room d4 Strawberry",
-                        "ref": "Old Site A/Start/Room d4 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_start",
-                        "x": 1264,
-                        "y": 880
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room d5 Strawberry",
-                        "ref": "Old Site A/Start/Room d5 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_start",
-                        "x": 1615,
-                        "y": 888
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room d6 Strawberry",
-                        "ref": "Old Site A/Start/Room d6 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_start",
-                        "x": 472,
-                        "y": 1224
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Crystal Heart",
-                        "ref": "Old Site A/Start/Crystal Heart"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_start",
-                        "x": 224,
-                        "y": 112
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Cassette",
-                        "ref": "Old Site A/Start/Cassette"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_start",
-                        "x": 863,
-                        "y": 1576
-                    }
-                ],
-                "access_rules": []
-            }
-        ],
-        "access_rules": []
-    },
-    {
-        "name": "Old Site A Intervention Map",
-        "children": [
-            {
-                "sections": [
-                    {
-                        "name": "Room 4 Strawberry",
-                        "ref": "Old Site A/Intervention/Room 4 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_intervention",
-                        "x": 358,
-                        "y": 1151
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 5 Strawberry",
-                        "ref": "Old Site A/Intervention/Room 5 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_intervention",
-                        "x": 87,
-                        "y": 982
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 8 Strawberry",
-                        "ref": "Old Site A/Intervention/Room 8 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_intervention",
-                        "x": 119,
-                        "y": 287
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 9 Strawberry",
-                        "ref": "Old Site A/Intervention/Room 9 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_intervention",
-                        "x": 750,
-                        "y": 511
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 9b Strawberry",
-                        "ref": "Old Site A/Intervention/Room 9b Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_intervention",
-                        "x": 478,
-                        "y": 142
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 10 Strawberry",
-                        "ref": "Old Site A/Intervention/Room 10 Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_intervention",
-                        "x": 918,
-                        "y": 799
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 12c Strawberry",
-                        "ref": "Old Site A/Intervention/Room 12c Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_intervention",
-                        "x": 1870,
-                        "y": 1519
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Room 12d Strawberry",
-                        "ref": "Old Site A/Intervention/Room 12d Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_intervention",
-                        "x": 2207,
-                        "y": 2087
-                    }
-                ],
-                "access_rules": []
-            }
-        ],
-        "access_rules": []
-    },
-    {
-        "name": "Old Site A Awake Map",
-        "children": [
-            {
-                "sections": [
-                    {
-                        "name": "Room end_3c Strawberry",
-                        "ref": "Old Site A/Awake/Room end_3c Strawberry"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_awake",
-                        "x": 2136,
-                        "y": 343
-                    }
-                ],
-                "access_rules": []
-            },
-            {
-                "sections": [
-                    {
-                        "name": "Level Clear",
-                        "ref": "Old Site A/Awake/Level Clear"
-                    }
-                ],
-                "map_locations": [
-                    {
-                        "map": "old_site_awake",
-                        "x": 3018,
-                        "y": 830
-                    }
-                ],
-                "access_rules": []
-            }
-        ],
-        "access_rules": []
-    },
-    {
-        "name": "Old Site B",
-        "visibility_rules": [
-            "include_b_sides"
-        ],
+  {
+    "name": "Old Site A",
+    "chest_unopened_img": "images/items/berry.png",
+    "chest_opened_img": "images/items/berry_outline.png",
+    "children": [
+      {
+        "name": "Start",
+        "access_rules": [],
         "sections": [
-            {
-                "name": "Level Clear",
-                "chest_unopened_img": "images/items/red_heart.png",
-                "chest_opened_img": "images/items/red_heart_outline.png",
-                "access_rules": [
-                    "bluecassetteblocks,coins,dashrefills,dreamblocks,springs"
-                ]
-            }
+          {
+            "name": "Room 1 Strawberry",
+            "access_rules": [
+              "dreamblocks"
+            ]
+          },
+          {
+            "name": "Room d0 Strawberry",
+            "access_rules": [
+              "dreamblocks"
+            ]
+          },
+          {
+            "name": "Room d1 Strawberry",
+            "access_rules": [
+              "dreamblocks,strawberryseeds"
+            ]
+          },
+          {
+            "name": "Room d2 Strawberry 1",
+            "access_rules": [
+              "dreamblocks"
+            ]
+          },
+          {
+            "name": "Room d2 Strawberry 2",
+            "access_rules": [
+              "dreamblocks"
+            ]
+          },
+          {
+            "name": "Room d3 Strawberry",
+            "access_rules": [
+              "dashrefills"
+            ]
+          },
+          {
+            "name": "Room d4 Strawberry",
+            "access_rules": [
+              "dreamblocks,trafficblocks"
+            ]
+          },
+          {
+            "name": "Room d5 Strawberry",
+            "access_rules": [
+              "dreamblocks"
+            ]
+          },
+          {
+            "name": "Room d6 Strawberry",
+            "access_rules": []
+          },
+          {
+            "name": "Crystal Heart",
+            "chest_unopened_img": "images/items/blue_heart.png",
+            "chest_opened_img": "images/items/blue_heart_outline.png",
+            "access_rules": []
+          },
+          {
+            "name": "Cassette",
+            "chest_unopened_img": "images/items/cassette.png",
+            "chest_opened_img": "images/items/cassette_outline.png",
+            "access_rules": [
+              "bluecassetteblocks,dreamblocks,pinkcassetteblocks"
+            ]
+          }
         ],
         "map_locations": [
-            {
-                "map": "celeste_chapter_select",
-                "x": 319,
-                "y": 279
-            }
-        ],
-        "access_rules": []
-    },
-    {
-        "name": "Old Site C",
-        "visibility_rules": [
-            "include_c_sides"
-        ],
+          {
+            "map": "celeste_chapter_select",
+            "x": 302,
+            "y": 173
+          }
+        ]
+      },
+      {
+        "name": "Intervention",
+        "access_rules": [],
         "sections": [
-            {
-                "name": "Level Clear",
-                "chest_unopened_img": "images/items/yellow_heart.png",
-                "chest_opened_img": "images/items/yellow_heart_outline.png",
-                "access_rules": [
-                    "coins,dashrefills,dreamblocks"
-                ]
-            }
+          {
+            "name": "Room 4 Strawberry",
+            "access_rules": [
+              "dreamblocks"
+            ]
+          },
+          {
+            "name": "Room 5 Strawberry",
+            "access_rules": [
+              "dreamblocks"
+            ]
+          },
+          {
+            "name": "Room 8 Strawberry",
+            "access_rules": [
+              "coins,dreamblocks"
+            ]
+          },
+          {
+            "name": "Room 9 Strawberry",
+            "access_rules": [
+              "coins,dreamblocks"
+            ]
+          },
+          {
+            "name": "Room 9b Strawberry",
+            "access_rules": [
+              "coins,dreamblocks"
+            ]
+          },
+          {
+            "name": "Room 10 Strawberry",
+            "access_rules": [
+              "coins,dreamblocks"
+            ]
+          },
+          {
+            "name": "Room 12c Strawberry",
+            "access_rules": [
+              "coins,dashrefills,dreamblocks"
+            ]
+          },
+          {
+            "name": "Room 12d Strawberry",
+            "access_rules": [
+              "coins,dashrefills,dreamblocks"
+            ]
+          }
         ],
         "map_locations": [
-            {
-                "map": "celeste_chapter_select",
-                "x": 319,
-                "y": 319
-            }
+          {
+            "map": "celeste_chapter_select",
+            "x": 336,
+            "y": 173
+          }
+        ]
+      },
+      {
+        "name": "Awake",
+        "access_rules": [],
+        "sections": [
+          {
+            "name": "Room end_3c Strawberry",
+            "access_rules": [
+              "coins,dashrefills,dreamblocks,springs"
+            ]
+          },
+          {
+            "name": "Level Clear",
+            "chest_unopened_img": "images/items/complete.png",
+            "chest_opened_img": "images/items/complete_outline.png",
+            "access_rules": [
+              "coins,dashrefills,dreamblocks"
+            ]
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "celeste_chapter_select",
+            "x": 319,
+            "y": 206
+          }
+        ]
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Old Site A Start Map",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Room 1 Strawberry",
+            "ref": "Old Site A/Start/Room 1 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_start",
+            "x": 975,
+            "y": 568
+          }
         ],
         "access_rules": []
-    }
+      },
+      {
+        "sections": [
+          {
+            "name": "Room d0 Strawberry",
+            "ref": "Old Site A/Start/Room d0 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_start",
+            "x": 831,
+            "y": 952
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room d1 Strawberry",
+            "ref": "Old Site A/Start/Room d1 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_start",
+            "x": 480,
+            "y": 1120
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room d2 Strawberry 1",
+            "ref": "Old Site A/Start/Room d2 Strawberry 1"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_start",
+            "x": 1148,
+            "y": 1004
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room d2 Strawberry 2",
+            "ref": "Old Site A/Start/Room d2 Strawberry 2"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_start",
+            "x": 1359,
+            "y": 1011
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room d3 Strawberry",
+            "ref": "Old Site A/Start/Room d3 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_start",
+            "x": 1704,
+            "y": 1400
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room d4 Strawberry",
+            "ref": "Old Site A/Start/Room d4 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_start",
+            "x": 1264,
+            "y": 880
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room d5 Strawberry",
+            "ref": "Old Site A/Start/Room d5 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_start",
+            "x": 1615,
+            "y": 888
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room d6 Strawberry",
+            "ref": "Old Site A/Start/Room d6 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_start",
+            "x": 472,
+            "y": 1224
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Crystal Heart",
+            "ref": "Old Site A/Start/Crystal Heart"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_start",
+            "x": 224,
+            "y": 112
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Cassette",
+            "ref": "Old Site A/Start/Cassette"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_start",
+            "x": 863,
+            "y": 1576
+          }
+        ],
+        "access_rules": []
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Old Site A Intervention Map",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Room 4 Strawberry",
+            "ref": "Old Site A/Intervention/Room 4 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_intervention",
+            "x": 358,
+            "y": 1151
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 5 Strawberry",
+            "ref": "Old Site A/Intervention/Room 5 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_intervention",
+            "x": 87,
+            "y": 982
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 8 Strawberry",
+            "ref": "Old Site A/Intervention/Room 8 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_intervention",
+            "x": 119,
+            "y": 287
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 9 Strawberry",
+            "ref": "Old Site A/Intervention/Room 9 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_intervention",
+            "x": 750,
+            "y": 511
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 9b Strawberry",
+            "ref": "Old Site A/Intervention/Room 9b Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_intervention",
+            "x": 478,
+            "y": 142
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 10 Strawberry",
+            "ref": "Old Site A/Intervention/Room 10 Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_intervention",
+            "x": 918,
+            "y": 799
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 12c Strawberry",
+            "ref": "Old Site A/Intervention/Room 12c Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_intervention",
+            "x": 1870,
+            "y": 1519
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Room 12d Strawberry",
+            "ref": "Old Site A/Intervention/Room 12d Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_intervention",
+            "x": 2207,
+            "y": 2087
+          }
+        ],
+        "access_rules": []
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Old Site A Awake Map",
+    "children": [
+      {
+        "sections": [
+          {
+            "name": "Room end_3c Strawberry",
+            "ref": "Old Site A/Awake/Room end_3c Strawberry"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_awake",
+            "x": 2136,
+            "y": 343
+          }
+        ],
+        "access_rules": []
+      },
+      {
+        "sections": [
+          {
+            "name": "Level Clear",
+            "ref": "Old Site A/Awake/Level Clear"
+          }
+        ],
+        "map_locations": [
+          {
+            "map": "old_site_awake",
+            "x": 3018,
+            "y": 830
+          }
+        ],
+        "access_rules": []
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Old Site B",
+    "visibility_rules": [
+      "include_b_sides"
+    ],
+    "sections": [
+      {
+        "name": "Level Clear",
+        "chest_unopened_img": "images/items/red_heart.png",
+        "chest_opened_img": "images/items/red_heart_outline.png",
+        "access_rules": [
+          "bluecassetteblocks,coins,dashrefills,dreamblocks,springs"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "celeste_chapter_select",
+        "x": 319,
+        "y": 279
+      }
+    ],
+    "access_rules": []
+  },
+  {
+    "name": "Old Site C",
+    "visibility_rules": [
+      "include_c_sides"
+    ],
+    "sections": [
+      {
+        "name": "Level Clear",
+        "chest_unopened_img": "images/items/yellow_heart.png",
+        "chest_opened_img": "images/items/yellow_heart_outline.png",
+        "access_rules": [
+          "coins,dashrefills,dreamblocks"
+        ]
+      }
+    ],
+    "map_locations": [
+      {
+        "map": "celeste_chapter_select",
+        "x": 319,
+        "y": 319
+      }
+    ],
+    "access_rules": []
+  }
 ]

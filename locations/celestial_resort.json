@@ -18,7 +18,10 @@
           },
           {
             "name": "Room s3 Strawberry",
-            "access_rules": []
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashrefills,springs",
+              "celestialresorta-frontdoorkey,dashrefills,springs"
+            ]
           },
           {
             "name": "Room 00-a Strawberry",
@@ -30,22 +33,22 @@
           {
             "name": "Room 00-b Strawberry",
             "access_rules": [
-              "celestialresorta-frontdoorkey,dashrefills,springs",
-              "$KEYSANITY_IS_DISABLED,dashrefills,springs"
+              "$KEYSANITY_IS_DISABLED,dashrefills,springs",
+              "celestialresorta-frontdoorkey,dashrefills,springs"
             ]
           },
           {
             "name": "Room 04-b Strawberry",
             "access_rules": [
-              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,dashrefills,sinkingplatforms",
-              "$KEYSANITY_IS_DISABLED,dashrefills,sinkingplatforms"
+              "$KEYSANITY_IS_DISABLED,dashrefills,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,dashrefills,sinkingplatforms"
             ]
           },
           {
             "name": "Room 05-c Strawberry",
             "access_rules": [
-              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,sinkingplatforms",
-              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,dashrefills,movingplatforms,sinkingplatforms"
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,dashrefills,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,sinkingplatforms"
             ]
           },
           {
@@ -71,7 +74,10 @@
           },
           {
             "name": "Room 07-b Strawberry",
-            "access_rules": []
+            "access_rules": [
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,dashrefills,movingplatforms,sinkingplatforms"
+            ]
           }
         ],
         "map_locations": [
@@ -89,19 +95,19 @@
           {
             "name": "Room 08-x Strawberry",
             "access_rules": [
-              "$KEYSANITY_IS_DISABLED,brownclutter,dashrefills,movingplatforms,sinkingplatforms",
               "brownclutter,celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,dashrefills,movingplatforms,sinkingplatforms",
-              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,dashrefills,movingplatforms,pinkclutter,sinkingplatforms",
-              "$KEYSANITY_IS_DISABLED,dashrefills,greenclutter,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,brownclutter,dashrefills,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,pinkclutter,sinkingplatforms",
               "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,dashrefills,greenclutter,movingplatforms,sinkingplatforms",
-              "$KEYSANITY_IS_DISABLED,dashrefills,movingplatforms,pinkclutter,sinkingplatforms"
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,dashrefills,movingplatforms,pinkclutter,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,dashrefills,greenclutter,movingplatforms,sinkingplatforms"
             ]
           },
           {
             "name": "Room 10-y Strawberry",
             "access_rules": [
-              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms",
-              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,coins,dashrefills,movingplatforms,sinkingplatforms"
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,coins,dashrefills,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms"
             ]
           },
           {
@@ -121,8 +127,8 @@
           {
             "name": "Room 12-y Strawberry",
             "access_rules": [
-              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms",
-              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,coins,dashrefills,movingplatforms,sinkingplatforms"
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,coins,dashrefills,movingplatforms,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms"
             ]
           },
           {
@@ -164,29 +170,29 @@
           {
             "name": "Room 03-b Strawberry 1",
             "access_rules": [
-              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms",
-              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms"
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms"
             ]
           },
           {
             "name": "Room 03-b Strawberry 2",
             "access_rules": [
-              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms",
-              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms"
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms"
             ]
           },
           {
             "name": "Room 04-c Strawberry",
             "access_rules": [
-              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms",
-              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms"
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms"
             ]
           },
           {
             "name": "Room 06-d Strawberry",
             "access_rules": [
-              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms",
-              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms"
+              "$KEYSANITY_IS_DISABLED,coins,dashrefills,movingplatforms,sinkingplatforms",
+              "celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms"
             ]
           },
           {
@@ -194,8 +200,8 @@
             "chest_unopened_img": "images/items/cassette.png",
             "chest_opened_img": "images/items/cassette_outline.png",
             "access_rules": [
-              "$KEYSANITY_IS_DISABLED,bluecassetteblocks,coins,dashrefills,movingplatforms,pinkcassetteblocks,sinkingplatforms",
-              "bluecassetteblocks,celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,pinkcassetteblocks,sinkingplatforms"
+              "bluecassetteblocks,celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,pinkcassetteblocks,sinkingplatforms",
+              "$KEYSANITY_IS_DISABLED,bluecassetteblocks,coins,dashrefills,movingplatforms,pinkcassetteblocks,sinkingplatforms"
             ]
           }
         ],
@@ -213,21 +219,29 @@
         "sections": [
           {
             "name": "Room roof03 Strawberry",
-            "access_rules": []
+            "access_rules": [
+              "Presidential Suite Key,celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms,springs"
+            ]
           },
           {
             "name": "Room roof06 Strawberry 1",
-            "access_rules": []
+            "access_rules": [
+              "Presidential Suite Key,celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms,springs"
+            ]
           },
           {
             "name": "Room roof06 Strawberry 2",
-            "access_rules": []
+            "access_rules": [
+              "Presidential Suite Key,celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms,springs"
+            ]
           },
           {
             "name": "Level Clear",
             "chest_unopened_img": "images/items/complete.png",
             "chest_opened_img": "images/items/complete_outline.png",
-            "access_rules": []
+            "access_rules": [
+              "Presidential Suite Key,celestialresorta-frontdoorkey,celestialresorta-hallwaykey1,celestialresorta-hallwaykey2,celestialresorta-hugemesskey,coins,dashrefills,movingplatforms,sinkingplatforms,springs"
+            ]
           }
         ],
         "map_locations": [

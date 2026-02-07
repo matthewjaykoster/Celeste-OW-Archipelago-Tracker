@@ -11,14 +11,16 @@
             "name": "Crystal Heart",
             "chest_unopened_img": "images/items/blue_heart.png",
             "chest_opened_img": "images/items/blue_heart_outline.png",
-            "access_rules": []
+            "access_rules": [
+              "feathers,kevinblocks"
+            ]
           },
           {
             "name": "Cassette",
             "chest_unopened_img": "images/items/cassette.png",
             "chest_opened_img": "images/items/cassette_outline.png",
             "access_rules": [
-              "bluecassetteblocks,dashrefills,pinkcassetteblocks"
+              "bluecassetteblocks,dashrefills,feathers,kevinblocks,pinkcassetteblocks"
             ]
           }
         ],
@@ -38,7 +40,9 @@
             "name": "Level Clear",
             "chest_unopened_img": "images/items/complete.png",
             "chest_opened_img": "images/items/complete_outline.png",
-            "access_rules": []
+            "access_rules": [
+              "badelineboosters,bumpers,dashrefills,feathers,kevinblocks,springs"
+            ]
           }
         ],
         "map_locations": [

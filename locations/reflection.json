@@ -64,8 +64,7 @@
         "sections": [
           {
             "name": "Crystal Heart",
-            "ref": "Reflection A/Hollows/Crystal Heart",
-            "access_rules": []
+            "ref": "Reflection A/Hollows/Crystal Heart"
           }
         ],
         "map_locations": [
@@ -81,8 +80,7 @@
         "sections": [
           {
             "name": "Cassette",
-            "ref": "Reflection A/Hollows/Cassette",
-            "access_rules": []
+            "ref": "Reflection A/Hollows/Cassette"
           }
         ],
         "map_locations": [
@@ -98,8 +96,7 @@
         "sections": [
           {
             "name": "Level Clear",
-            "ref": "Reflection A/Resolution/Level Clear",
-            "access_rules": []
+            "ref": "Reflection A/Resolution/Level Clear"
           }
         ],
         "map_locations": [

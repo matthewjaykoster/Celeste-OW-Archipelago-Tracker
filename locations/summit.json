@@ -427,10 +427,10 @@
             "chest_unopened_img": "images/items/blue_heart.png",
             "chest_opened_img": "images/items/blue_heart_outline.png",
             "access_rules": [
-              "Gem 1,Gem 2,Gem 3,Gem 4,Gem 5,Gem 6,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
-              "$KEYSANITY_IS_DISABLED,Gem 1,Gem 2,Gem 3,Gem 4,Gem 5,Gem 6,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
-              "Gem 1,Gem 2,Gem 3,Gem 4,Gem 5,Gem 6,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
-              "$KEYSANITY_IS_DISABLED,Gem 1,Gem 2,Gem 3,Gem 4,Gem 5,Gem 6,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks"
+              "thesummita-gem1,thesummita-gem2,thesummita-gem3,thesummita-gem4,thesummita-gem5,thesummita-gem6,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,thesummita-gem1,thesummita-gem2,thesummita-gem3,thesummita-gem4,thesummita-gem5,thesummita-gem6,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,movingplatforms,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks",
+              "thesummita-gem1,thesummita-gem2,thesummita-gem3,thesummita-gem4,thesummita-gem5,thesummita-gem6,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,thesummita-2500mkey,trafficblocks",
+              "$KEYSANITY_IS_DISABLED,thesummita-gem1,thesummita-gem2,thesummita-gem3,thesummita-gem4,thesummita-gem5,thesummita-gem6,badelineboosters,blueboosters,blueclouds,coins,dashrefills,dashswitches,dreamblocks,moveblocks,pinkclouds,redboosters,sinkingplatforms,springs,swapblocks,trafficblocks"
             ]
           },
           {

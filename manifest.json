@@ -13,6 +13,6 @@
             ]
         }
     },
-    "versions_url": "TODO",
+    "versions_url": "https://raw.githubusercontent.com/matthewjaykoster/Celeste-OW-Archipelago-Tracker/main/versions.json",
     "min_poptracker_version": "0.33.0"
 }

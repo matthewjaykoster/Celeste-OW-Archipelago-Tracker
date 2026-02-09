@@ -25,10 +25,12 @@ Built for use with [PopTracker v0.33.0](https://github.com/black-sliver/PopTrack
 ## Installation
 
 1. Ensure you have [PopTracker](https://poptracker.github.io/) installed. Make sure you know the folder where you installed PopTracker!
-2. Download the repository. You can do this by opening the "Releases" page (right) and clicking on the ZIP file under the most recent release.
+2. Download the repository. You can do this by opening the [Releases page](https://github.com/matthewjaykoster/Celeste-OW-Archipelago-Tracker/releases) (right-hand menu) and clicking on the ZIP file under the most recent release.
 
-    a. If you want the latest code, you can also mousing over the "Code" button (above) and click "Download ZIP". However, this will be the latest code and may be in active development (could be broken).
+    a. If you want the latest code, you can mouse over the "Code" button (above) and click "Download ZIP". However, this will be the latest code and may be in active development (which means it could be broken).
+
     ![Download Latest ZIP](docs/images/how_to_download.png)
+
 3. Move the file you just downloaded into the "packs" folder within your PopTracker install folder. No need to unzip the download - PopTracker handles that for you.
 4. Open PopTracker and select the newly installed package (it should be called something like "Celeste Open World Archipelago X.Y.Z"). It should open a map which looks similar to the image below.
 ![Screenshot of the pack](docs/images/preview.png)

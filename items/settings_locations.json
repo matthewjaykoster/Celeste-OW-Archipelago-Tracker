@@ -43,7 +43,6 @@
     },
     {
         "name": "Include Farewell",
-        "codes": "include_farewell",
         "type": "progressive",
         "allow_disabled": false,
         "initial_stage_idx": 0,
@@ -51,17 +50,17 @@
             {
                 "img": "images/locations/farewell.png",
                 "img_mods": "@disabled",
-                "codes": "include_farewell_disabled",
+                "codes": "include_farewell,include_farewell_disabled",
                 "inherit_codes": false
             },
             {
                 "img": "images/locations/farewell.png",
-                "codes": "include_farewell_empty_space",
+                "codes": "include_farewell,include_farewell_empty_space",
                 "inherit_codes": false
             },
             {
                 "img": "images/settings/farewell_full_clear.png",
-                "codes": "include_farewell_farewell",
+                "codes": "include_farewell,include_farewell_farewell",
                 "inherit_codes": false
             }
         ]

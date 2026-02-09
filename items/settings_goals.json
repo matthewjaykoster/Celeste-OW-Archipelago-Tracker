@@ -13,54 +13,53 @@
     },
     {
         "name": "Goal Level",
-        "codes": "goal",
         "type": "progressive",
         "allow_disabled": false,
         "initial_stage_idx": 0,
         "stages": [
             {
                 "img": "images/locations/summit.png",
-                "codes": "the_summit_a",
+                "codes": "goal,the_summit_a",
                 "inherit_codes": false
             },
             {
                 "img": "images/settings/summit_b.png",
-                "codes": "the_summit_b",
+                "codes": "goal,the_summit_b",
                 "inherit_codes": false
             },
             {
                 "img": "images/settings/summit_c.png",
-                "codes": "the_summit_c",
+                "codes": "goal,the_summit_c",
                 "inherit_codes": false
             },
             {
                 "img": "images/locations/core.png",
-                "codes": "core_a",
+                "codes": "goal,core_a",
                 "inherit_codes": false
             },
             {
                 "img": "images/settings/core_b.png",
-                "codes": "core_b",
+                "codes": "goal,core_b",
                 "inherit_codes": false
             },
             {
                 "img": "images/settings/core_c.png",
-                "codes": "core_c",
+                "codes": "goal,core_c",
                 "inherit_codes": false
             },
             {
                 "img": "images/locations/farewell.png",
-                "codes": "empty_space",
+                "codes": "goal,empty_space",
                 "inherit_codes": false
             },
             {
                 "img": "images/settings/farewell_full_clear.png",
-                "codes": "farewell",
+                "codes": "goal,farewell",
                 "inherit_codes": false
             },
             {
                 "img": "images/settings/farewell_golden_berry.png",
-                "codes": "farewell_golden",
+                "codes": "goal,farewell_golden",
                 "inherit_codes": false
             }
         ]

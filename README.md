@@ -63,6 +63,8 @@ And that's about it! There are a few other details, but you'll have to figure th
 
 Interesting in helping maintain this package, modifying it to create your own version, or creating your own pack? Some of [these links](./docs/links.md) might help!
 
+One important note before modifying anything - this pack's logic was generated via [a custom tool](https://github.com/matthewjaykoster/Celeste-LevelData-Parser) which is able to parse the AP World's Level Data logic automatically. If you want to update the logic, I recommend you take the code in this tool and use it as the basis for your logic modifications.
+
 This pacakge is licensed using the MIT license, so you can use the code for whatever (don't feel like you have to contact me for permission, but I'd appreciate if you do use it, plesae add me to your thanks/credits in your code and README).
 
 Feel free to throw up Issues and/or Pull Request. I'll get to them if I have time.

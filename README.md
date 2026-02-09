@@ -7,21 +7,20 @@ Built for use with [PopTracker v0.33.0](https://github.com/black-sliver/PopTrack
 ## Features
 
 - Usable with Celeste Archipelago Open World
-- Does NOT YET have logic built into location checks
-- Automated map-based location tracking for A-Side levels (Strawberries, Hearts, Cassettes, and Level Clears) and minimal support for B- and C-sides
+- Automated map-based location tracking and logic for A-Side levels (Strawberries, Hearts, Cassettes, and Level Clears) and minimal support for B- and C-sides
 - Automated item tracking
 - Automated setting tracking on connection to the AP World
-- Can theoretically be used manuall (this is untested)
+- Can theoretically be used manually (this is untested)
 
 ## Future Updates
 
-- Base tracking logic for A-side locations (and then other locations)
 - Golden Berries
-- Cleaner map layouts (some are quite hard to read right now)
+- Easy-to-implement "-sanity" checks and logic (Bino, Key, Gem, Car)
 - Automated tab switching
 - Core and Farewell locations (and maps)
 - B and C-side Maps
-- The various "-sanity" checks and logic (Checkpoint, Bino, Key, Gem, Car, Room - not sure if I'll ever get to roomsanity)
+- [Maybe] Cleaner map layouts (some are quite hard to read right now)
+- [Maybe] Hard-to-implement "-sanity" checks and logic (Checkpoint, Room)
 
 ## Installation
 

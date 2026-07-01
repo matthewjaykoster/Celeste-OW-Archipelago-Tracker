@@ -1,3 +1,5 @@
+**Note: This repository is no longer actively maintained. For a more up-to-date tracker, see https://github.com/Reisz/Celeste-OpenWorld-AP-Tracker.**
+
 # Celeste-OW-Archipelago-Tracker
 
 Automated Map Tracker for [Celeste Archipelago Open World](https://github.com/PoryGoneDev/Celeste-Archipelago-Open-World), based on the work by [seto10987](https://github.com/seto10987), located [at his repository](https://github.com/seto10987/Celeste-AP-Tracker).
@@ -11,16 +13,6 @@ Built for use with [PopTracker v0.33.0](https://github.com/black-sliver/PopTrack
 - Automated item tracking
 - Automated setting tracking on connection to the AP World
 - Can theoretically be used manually (this is untested)
-
-## Future Updates
-
-- Golden Berries
-- Easy-to-implement "-sanity" checks and logic (Bino, Key, Gem, Car)
-- Automated tab switching
-- Core and Farewell locations (and maps)
-- B and C-side Maps
-- [Maybe] Cleaner map layouts (some are quite hard to read right now)
-- [Maybe] Hard-to-implement "-sanity" checks and logic (Checkpoint, Room)
 
 ## Installation
 
